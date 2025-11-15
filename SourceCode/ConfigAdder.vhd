@@ -9,7 +9,7 @@ USE ieee.std_logic_1164.ALL;
 CONFIGURATION ConfigBKA_rtl OF AdderTB IS
   FOR Testing  -- matches my testbench architecture name
 	FOR DUT : TestUnit
-      USE ENTITY work.BKA_Cyclone(rtl);
+      USE ENTITY work.BrentKung(rtl);
 	END FOR;
   END FOR;
 END CONFIGURATION ConfigBKA_rtl;
@@ -19,7 +19,7 @@ END CONFIGURATION ConfigBKA_rtl;
 CONFIGURATION ConfigBKA_structure OF AdderTB IS
   FOR Testing
     FOR DUT : TestUnit
-      USE ENTITY work.BKA_Cyclone(structure);
+      USE ENTITY work.BrentKung(structure);
     END FOR;
   END FOR;
 END CONFIGURATION ConfigBKA_structure;

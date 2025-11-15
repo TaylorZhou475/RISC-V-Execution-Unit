@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 
 --BKA stands for Brent Kung Adder
-ENTITY BKA_Cyclone IS
+ENTITY BrentKung IS
 
 GENERIC(N : NATURAL := 64);
 
@@ -13,9 +13,9 @@ PORT(
 		Cin  : IN STD_LOGIC;
 		Cout, Ovfl : OUT STD_LOGIC
 	 );
-END ENTITY BKA_Cyclone;
+END ENTITY BrentKung;
 
-ARCHITECTURE rtl OF BKA_Cyclone IS
+ARCHITECTURE rtl OF BrentKung IS
 
 COMPONENT BrentKungGenerator 
 GENERIC(Size : NATURAL);
