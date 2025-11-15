@@ -1,0 +1,11 @@
+view wave
+if {[catch {delete wave *}]} {
+    puts "No existing wave to delete ? continuing."
+}
+add wave -divider "DUT Signals"
+add wave sim:/TB_MagComp/TB_X
+add wave sim:/TB_MagComp/TB_Y
+add wave sim:/TB_MagComp/TB_EQ
+add wave sim:/TB_MagComp/TB_GT
+
+wave zoom range 0ns 800ns

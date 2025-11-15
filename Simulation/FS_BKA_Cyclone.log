@@ -1,0 +1,526 @@
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/Simulation/DP2.mpf
+# vsim -gui work.ConfigBKA_rtl 
+# Start time: 23:10:10 on Nov 12,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.configbka_rtl
+# Loading work.addertb(testing)
+# Loading work.bka_cyclone(rtl)
+# Loading work.brentkunggenerator(logic)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 20 us
+# restart -force
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# run -all
+# ** Note: >>>>> Starting Simulation <<<<<
+#    Time: 0 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 1
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 195 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 2
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 350 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 3
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 505 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 4
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 660 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 5
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 815 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 6
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 970 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 7
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 1125 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 8
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 1280 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 9
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 1435 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 10
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 1590 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 11
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 1745 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 12
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 1900 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 13
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 2055 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 14
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 2210 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 15
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 2365 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 16
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 2520 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 17
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 2675 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 18
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 2830 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 19
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 2985 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 20
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 3140 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 21
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 3295 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 22
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 3450 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 23
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 3605 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 24
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 3760 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 25
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 3915 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 26
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 4070 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 27
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 4225 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 28
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 4380 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 29
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 4535 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 30
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 4690 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 31
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 4845 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 32
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 5 us  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 33
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 5155 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 34
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 5310 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 35
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 5465 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 36
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 5620 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 37
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 5775 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 38
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 5930 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 39
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 6085 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 40
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 6240 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 41
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 6395 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 42
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 6550 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 43
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 6705 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 44
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 6860 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 45
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 7015 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 46
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 7170 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 47
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 7325 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 48
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 7480 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 49
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 7635 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 50
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 7790 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 51
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 7945 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 52
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 8100 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 53
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 8255 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 54
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 8410 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 55
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 8565 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 56
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 8720 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 57
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 8875 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 58
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 9030 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 59
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 9185 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 60
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 9340 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 61
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 9495 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 62
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 9650 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 63
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 9805 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 64
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 9960 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 65
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 10115 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 66
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 10270 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 67
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 10425 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 68
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 10580 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 69
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 10735 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 70
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 10890 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 71
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 11045 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 72
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 11200 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 73
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 11355 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 74
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 11510 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 75
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 11665 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 76
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 11820 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 77
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 11975 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 78
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 12130 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 79
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 12285 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 80
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 12440 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 81
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 12595 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 82
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 12750 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 83
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 12905 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 84
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 13060 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 85
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 13215 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 86
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 13370 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 87
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 13525 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 88
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 13680 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 89
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 13835 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 90
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 13990 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 91
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 14145 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 92
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 14300 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 93
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 14455 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 94
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 14610 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 95
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 14765 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 96
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 14920 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 97
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 15075 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 98
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 15230 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 99
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 15385 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: 100
+#      Sum Propagation Delay: 0 ps
+#      Cout Propagation Delay: 0 ps
+#      Ovfl Propagation Delay: 0 ps
+#    Time: 15540 ns  Iteration: 0  Instance: /addertb
+# ** Note: >>>>> Simulation Complete. <<<<<
+#    Time: 15540 ns  Iteration: 0  Instance: /addertb
+# 
+# transcript file ""

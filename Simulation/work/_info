@@ -1,0 +1,196 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/Simulation
+Eaddertb
+Z1 w1763017099
+Z2 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z6 8../Simulation/AdderTB.vhd
+Z7 F../Simulation/AdderTB.vhd
+l0
+L7 1
+VAUeo2[Fg[X?N?lSL?KoBd0
+!s100 @^3YngcKl3ReLa2lhG@^>3
+Z8 OV;C;2020.1;71
+33
+Z9 !s110 1763017810
+!i10b 1
+Z10 !s108 1763017810.000000
+Z11 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../Simulation/AdderTB.vhd|
+Z12 !s107 ../Simulation/AdderTB.vhd|
+!i113 1
+Z13 o-quiet -work work -2008
+Z14 tExplicit 1 CvgOpt 0
+Atesting
+R2
+R3
+R4
+R5
+Z15 DEx4 work 7 addertb 0 22 AUeo2[Fg[X?N?lSL?KoBd0
+!i122 2
+l54
+L10 140
+VPbDm8k==HVI<m:n>8c>4N0
+!s100 S6hc]33inkBGbhGf:J?8_0
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ebka_cyclone
+Z16 w1763010837
+R4
+R5
+!i122 1
+R0
+Z17 8../SourceCode/BKA_Cyclone.vhd
+Z18 F../SourceCode/BKA_Cyclone.vhd
+l0
+L6 1
+VK=bkjF7MgimmCg4b;`M@<0
+!s100 UO4]@YfFQH0Nk522fei`Y1
+R8
+33
+R9
+!i10b 1
+Z19 !s108 1763017809.000000
+Z20 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/BKA_Cyclone.vhd|
+Z21 !s107 ../SourceCode/BKA_Cyclone.vhd|
+!i113 1
+R13
+R14
+Artl
+R4
+R5
+Z22 DEx4 work 11 bka_cyclone 0 22 K=bkjF7MgimmCg4b;`M@<0
+!i122 1
+l34
+L18 47
+VlRnDBG`YPCH:2XYch`TTR2
+!s100 La6La[QHMnEl;g:;c__5G3
+R8
+33
+R9
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Ebrentkunggenerator
+Z23 w1763011566
+R4
+R5
+!i122 0
+R0
+Z24 8../SourceCode/BrentKungGenerator.vhd
+Z25 F../SourceCode/BrentKungGenerator.vhd
+l0
+L5 1
+ViT_m>SdkjboNPi=3QK[b82
+!s100 j[bkdJg5m8;b33KiJkL0=1
+R8
+33
+Z26 !s110 1763017809
+!i10b 1
+R19
+Z27 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/BrentKungGenerator.vhd|
+Z28 !s107 ../SourceCode/BrentKungGenerator.vhd|
+!i113 1
+R13
+R14
+Alogic
+R4
+R5
+DEx4 work 18 brentkunggenerator 0 22 iT_m>SdkjboNPi=3QK[b82
+!i122 0
+l35
+L18 80
+Vc[^S5jm7[aJ]^`8om?TH:3
+!s100 c0?e75NA4ZgReW45M8CMk1
+R8
+33
+R26
+!i10b 1
+R19
+R27
+R28
+!i113 1
+R13
+R14
+Cconfigbka_rtl
+Z29 eAdderTB
+Z30 aTesting
+R22
+Z31 DAx4 work 7 addertb 7 testing 22 PbDm8k==HVI<m:n>8c>4N0
+R2
+R3
+R15
+R4
+R5
+!i122 3
+Z32 w1762996999
+R0
+Z33 8../SourceCode/ConfigAdder.vhd
+Z34 F../SourceCode/ConfigAdder.vhd
+l0
+L9 1
+V<XW`oMZcDhQKhNb6O0`2h3
+!s100 fH^K0G;Ee7l>gfcUQ1hF]3
+R8
+33
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/ConfigAdder.vhd|
+!s107 ../SourceCode/ConfigAdder.vhd|
+!i113 1
+R13
+R14
+Cconfigbka_structure
+R29
+R30
+R22
+R31
+R2
+R3
+R4
+R5
+R15
+!i122 3
+R32
+R0
+R33
+R34
+l0
+L19 1
+VOGIXA68>VFD6Tb:?`F83X1
+!s100 IIR0M3^]KRz3=3GYfiL0Y2
+R8
+33
+R9
+!i10b 1
+R10
+R35
+Z36 !s107 ../SourceCode/ConfigAdder.vhd|
+!i113 1
+R13
+R14

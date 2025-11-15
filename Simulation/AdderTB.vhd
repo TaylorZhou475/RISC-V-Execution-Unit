@@ -1,0 +1,149 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use STD.textio.all;
+use ieee.std_logic_textio.all;
+
+ENTITY AdderTB IS
+END ENTITY;
+
+ARCHITECTURE Testing OF AdderTB IS
+
+	CONSTANT TestVectorFile : string := "TestVectors/Adder00.tvs";
+
+    	CONSTANT TB_N : NATURAL := 64; 
+
+    	--Set up time and measurement time
+    	CONSTANT PREPTIME : TIME := 40 ns;
+	CONSTANT MEASTIME : TIME := 150 ns;
+
+  	SIGNAL TB_A, TB_B, TB_S : std_logic_vector(63 downto 0);
+  	SIGNAL TB_Cin, TB_Cout, TB_Ovfl : std_logic;
+
+    	COMPONENT TestUnit
+  		PORT (
+      	      		A, B  : IN  STD_LOGIC_VECTOR(TB_N-1 DOWNTO 0);
+    	      		S  : OUT  STD_LOGIC_VECTOR(TB_N-1 DOWNTO 0);
+    	      		Cin : IN STD_LOGIC;
+    	      		Cout, Ovfl : OUT STD_LOGIC
+    		      );
+	END COMPONENT;
+
+	TYPE DUTrecord IS RECORD
+    		S   : std_logic_vector(63 downto 0);
+    		Cout  : std_logic;
+    		Ovfl  : std_logic;
+	END RECORD DUTrecord;
+
+
+	SIGNAL DUTout : DUTrecord;
+
+	CONSTANT STABLETIME : TIME := 5 ns;
+
+	    -- Simplified helper function to convert std_logic_vector to a hex string
+    	function to_hstring(slv : std_logic_vector) return string is
+        	variable L : LINE;
+		  
+    	begin
+	 
+        	hwrite(L, slv);
+        	return L.all;
+		  
+    	end function to_hstring;
+
+BEGIN
+
+	DUT : TestUnit
+		PORT MAP(A => TB_A, B => TB_B, S=> TB_S, Cin => TB_Cin, Cout => TB_Cout, Ovfl => TB_Ovfl);
+
+    	DUTout.S <= TB_S;
+    	DUTout.Cout <= TB_Cout;
+	DUTout.Ovfl <= TB_Ovfl;
+
+	Testing : PROCESS
+		FILE VectorFile : TEXT;
+        	VARIABLE LineBuffer : LINE;
+        	VARIABLE A_test, B_test, S_expt : STD_LOGIC_VECTOR(TB_N-1 downto 0);
+        	VARIABLE Cin_test, Cout_expt, Ovfl_expt : STD_LOGIC;
+        	VARIABLE MeasurementIndex : INTEGER := 1;
+		VARIABLE StartTime, EndTime, PropDelayS, PropDelayCout, PropDelayOvfl : TIME := 0 ns;
+		VARIABLE EventTimeS, EventTimeCout, EventTimeOvfl : TIME := 0 ns;
+	BEGIN
+
+	REPORT ">>>>> Starting Simulation <<<<<";
+        file_open(VectorFile, TestVectorFile, read_mode);
+        
+	TB_A <= (others => 'U'); TB_B <= (others => 'U'); TB_Cin <= 'U';
+				
+    	WAIT FOR PREPTIME;
+
+        WHILE NOT ENDFILE(VectorFile) LOOP
+
+            readline(VectorFile, LineBuffer);
+            hread(LineBuffer, A_test);
+            hread(LineBuffer, B_test);
+            read(LineBuffer, Cin_test);
+            hread(LineBuffer, S_expt);
+            read(LineBuffer, Cout_expt);
+            read(LineBuffer, Ovfl_expt);
+
+            TB_A   <= A_test;
+            TB_B   <= B_test;
+            TB_Cin <= CIN_test;
+	    StartTime := NOW;
+
+            WAIT UNTIL DUTout'STABLE(STABLETIME) FOR MEASTIME;
+
+            EndTime := NOW;
+
+	    EventTimeS := EndTime - TB_S'LAST_EVENT;
+	    EventTimeCout := EndTime - TB_Cout'LAST_EVENT;
+	    EventTimeOvfl := EndTime - TB_Ovfl'LAST_EVENT;
+
+	    IF EventTimeS > StartTime THEN
+	    	PropDelayS := EventTimeS - StartTime;
+	    ELSE
+		PropDelayS := 0 ns;
+	    END IF;
+	
+	    IF EventTimeCout > StartTime THEN
+	    	PropDelayCout := EventTimeCout - StartTime;
+	    ELSE
+	 	PropDelayCout := 0 ns;
+	    END IF;
+
+	    IF EventTimeOvfl > StartTime THEN
+	    	PropDelayOvfl := EventTimeOvfl - StartTime;
+	    ELSE
+	 	PropDelayOvfl := 0 ns;
+	    END IF;
+
+            WAIT FOR MEASTIME;
+
+            IF (TB_S = S_expt) AND (TB_Cout = Cout_expt) and (TB_Ovfl = Ovfl_expt) THEN
+                REPORT "PASS: " & INTEGER'IMAGE(MeasurementIndex) & LF &
+			"     Sum Propagation Delay: " & to_string(PropDelayS) & LF &
+			"     Cout Propagation Delay: " & to_string(PropDelayCout) & LF &
+			"     Ovfl Propagation Delay: " & to_string(PropDelayOvfl);
+					 
+            ELSE
+                REPORT "FAIL: " & integer'image(MeasurementIndex) & LF &
+                       "      A=" & to_hstring(A_test) & ", B=" & to_hstring(B_test) & ", Cin=" & std_logic'image(Cin_test) & LF &
+                       "      Sum Expected=" & to_hstring(S_expt) & ", Actual=" & to_hstring(TB_S) & LF &
+                       "      Cout Expected=" & std_logic'image(Cout_expt) & ", Actual=" & std_logic'image(TB_Cout) & LF &
+                       "      Ovfl Expected=" & std_logic'image(Ovfl_expt) & ", Actual=" & std_logic'image(TB_Ovfl)
+                SEVERITY WARNING;
+					 
+            END IF;
+
+            MeasurementIndex := MeasurementIndex + 1;
+				
+        END LOOP;
+
+        REPORT ">>>>> Simulation Complete. <<<<<";
+        file_close(VectorFile);
+        WAIT;
+
+	END PROCESS;
+
+END ARCHITECTURE;

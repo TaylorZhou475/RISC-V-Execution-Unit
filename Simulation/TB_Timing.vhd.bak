@@ -1,0 +1,60 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+ENTITY TB_Timing IS
+END ENTITY;
+
+ARCHITECTURE testing OF TB_Timing IS
+
+  -- 1. Component Declaration (DUT)
+COMPONENT BKA_Cyclone
+
+GENERIC(N : NATURAL := 64);
+
+PORT(
+	A, B : IN STD_LOGIC_VECTOR(N-1 downto 0);
+	S	  : OUT STD_LOGIC_VECTOR(N-1 downto 0);
+	Cin  : IN STD_LOGIC;
+	Cout, Ovfl : OUT STD_LOGIC
+     );
+END COMPONENT;
+
+  -- 2. Internal signals to connect DUT
+  SIGNAL TB_A, TB_B, TB_S : std_logic_vector(7 downto 0);
+  SIGNAL TB_Cin, TB_Cout, TB_Ovfl : std_logic;
+
+  CONSTANT PREPTIME : time := 40 ps;
+  CONSTANT MEASTIME : time := 200 ps;
+
+begin
+
+  -- 3. Instantiate the DUT
+  DUT: BKA_Cyclone
+    generic map(N => 8)
+    port map(
+      A => TB_A,
+      B => TB_B,
+      S => TB_S,
+      Cin => TB_Cin,
+      Cout => TB_Cout,
+      Ovfl => TB_Ovfl
+    );
+
+  -- 4. Test process
+  Test_BKA: PROCESS
+  BEGIN
+
+    TB_A <= (others => 'U');
+    TB_B <= (others => 'U');
+    wait for PREPTIME;
+
+    TB_A <= (others => '0');
+    TB_B <= (others => '0');
+    wait for MEASTIME;
+
+    wait;
+
+  END PROCESS;
+
+END ARCHITECTURE;
