@@ -5,6 +5,9 @@ use STD.textio.all;
 use ieee.std_logic_textio.all;
 
 ENTITY AdderTB IS
+    GENERIC (
+        TIMING_MEASUREMENT : BOOLEAN := FALSE
+    );
 END ENTITY;
 
 ARCHITECTURE Testing OF AdderTB IS
@@ -15,10 +18,17 @@ ARCHITECTURE Testing OF AdderTB IS
 
     	--Set up time and measurement time
     	CONSTANT PREPTIME : TIME := 40 ns;
-	CONSTANT MEASTIME : TIME := 100 ns;
+	CONSTANT MEASTIME : TIME := 150 ns;
 
   	SIGNAL TB_A, TB_B, TB_S : std_logic_vector(63 downto 0);
   	SIGNAL TB_Cin, TB_Cout, TB_Ovfl : std_logic;
+
+	SIGNAL MeasurementIndex_disp : INTEGER := 1;
+	SIGNAL S_Expected : STD_LOGIC_VECTOR(63 downto 0);
+	SIGNAL Cout_Expected, Ovfl_Expected : STD_LOGIC;
+
+	SIGNAL WorstCaseDelay : TIME := 0 ns;
+	SIGNAL WorstCaseIteration : INTEGER := 0;
 
     	COMPONENT TestUnit
   		PORT (
@@ -60,17 +70,21 @@ BEGIN
     	DUTout.Cout <= TB_Cout;
 	DUTout.Ovfl <= TB_Ovfl;
 
+
 	Testing : PROCESS
 		FILE VectorFile : TEXT;
         	VARIABLE LineBuffer : LINE;
         	VARIABLE A_test, B_test, S_expt : STD_LOGIC_VECTOR(TB_N-1 downto 0);
         	VARIABLE Cin_test, Cout_expt, Ovfl_expt : STD_LOGIC;
         	VARIABLE MeasurementIndex : INTEGER := 1;
-		VARIABLE StartTime, EndTime, PropDelayS, PropDelayCout, PropDelayOvfl : TIME := 0 ns;
+		VARIABLE StartTime, EndTime, PropDelayS, PropDelayCout, PropDelayOvfl, PropDelayStatus : TIME := 0 ns;
 		VARIABLE EventTimeS, EventTimeCout, EventTimeOvfl : TIME := 0 ns;
+		VARIABLE SuccessCount, FailureCount: INTEGER := 0;
 	BEGIN
 
-	REPORT ">>>>> Starting Simulation <<<<<";
+	REPORT "=====================================================" & LF &
+	       ">>>>>>>>>>>>>>>> Starting Simulation <<<<<<<<<<<<<<<<" & LF &
+	       "=====================================================" & LF;
         file_open(VectorFile, TestVectorFile, read_mode);
         
 	TB_A <= (others => 'U'); TB_B <= (others => 'U'); TB_Cin <= 'U';
@@ -90,7 +104,12 @@ BEGIN
             TB_A   <= A_test;
             TB_B   <= B_test;
             TB_Cin <= CIN_test;
+
+	    S_Expected <= S_expt;
+	    Cout_Expected <= Cout_expt;
+	    Ovfl_Expected <= Ovfl_expt;
 	    StartTime := NOW;
+
 
             WAIT UNTIL DUTout'STABLE(STABLETIME) FOR MEASTIME;
 
@@ -100,6 +119,7 @@ BEGIN
 	    EventTimeCout := EndTime - TB_Cout'LAST_EVENT;
 	    EventTimeOvfl := EndTime - TB_Ovfl'LAST_EVENT;
 
+------------------Finding the propagation delays-------------------
 	    IF EventTimeS > StartTime THEN
 	    	PropDelayS := EventTimeS - StartTime;
 	    ELSE
@@ -118,29 +138,72 @@ BEGIN
 	 	PropDelayOvfl := 0 ns;
 	    END IF;
 
+------------------Finding the propagation delay of status, which is cout and ovfl combined--------------
+	    IF PropDelayOvfl > PropDelayCout THEN
+		PropDelayStatus := PropDelayOvfl;
+ 	    ELSE 
+		PropDelayStatus := PropDelayCout;
+	    END IF;
+
+------------------Recording the worst case delay----------------------------------
+	    IF PropDelayS > WorstCaseDelay THEN
+		WorstCaseDelay <= PropDelayS;
+		WorstCaseIteration <= MeasurementIndex;
+	    END IF;
+
+	    IF PropDelayCout > WorstCaseDelay THEN
+		WorstCaseDelay <= PropDelayCout;
+		WorstCaseIteration <= MeasurementIndex;
+	    END IF;
+
+	    IF PropDelayOvfl > WorstCaseDelay THEN
+		WorstCaseDelay <= PropDelayOvfl;
+		WorstCaseIteration <= MeasurementIndex;
+	    END IF;
+
+
             WAIT FOR MEASTIME;
 
             IF (TB_S = S_expt) AND (TB_Cout = Cout_expt) and (TB_Ovfl = Ovfl_expt) THEN
-                REPORT "PASS: " & INTEGER'IMAGE(MeasurementIndex) & LF &
-			"     Sum Propagation Delay: " & to_string(PropDelayS) & LF &
-			"     Cout Propagation Delay: " & to_string(PropDelayCout) & LF &
-			"     Ovfl Propagation Delay: " & to_string(PropDelayOvfl);
+                REPORT "PASS: Test Case " & INTEGER'IMAGE(MeasurementIndex) & LF &
+   		       "      A=" & to_hstring(A_test) & ", B=" & to_hstring(B_test) & ", Cin=" & std_logic'image(Cin_test) & LF &
+                       "      Sum Expected=" & to_hstring(S_expt) & ", Actual=" & to_hstring(TB_S);
+	
+		SuccessCount := SuccessCount + 1;
+
+		IF TIMING_MEASUREMENT THEN
+			REPORT "      Sum Propagation Delay: " & to_string(PropDelayS) & LF &
+		       	       "      Status (Ovfl and Cout) Propagation Delay: " & to_string(PropDelayStatus) & LF;
+		END IF;
 					 
             ELSE
-                REPORT "FAIL: " & integer'image(MeasurementIndex) & LF &
+                REPORT "FAIL: Test Case " & integer'image(MeasurementIndex) & LF &
                        "      A=" & to_hstring(A_test) & ", B=" & to_hstring(B_test) & ", Cin=" & std_logic'image(Cin_test) & LF &
                        "      Sum Expected=" & to_hstring(S_expt) & ", Actual=" & to_hstring(TB_S) & LF &
                        "      Cout Expected=" & std_logic'image(Cout_expt) & ", Actual=" & std_logic'image(TB_Cout) & LF &
-                       "      Ovfl Expected=" & std_logic'image(Ovfl_expt) & ", Actual=" & std_logic'image(TB_Ovfl)
+                       "      Ovfl Expected=" & std_logic'image(Ovfl_expt) & ", Actual=" & std_logic'image(TB_Ovfl) & LF
                 SEVERITY WARNING;
+
+		FailureCount := FailureCount + 1;
 					 
             END IF;
 
+	    MeasurementIndex_disp <= MeasurementIndex;
             MeasurementIndex := MeasurementIndex + 1;
+
 				
         END LOOP;
 
-        REPORT ">>>>> Simulation Complete. <<<<<";
+        REPORT "=====================================================" & LF &
+	       ">>>>>>>>>>>>>>>> Simulation Complete <<<<<<<<<<<<<<<<" & LF &
+	       "=====================================================" & LF &
+		"Test cases passed: " & INTEGER'IMAGE(SuccessCount) & LF &
+		"Test cases failed : " & INTEGER'IMAGE(FailureCount) & LF;
+
+	IF TIMING_MEASUREMENT THEN
+	    REPORT "The worst case propagation delay was " & to_string(WorstCaseDelay) & " in test case " & INTEGER'IMAGE(WorstCaseIteration) & LF;
+	END IF;
+	
         file_close(VectorFile);
         WAIT;
 

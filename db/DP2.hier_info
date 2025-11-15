@@ -1,0 +1,2691 @@
+|BrentKung
+A[0] => P[0].IN0
+A[0] => G[0].IN0
+A[1] => P[1].IN0
+A[1] => G[1].IN0
+A[2] => P[2].IN0
+A[2] => G[2].IN0
+A[3] => P[3].IN0
+A[3] => G[3].IN0
+A[4] => P[4].IN0
+A[4] => G[4].IN0
+A[5] => P[5].IN0
+A[5] => G[5].IN0
+A[6] => P[6].IN0
+A[6] => G[6].IN0
+A[7] => P[7].IN0
+A[7] => G[7].IN0
+A[8] => P[8].IN0
+A[8] => G[8].IN0
+A[9] => P[9].IN0
+A[9] => G[9].IN0
+A[10] => P[10].IN0
+A[10] => G[10].IN0
+A[11] => P[11].IN0
+A[11] => G[11].IN0
+A[12] => P[12].IN0
+A[12] => G[12].IN0
+A[13] => P[13].IN0
+A[13] => G[13].IN0
+A[14] => P[14].IN0
+A[14] => G[14].IN0
+A[15] => P[15].IN0
+A[15] => G[15].IN0
+A[16] => P[16].IN0
+A[16] => G[16].IN0
+A[17] => P[17].IN0
+A[17] => G[17].IN0
+A[18] => P[18].IN0
+A[18] => G[18].IN0
+A[19] => P[19].IN0
+A[19] => G[19].IN0
+A[20] => P[20].IN0
+A[20] => G[20].IN0
+A[21] => P[21].IN0
+A[21] => G[21].IN0
+A[22] => P[22].IN0
+A[22] => G[22].IN0
+A[23] => P[23].IN0
+A[23] => G[23].IN0
+A[24] => P[24].IN0
+A[24] => G[24].IN0
+A[25] => P[25].IN0
+A[25] => G[25].IN0
+A[26] => P[26].IN0
+A[26] => G[26].IN0
+A[27] => P[27].IN0
+A[27] => G[27].IN0
+A[28] => P[28].IN0
+A[28] => G[28].IN0
+A[29] => P[29].IN0
+A[29] => G[29].IN0
+A[30] => P[30].IN0
+A[30] => G[30].IN0
+A[31] => P[31].IN0
+A[31] => G[31].IN0
+A[32] => P[32].IN0
+A[32] => G[32].IN0
+A[33] => P[33].IN0
+A[33] => G[33].IN0
+A[34] => P[34].IN0
+A[34] => G[34].IN0
+A[35] => P[35].IN0
+A[35] => G[35].IN0
+A[36] => P[36].IN0
+A[36] => G[36].IN0
+A[37] => P[37].IN0
+A[37] => G[37].IN0
+A[38] => P[38].IN0
+A[38] => G[38].IN0
+A[39] => P[39].IN0
+A[39] => G[39].IN0
+A[40] => P[40].IN0
+A[40] => G[40].IN0
+A[41] => P[41].IN0
+A[41] => G[41].IN0
+A[42] => P[42].IN0
+A[42] => G[42].IN0
+A[43] => P[43].IN0
+A[43] => G[43].IN0
+A[44] => P[44].IN0
+A[44] => G[44].IN0
+A[45] => P[45].IN0
+A[45] => G[45].IN0
+A[46] => P[46].IN0
+A[46] => G[46].IN0
+A[47] => P[47].IN0
+A[47] => G[47].IN0
+A[48] => P[48].IN0
+A[48] => G[48].IN0
+A[49] => P[49].IN0
+A[49] => G[49].IN0
+A[50] => P[50].IN0
+A[50] => G[50].IN0
+A[51] => P[51].IN0
+A[51] => G[51].IN0
+A[52] => P[52].IN0
+A[52] => G[52].IN0
+A[53] => P[53].IN0
+A[53] => G[53].IN0
+A[54] => P[54].IN0
+A[54] => G[54].IN0
+A[55] => P[55].IN0
+A[55] => G[55].IN0
+A[56] => P[56].IN0
+A[56] => G[56].IN0
+A[57] => P[57].IN0
+A[57] => G[57].IN0
+A[58] => P[58].IN0
+A[58] => G[58].IN0
+A[59] => P[59].IN0
+A[59] => G[59].IN0
+A[60] => P[60].IN0
+A[60] => G[60].IN0
+A[61] => P[61].IN0
+A[61] => G[61].IN0
+A[62] => P[62].IN0
+A[62] => G[62].IN0
+A[63] => P[63].IN0
+A[63] => G[63].IN0
+B[0] => P[0].IN1
+B[0] => G[0].IN1
+B[1] => P[1].IN1
+B[1] => G[1].IN1
+B[2] => P[2].IN1
+B[2] => G[2].IN1
+B[3] => P[3].IN1
+B[3] => G[3].IN1
+B[4] => P[4].IN1
+B[4] => G[4].IN1
+B[5] => P[5].IN1
+B[5] => G[5].IN1
+B[6] => P[6].IN1
+B[6] => G[6].IN1
+B[7] => P[7].IN1
+B[7] => G[7].IN1
+B[8] => P[8].IN1
+B[8] => G[8].IN1
+B[9] => P[9].IN1
+B[9] => G[9].IN1
+B[10] => P[10].IN1
+B[10] => G[10].IN1
+B[11] => P[11].IN1
+B[11] => G[11].IN1
+B[12] => P[12].IN1
+B[12] => G[12].IN1
+B[13] => P[13].IN1
+B[13] => G[13].IN1
+B[14] => P[14].IN1
+B[14] => G[14].IN1
+B[15] => P[15].IN1
+B[15] => G[15].IN1
+B[16] => P[16].IN1
+B[16] => G[16].IN1
+B[17] => P[17].IN1
+B[17] => G[17].IN1
+B[18] => P[18].IN1
+B[18] => G[18].IN1
+B[19] => P[19].IN1
+B[19] => G[19].IN1
+B[20] => P[20].IN1
+B[20] => G[20].IN1
+B[21] => P[21].IN1
+B[21] => G[21].IN1
+B[22] => P[22].IN1
+B[22] => G[22].IN1
+B[23] => P[23].IN1
+B[23] => G[23].IN1
+B[24] => P[24].IN1
+B[24] => G[24].IN1
+B[25] => P[25].IN1
+B[25] => G[25].IN1
+B[26] => P[26].IN1
+B[26] => G[26].IN1
+B[27] => P[27].IN1
+B[27] => G[27].IN1
+B[28] => P[28].IN1
+B[28] => G[28].IN1
+B[29] => P[29].IN1
+B[29] => G[29].IN1
+B[30] => P[30].IN1
+B[30] => G[30].IN1
+B[31] => P[31].IN1
+B[31] => G[31].IN1
+B[32] => P[32].IN1
+B[32] => G[32].IN1
+B[33] => P[33].IN1
+B[33] => G[33].IN1
+B[34] => P[34].IN1
+B[34] => G[34].IN1
+B[35] => P[35].IN1
+B[35] => G[35].IN1
+B[36] => P[36].IN1
+B[36] => G[36].IN1
+B[37] => P[37].IN1
+B[37] => G[37].IN1
+B[38] => P[38].IN1
+B[38] => G[38].IN1
+B[39] => P[39].IN1
+B[39] => G[39].IN1
+B[40] => P[40].IN1
+B[40] => G[40].IN1
+B[41] => P[41].IN1
+B[41] => G[41].IN1
+B[42] => P[42].IN1
+B[42] => G[42].IN1
+B[43] => P[43].IN1
+B[43] => G[43].IN1
+B[44] => P[44].IN1
+B[44] => G[44].IN1
+B[45] => P[45].IN1
+B[45] => G[45].IN1
+B[46] => P[46].IN1
+B[46] => G[46].IN1
+B[47] => P[47].IN1
+B[47] => G[47].IN1
+B[48] => P[48].IN1
+B[48] => G[48].IN1
+B[49] => P[49].IN1
+B[49] => G[49].IN1
+B[50] => P[50].IN1
+B[50] => G[50].IN1
+B[51] => P[51].IN1
+B[51] => G[51].IN1
+B[52] => P[52].IN1
+B[52] => G[52].IN1
+B[53] => P[53].IN1
+B[53] => G[53].IN1
+B[54] => P[54].IN1
+B[54] => G[54].IN1
+B[55] => P[55].IN1
+B[55] => G[55].IN1
+B[56] => P[56].IN1
+B[56] => G[56].IN1
+B[57] => P[57].IN1
+B[57] => G[57].IN1
+B[58] => P[58].IN1
+B[58] => G[58].IN1
+B[59] => P[59].IN1
+B[59] => G[59].IN1
+B[60] => P[60].IN1
+B[60] => G[60].IN1
+B[61] => P[61].IN1
+B[61] => G[61].IN1
+B[62] => P[62].IN1
+B[62] => G[62].IN1
+B[63] => P[63].IN1
+B[63] => G[63].IN1
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[8] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[9] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[10] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[11] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[12] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[13] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[14] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[15] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[16] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[17] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[18] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[19] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[20] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[21] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[22] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[23] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[24] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[25] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[26] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[27] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[28] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[29] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[30] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[31] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[32] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[33] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[34] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[35] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[36] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[37] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[38] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[39] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[40] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[41] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[42] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[43] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[44] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[45] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[46] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[47] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[48] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[49] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[50] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[51] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[52] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[53] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[54] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[55] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[56] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[57] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[58] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[59] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[60] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[61] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[62] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[63] <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cin => S.IN1
+Cin => BrentKungGenerator:BKGenerator.Cin
+Cout <= BrentKungGenerator:BKGenerator.Gout[63]
+Ovfl <= Ovfl.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:RIGHT.Pin[4]
+Pin[5] => BrentKungGenerator:recursive_generate:RIGHT.Pin[5]
+Pin[6] => BrentKungGenerator:recursive_generate:RIGHT.Pin[6]
+Pin[7] => BrentKungGenerator:recursive_generate:RIGHT.Pin[7]
+Pin[8] => BrentKungGenerator:recursive_generate:RIGHT.Pin[8]
+Pin[9] => BrentKungGenerator:recursive_generate:RIGHT.Pin[9]
+Pin[10] => BrentKungGenerator:recursive_generate:RIGHT.Pin[10]
+Pin[11] => BrentKungGenerator:recursive_generate:RIGHT.Pin[11]
+Pin[12] => BrentKungGenerator:recursive_generate:RIGHT.Pin[12]
+Pin[13] => BrentKungGenerator:recursive_generate:RIGHT.Pin[13]
+Pin[14] => BrentKungGenerator:recursive_generate:RIGHT.Pin[14]
+Pin[15] => BrentKungGenerator:recursive_generate:RIGHT.Pin[15]
+Pin[16] => BrentKungGenerator:recursive_generate:RIGHT.Pin[16]
+Pin[17] => BrentKungGenerator:recursive_generate:RIGHT.Pin[17]
+Pin[18] => BrentKungGenerator:recursive_generate:RIGHT.Pin[18]
+Pin[19] => BrentKungGenerator:recursive_generate:RIGHT.Pin[19]
+Pin[20] => BrentKungGenerator:recursive_generate:RIGHT.Pin[20]
+Pin[21] => BrentKungGenerator:recursive_generate:RIGHT.Pin[21]
+Pin[22] => BrentKungGenerator:recursive_generate:RIGHT.Pin[22]
+Pin[23] => BrentKungGenerator:recursive_generate:RIGHT.Pin[23]
+Pin[24] => BrentKungGenerator:recursive_generate:RIGHT.Pin[24]
+Pin[25] => BrentKungGenerator:recursive_generate:RIGHT.Pin[25]
+Pin[26] => BrentKungGenerator:recursive_generate:RIGHT.Pin[26]
+Pin[27] => BrentKungGenerator:recursive_generate:RIGHT.Pin[27]
+Pin[28] => BrentKungGenerator:recursive_generate:RIGHT.Pin[28]
+Pin[29] => BrentKungGenerator:recursive_generate:RIGHT.Pin[29]
+Pin[30] => BrentKungGenerator:recursive_generate:RIGHT.Pin[30]
+Pin[31] => BrentKungGenerator:recursive_generate:RIGHT.Pin[31]
+Pin[32] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[33] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[34] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[35] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Pin[36] => BrentKungGenerator:recursive_generate:LEFT.Pin[4]
+Pin[37] => BrentKungGenerator:recursive_generate:LEFT.Pin[5]
+Pin[38] => BrentKungGenerator:recursive_generate:LEFT.Pin[6]
+Pin[39] => BrentKungGenerator:recursive_generate:LEFT.Pin[7]
+Pin[40] => BrentKungGenerator:recursive_generate:LEFT.Pin[8]
+Pin[41] => BrentKungGenerator:recursive_generate:LEFT.Pin[9]
+Pin[42] => BrentKungGenerator:recursive_generate:LEFT.Pin[10]
+Pin[43] => BrentKungGenerator:recursive_generate:LEFT.Pin[11]
+Pin[44] => BrentKungGenerator:recursive_generate:LEFT.Pin[12]
+Pin[45] => BrentKungGenerator:recursive_generate:LEFT.Pin[13]
+Pin[46] => BrentKungGenerator:recursive_generate:LEFT.Pin[14]
+Pin[47] => BrentKungGenerator:recursive_generate:LEFT.Pin[15]
+Pin[48] => BrentKungGenerator:recursive_generate:LEFT.Pin[16]
+Pin[49] => BrentKungGenerator:recursive_generate:LEFT.Pin[17]
+Pin[50] => BrentKungGenerator:recursive_generate:LEFT.Pin[18]
+Pin[51] => BrentKungGenerator:recursive_generate:LEFT.Pin[19]
+Pin[52] => BrentKungGenerator:recursive_generate:LEFT.Pin[20]
+Pin[53] => BrentKungGenerator:recursive_generate:LEFT.Pin[21]
+Pin[54] => BrentKungGenerator:recursive_generate:LEFT.Pin[22]
+Pin[55] => BrentKungGenerator:recursive_generate:LEFT.Pin[23]
+Pin[56] => BrentKungGenerator:recursive_generate:LEFT.Pin[24]
+Pin[57] => BrentKungGenerator:recursive_generate:LEFT.Pin[25]
+Pin[58] => BrentKungGenerator:recursive_generate:LEFT.Pin[26]
+Pin[59] => BrentKungGenerator:recursive_generate:LEFT.Pin[27]
+Pin[60] => BrentKungGenerator:recursive_generate:LEFT.Pin[28]
+Pin[61] => BrentKungGenerator:recursive_generate:LEFT.Pin[29]
+Pin[62] => BrentKungGenerator:recursive_generate:LEFT.Pin[30]
+Pin[63] => BrentKungGenerator:recursive_generate:LEFT.Pin[31]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:RIGHT.Gin[4]
+Gin[5] => BrentKungGenerator:recursive_generate:RIGHT.Gin[5]
+Gin[6] => BrentKungGenerator:recursive_generate:RIGHT.Gin[6]
+Gin[7] => BrentKungGenerator:recursive_generate:RIGHT.Gin[7]
+Gin[8] => BrentKungGenerator:recursive_generate:RIGHT.Gin[8]
+Gin[9] => BrentKungGenerator:recursive_generate:RIGHT.Gin[9]
+Gin[10] => BrentKungGenerator:recursive_generate:RIGHT.Gin[10]
+Gin[11] => BrentKungGenerator:recursive_generate:RIGHT.Gin[11]
+Gin[12] => BrentKungGenerator:recursive_generate:RIGHT.Gin[12]
+Gin[13] => BrentKungGenerator:recursive_generate:RIGHT.Gin[13]
+Gin[14] => BrentKungGenerator:recursive_generate:RIGHT.Gin[14]
+Gin[15] => BrentKungGenerator:recursive_generate:RIGHT.Gin[15]
+Gin[16] => BrentKungGenerator:recursive_generate:RIGHT.Gin[16]
+Gin[17] => BrentKungGenerator:recursive_generate:RIGHT.Gin[17]
+Gin[18] => BrentKungGenerator:recursive_generate:RIGHT.Gin[18]
+Gin[19] => BrentKungGenerator:recursive_generate:RIGHT.Gin[19]
+Gin[20] => BrentKungGenerator:recursive_generate:RIGHT.Gin[20]
+Gin[21] => BrentKungGenerator:recursive_generate:RIGHT.Gin[21]
+Gin[22] => BrentKungGenerator:recursive_generate:RIGHT.Gin[22]
+Gin[23] => BrentKungGenerator:recursive_generate:RIGHT.Gin[23]
+Gin[24] => BrentKungGenerator:recursive_generate:RIGHT.Gin[24]
+Gin[25] => BrentKungGenerator:recursive_generate:RIGHT.Gin[25]
+Gin[26] => BrentKungGenerator:recursive_generate:RIGHT.Gin[26]
+Gin[27] => BrentKungGenerator:recursive_generate:RIGHT.Gin[27]
+Gin[28] => BrentKungGenerator:recursive_generate:RIGHT.Gin[28]
+Gin[29] => BrentKungGenerator:recursive_generate:RIGHT.Gin[29]
+Gin[30] => BrentKungGenerator:recursive_generate:RIGHT.Gin[30]
+Gin[31] => BrentKungGenerator:recursive_generate:RIGHT.Gin[31]
+Gin[32] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[33] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[34] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[35] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Gin[36] => BrentKungGenerator:recursive_generate:LEFT.Gin[4]
+Gin[37] => BrentKungGenerator:recursive_generate:LEFT.Gin[5]
+Gin[38] => BrentKungGenerator:recursive_generate:LEFT.Gin[6]
+Gin[39] => BrentKungGenerator:recursive_generate:LEFT.Gin[7]
+Gin[40] => BrentKungGenerator:recursive_generate:LEFT.Gin[8]
+Gin[41] => BrentKungGenerator:recursive_generate:LEFT.Gin[9]
+Gin[42] => BrentKungGenerator:recursive_generate:LEFT.Gin[10]
+Gin[43] => BrentKungGenerator:recursive_generate:LEFT.Gin[11]
+Gin[44] => BrentKungGenerator:recursive_generate:LEFT.Gin[12]
+Gin[45] => BrentKungGenerator:recursive_generate:LEFT.Gin[13]
+Gin[46] => BrentKungGenerator:recursive_generate:LEFT.Gin[14]
+Gin[47] => BrentKungGenerator:recursive_generate:LEFT.Gin[15]
+Gin[48] => BrentKungGenerator:recursive_generate:LEFT.Gin[16]
+Gin[49] => BrentKungGenerator:recursive_generate:LEFT.Gin[17]
+Gin[50] => BrentKungGenerator:recursive_generate:LEFT.Gin[18]
+Gin[51] => BrentKungGenerator:recursive_generate:LEFT.Gin[19]
+Gin[52] => BrentKungGenerator:recursive_generate:LEFT.Gin[20]
+Gin[53] => BrentKungGenerator:recursive_generate:LEFT.Gin[21]
+Gin[54] => BrentKungGenerator:recursive_generate:LEFT.Gin[22]
+Gin[55] => BrentKungGenerator:recursive_generate:LEFT.Gin[23]
+Gin[56] => BrentKungGenerator:recursive_generate:LEFT.Gin[24]
+Gin[57] => BrentKungGenerator:recursive_generate:LEFT.Gin[25]
+Gin[58] => BrentKungGenerator:recursive_generate:LEFT.Gin[26]
+Gin[59] => BrentKungGenerator:recursive_generate:LEFT.Gin[27]
+Gin[60] => BrentKungGenerator:recursive_generate:LEFT.Gin[28]
+Gin[61] => BrentKungGenerator:recursive_generate:LEFT.Gin[29]
+Gin[62] => BrentKungGenerator:recursive_generate:LEFT.Gin[30]
+Gin[63] => BrentKungGenerator:recursive_generate:LEFT.Gin[31]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[4]
+Pout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[5]
+Pout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[6]
+Pout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[7]
+Pout[8] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[8]
+Pout[9] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[9]
+Pout[10] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[10]
+Pout[11] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[11]
+Pout[12] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[12]
+Pout[13] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[13]
+Pout[14] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[14]
+Pout[15] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[15]
+Pout[16] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[16]
+Pout[17] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[17]
+Pout[18] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[18]
+Pout[19] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[19]
+Pout[20] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[20]
+Pout[21] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[21]
+Pout[22] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[22]
+Pout[23] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[23]
+Pout[24] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[24]
+Pout[25] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[25]
+Pout[26] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[26]
+Pout[27] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[27]
+Pout[28] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[28]
+Pout[29] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[29]
+Pout[30] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[30]
+Pout[31] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[31]
+Pout[32] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[33] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[34] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[35] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[36] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[37] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[38] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[39] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[40] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[41] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[42] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[43] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[44] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[45] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[46] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[47] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[48] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[49] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[50] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[51] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[52] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[53] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[54] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[55] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[56] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[57] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[58] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[59] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[60] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[61] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[62] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[63] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[4]
+Gout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[5]
+Gout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[6]
+Gout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[7]
+Gout[8] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[8]
+Gout[9] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[9]
+Gout[10] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[10]
+Gout[11] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[11]
+Gout[12] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[12]
+Gout[13] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[13]
+Gout[14] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[14]
+Gout[15] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[15]
+Gout[16] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[16]
+Gout[17] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[17]
+Gout[18] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[18]
+Gout[19] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[19]
+Gout[20] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[20]
+Gout[21] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[21]
+Gout[22] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[22]
+Gout[23] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[23]
+Gout[24] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[24]
+Gout[25] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[25]
+Gout[26] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[26]
+Gout[27] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[27]
+Gout[28] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[28]
+Gout[29] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[29]
+Gout[30] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[30]
+Gout[31] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[31]
+Gout[32] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[33] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[34] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[35] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[36] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[37] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[38] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[39] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[40] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[41] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[42] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[43] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[44] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[45] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[46] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[47] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[48] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[49] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[50] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[51] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[52] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[53] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[54] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[55] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[56] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[57] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[58] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[59] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[60] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[61] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[62] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[63] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:RIGHT.Pin[4]
+Pin[5] => BrentKungGenerator:recursive_generate:RIGHT.Pin[5]
+Pin[6] => BrentKungGenerator:recursive_generate:RIGHT.Pin[6]
+Pin[7] => BrentKungGenerator:recursive_generate:RIGHT.Pin[7]
+Pin[8] => BrentKungGenerator:recursive_generate:RIGHT.Pin[8]
+Pin[9] => BrentKungGenerator:recursive_generate:RIGHT.Pin[9]
+Pin[10] => BrentKungGenerator:recursive_generate:RIGHT.Pin[10]
+Pin[11] => BrentKungGenerator:recursive_generate:RIGHT.Pin[11]
+Pin[12] => BrentKungGenerator:recursive_generate:RIGHT.Pin[12]
+Pin[13] => BrentKungGenerator:recursive_generate:RIGHT.Pin[13]
+Pin[14] => BrentKungGenerator:recursive_generate:RIGHT.Pin[14]
+Pin[15] => BrentKungGenerator:recursive_generate:RIGHT.Pin[15]
+Pin[16] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[17] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[18] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[19] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Pin[20] => BrentKungGenerator:recursive_generate:LEFT.Pin[4]
+Pin[21] => BrentKungGenerator:recursive_generate:LEFT.Pin[5]
+Pin[22] => BrentKungGenerator:recursive_generate:LEFT.Pin[6]
+Pin[23] => BrentKungGenerator:recursive_generate:LEFT.Pin[7]
+Pin[24] => BrentKungGenerator:recursive_generate:LEFT.Pin[8]
+Pin[25] => BrentKungGenerator:recursive_generate:LEFT.Pin[9]
+Pin[26] => BrentKungGenerator:recursive_generate:LEFT.Pin[10]
+Pin[27] => BrentKungGenerator:recursive_generate:LEFT.Pin[11]
+Pin[28] => BrentKungGenerator:recursive_generate:LEFT.Pin[12]
+Pin[29] => BrentKungGenerator:recursive_generate:LEFT.Pin[13]
+Pin[30] => BrentKungGenerator:recursive_generate:LEFT.Pin[14]
+Pin[31] => BrentKungGenerator:recursive_generate:LEFT.Pin[15]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:RIGHT.Gin[4]
+Gin[5] => BrentKungGenerator:recursive_generate:RIGHT.Gin[5]
+Gin[6] => BrentKungGenerator:recursive_generate:RIGHT.Gin[6]
+Gin[7] => BrentKungGenerator:recursive_generate:RIGHT.Gin[7]
+Gin[8] => BrentKungGenerator:recursive_generate:RIGHT.Gin[8]
+Gin[9] => BrentKungGenerator:recursive_generate:RIGHT.Gin[9]
+Gin[10] => BrentKungGenerator:recursive_generate:RIGHT.Gin[10]
+Gin[11] => BrentKungGenerator:recursive_generate:RIGHT.Gin[11]
+Gin[12] => BrentKungGenerator:recursive_generate:RIGHT.Gin[12]
+Gin[13] => BrentKungGenerator:recursive_generate:RIGHT.Gin[13]
+Gin[14] => BrentKungGenerator:recursive_generate:RIGHT.Gin[14]
+Gin[15] => BrentKungGenerator:recursive_generate:RIGHT.Gin[15]
+Gin[16] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[17] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[18] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[19] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Gin[20] => BrentKungGenerator:recursive_generate:LEFT.Gin[4]
+Gin[21] => BrentKungGenerator:recursive_generate:LEFT.Gin[5]
+Gin[22] => BrentKungGenerator:recursive_generate:LEFT.Gin[6]
+Gin[23] => BrentKungGenerator:recursive_generate:LEFT.Gin[7]
+Gin[24] => BrentKungGenerator:recursive_generate:LEFT.Gin[8]
+Gin[25] => BrentKungGenerator:recursive_generate:LEFT.Gin[9]
+Gin[26] => BrentKungGenerator:recursive_generate:LEFT.Gin[10]
+Gin[27] => BrentKungGenerator:recursive_generate:LEFT.Gin[11]
+Gin[28] => BrentKungGenerator:recursive_generate:LEFT.Gin[12]
+Gin[29] => BrentKungGenerator:recursive_generate:LEFT.Gin[13]
+Gin[30] => BrentKungGenerator:recursive_generate:LEFT.Gin[14]
+Gin[31] => BrentKungGenerator:recursive_generate:LEFT.Gin[15]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[4]
+Pout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[5]
+Pout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[6]
+Pout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[7]
+Pout[8] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[8]
+Pout[9] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[9]
+Pout[10] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[10]
+Pout[11] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[11]
+Pout[12] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[12]
+Pout[13] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[13]
+Pout[14] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[14]
+Pout[15] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[15]
+Pout[16] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[17] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[18] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[19] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[20] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[21] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[22] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[23] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[24] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[25] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[26] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[27] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[28] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[29] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[30] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[31] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[4]
+Gout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[5]
+Gout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[6]
+Gout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[7]
+Gout[8] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[8]
+Gout[9] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[9]
+Gout[10] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[10]
+Gout[11] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[11]
+Gout[12] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[12]
+Gout[13] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[13]
+Gout[14] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[14]
+Gout[15] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[15]
+Gout[16] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[17] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[18] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[19] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[20] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[21] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[22] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[23] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[24] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[25] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[26] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[27] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[28] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[29] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[30] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[31] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:RIGHT.Pin[4]
+Pin[5] => BrentKungGenerator:recursive_generate:RIGHT.Pin[5]
+Pin[6] => BrentKungGenerator:recursive_generate:RIGHT.Pin[6]
+Pin[7] => BrentKungGenerator:recursive_generate:RIGHT.Pin[7]
+Pin[8] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[9] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[10] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[11] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Pin[12] => BrentKungGenerator:recursive_generate:LEFT.Pin[4]
+Pin[13] => BrentKungGenerator:recursive_generate:LEFT.Pin[5]
+Pin[14] => BrentKungGenerator:recursive_generate:LEFT.Pin[6]
+Pin[15] => BrentKungGenerator:recursive_generate:LEFT.Pin[7]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:RIGHT.Gin[4]
+Gin[5] => BrentKungGenerator:recursive_generate:RIGHT.Gin[5]
+Gin[6] => BrentKungGenerator:recursive_generate:RIGHT.Gin[6]
+Gin[7] => BrentKungGenerator:recursive_generate:RIGHT.Gin[7]
+Gin[8] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[9] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[10] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[11] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Gin[12] => BrentKungGenerator:recursive_generate:LEFT.Gin[4]
+Gin[13] => BrentKungGenerator:recursive_generate:LEFT.Gin[5]
+Gin[14] => BrentKungGenerator:recursive_generate:LEFT.Gin[6]
+Gin[15] => BrentKungGenerator:recursive_generate:LEFT.Gin[7]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[4]
+Pout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[5]
+Pout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[6]
+Pout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[7]
+Pout[8] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[9] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[10] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[11] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[12] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[13] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[14] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[15] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[4]
+Gout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[5]
+Gout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[6]
+Gout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[7]
+Gout[8] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[9] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[10] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[11] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[12] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[13] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[14] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[15] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[5] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[6] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[7] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[5] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[6] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[7] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[5] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[6] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[7] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[5] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[6] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[7] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[5] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[6] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[7] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[5] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[6] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[7] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[5] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[6] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[7] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[5] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[6] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[7] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:RIGHT.Pin[4]
+Pin[5] => BrentKungGenerator:recursive_generate:RIGHT.Pin[5]
+Pin[6] => BrentKungGenerator:recursive_generate:RIGHT.Pin[6]
+Pin[7] => BrentKungGenerator:recursive_generate:RIGHT.Pin[7]
+Pin[8] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[9] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[10] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[11] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Pin[12] => BrentKungGenerator:recursive_generate:LEFT.Pin[4]
+Pin[13] => BrentKungGenerator:recursive_generate:LEFT.Pin[5]
+Pin[14] => BrentKungGenerator:recursive_generate:LEFT.Pin[6]
+Pin[15] => BrentKungGenerator:recursive_generate:LEFT.Pin[7]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:RIGHT.Gin[4]
+Gin[5] => BrentKungGenerator:recursive_generate:RIGHT.Gin[5]
+Gin[6] => BrentKungGenerator:recursive_generate:RIGHT.Gin[6]
+Gin[7] => BrentKungGenerator:recursive_generate:RIGHT.Gin[7]
+Gin[8] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[9] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[10] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[11] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Gin[12] => BrentKungGenerator:recursive_generate:LEFT.Gin[4]
+Gin[13] => BrentKungGenerator:recursive_generate:LEFT.Gin[5]
+Gin[14] => BrentKungGenerator:recursive_generate:LEFT.Gin[6]
+Gin[15] => BrentKungGenerator:recursive_generate:LEFT.Gin[7]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[4]
+Pout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[5]
+Pout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[6]
+Pout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[7]
+Pout[8] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[9] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[10] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[11] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[12] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[13] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[14] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[15] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[4]
+Gout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[5]
+Gout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[6]
+Gout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[7]
+Gout[8] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[9] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[10] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[11] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[12] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[13] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[14] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[15] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[5] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[6] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[7] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[5] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[6] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[7] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[5] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[6] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[7] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[5] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[6] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[7] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[5] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[6] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[7] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[5] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[6] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[7] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[5] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[6] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[7] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[5] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[6] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[7] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:RIGHT.Pin[4]
+Pin[5] => BrentKungGenerator:recursive_generate:RIGHT.Pin[5]
+Pin[6] => BrentKungGenerator:recursive_generate:RIGHT.Pin[6]
+Pin[7] => BrentKungGenerator:recursive_generate:RIGHT.Pin[7]
+Pin[8] => BrentKungGenerator:recursive_generate:RIGHT.Pin[8]
+Pin[9] => BrentKungGenerator:recursive_generate:RIGHT.Pin[9]
+Pin[10] => BrentKungGenerator:recursive_generate:RIGHT.Pin[10]
+Pin[11] => BrentKungGenerator:recursive_generate:RIGHT.Pin[11]
+Pin[12] => BrentKungGenerator:recursive_generate:RIGHT.Pin[12]
+Pin[13] => BrentKungGenerator:recursive_generate:RIGHT.Pin[13]
+Pin[14] => BrentKungGenerator:recursive_generate:RIGHT.Pin[14]
+Pin[15] => BrentKungGenerator:recursive_generate:RIGHT.Pin[15]
+Pin[16] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[17] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[18] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[19] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Pin[20] => BrentKungGenerator:recursive_generate:LEFT.Pin[4]
+Pin[21] => BrentKungGenerator:recursive_generate:LEFT.Pin[5]
+Pin[22] => BrentKungGenerator:recursive_generate:LEFT.Pin[6]
+Pin[23] => BrentKungGenerator:recursive_generate:LEFT.Pin[7]
+Pin[24] => BrentKungGenerator:recursive_generate:LEFT.Pin[8]
+Pin[25] => BrentKungGenerator:recursive_generate:LEFT.Pin[9]
+Pin[26] => BrentKungGenerator:recursive_generate:LEFT.Pin[10]
+Pin[27] => BrentKungGenerator:recursive_generate:LEFT.Pin[11]
+Pin[28] => BrentKungGenerator:recursive_generate:LEFT.Pin[12]
+Pin[29] => BrentKungGenerator:recursive_generate:LEFT.Pin[13]
+Pin[30] => BrentKungGenerator:recursive_generate:LEFT.Pin[14]
+Pin[31] => BrentKungGenerator:recursive_generate:LEFT.Pin[15]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:RIGHT.Gin[4]
+Gin[5] => BrentKungGenerator:recursive_generate:RIGHT.Gin[5]
+Gin[6] => BrentKungGenerator:recursive_generate:RIGHT.Gin[6]
+Gin[7] => BrentKungGenerator:recursive_generate:RIGHT.Gin[7]
+Gin[8] => BrentKungGenerator:recursive_generate:RIGHT.Gin[8]
+Gin[9] => BrentKungGenerator:recursive_generate:RIGHT.Gin[9]
+Gin[10] => BrentKungGenerator:recursive_generate:RIGHT.Gin[10]
+Gin[11] => BrentKungGenerator:recursive_generate:RIGHT.Gin[11]
+Gin[12] => BrentKungGenerator:recursive_generate:RIGHT.Gin[12]
+Gin[13] => BrentKungGenerator:recursive_generate:RIGHT.Gin[13]
+Gin[14] => BrentKungGenerator:recursive_generate:RIGHT.Gin[14]
+Gin[15] => BrentKungGenerator:recursive_generate:RIGHT.Gin[15]
+Gin[16] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[17] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[18] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[19] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Gin[20] => BrentKungGenerator:recursive_generate:LEFT.Gin[4]
+Gin[21] => BrentKungGenerator:recursive_generate:LEFT.Gin[5]
+Gin[22] => BrentKungGenerator:recursive_generate:LEFT.Gin[6]
+Gin[23] => BrentKungGenerator:recursive_generate:LEFT.Gin[7]
+Gin[24] => BrentKungGenerator:recursive_generate:LEFT.Gin[8]
+Gin[25] => BrentKungGenerator:recursive_generate:LEFT.Gin[9]
+Gin[26] => BrentKungGenerator:recursive_generate:LEFT.Gin[10]
+Gin[27] => BrentKungGenerator:recursive_generate:LEFT.Gin[11]
+Gin[28] => BrentKungGenerator:recursive_generate:LEFT.Gin[12]
+Gin[29] => BrentKungGenerator:recursive_generate:LEFT.Gin[13]
+Gin[30] => BrentKungGenerator:recursive_generate:LEFT.Gin[14]
+Gin[31] => BrentKungGenerator:recursive_generate:LEFT.Gin[15]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[4]
+Pout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[5]
+Pout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[6]
+Pout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[7]
+Pout[8] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[8]
+Pout[9] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[9]
+Pout[10] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[10]
+Pout[11] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[11]
+Pout[12] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[12]
+Pout[13] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[13]
+Pout[14] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[14]
+Pout[15] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[15]
+Pout[16] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[17] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[18] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[19] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[20] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[21] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[22] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[23] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[24] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[25] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[26] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[27] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[28] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[29] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[30] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[31] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[4]
+Gout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[5]
+Gout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[6]
+Gout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[7]
+Gout[8] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[8]
+Gout[9] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[9]
+Gout[10] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[10]
+Gout[11] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[11]
+Gout[12] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[12]
+Gout[13] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[13]
+Gout[14] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[14]
+Gout[15] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[15]
+Gout[16] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[17] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[18] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[19] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[20] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[21] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[22] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[23] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[24] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[25] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[26] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[27] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[28] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[29] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[30] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[31] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:RIGHT.Pin[4]
+Pin[5] => BrentKungGenerator:recursive_generate:RIGHT.Pin[5]
+Pin[6] => BrentKungGenerator:recursive_generate:RIGHT.Pin[6]
+Pin[7] => BrentKungGenerator:recursive_generate:RIGHT.Pin[7]
+Pin[8] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[9] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[10] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[11] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Pin[12] => BrentKungGenerator:recursive_generate:LEFT.Pin[4]
+Pin[13] => BrentKungGenerator:recursive_generate:LEFT.Pin[5]
+Pin[14] => BrentKungGenerator:recursive_generate:LEFT.Pin[6]
+Pin[15] => BrentKungGenerator:recursive_generate:LEFT.Pin[7]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:RIGHT.Gin[4]
+Gin[5] => BrentKungGenerator:recursive_generate:RIGHT.Gin[5]
+Gin[6] => BrentKungGenerator:recursive_generate:RIGHT.Gin[6]
+Gin[7] => BrentKungGenerator:recursive_generate:RIGHT.Gin[7]
+Gin[8] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[9] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[10] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[11] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Gin[12] => BrentKungGenerator:recursive_generate:LEFT.Gin[4]
+Gin[13] => BrentKungGenerator:recursive_generate:LEFT.Gin[5]
+Gin[14] => BrentKungGenerator:recursive_generate:LEFT.Gin[6]
+Gin[15] => BrentKungGenerator:recursive_generate:LEFT.Gin[7]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[4]
+Pout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[5]
+Pout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[6]
+Pout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[7]
+Pout[8] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[9] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[10] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[11] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[12] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[13] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[14] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[15] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[4]
+Gout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[5]
+Gout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[6]
+Gout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[7]
+Gout[8] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[9] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[10] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[11] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[12] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[13] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[14] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[15] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[5] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[6] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[7] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[5] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[6] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[7] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[5] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[6] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[7] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[5] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[6] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[7] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[5] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[6] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[7] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[5] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[6] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[7] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[5] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[6] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[7] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[5] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[6] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[7] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:RIGHT.Pin[4]
+Pin[5] => BrentKungGenerator:recursive_generate:RIGHT.Pin[5]
+Pin[6] => BrentKungGenerator:recursive_generate:RIGHT.Pin[6]
+Pin[7] => BrentKungGenerator:recursive_generate:RIGHT.Pin[7]
+Pin[8] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[9] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[10] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[11] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Pin[12] => BrentKungGenerator:recursive_generate:LEFT.Pin[4]
+Pin[13] => BrentKungGenerator:recursive_generate:LEFT.Pin[5]
+Pin[14] => BrentKungGenerator:recursive_generate:LEFT.Pin[6]
+Pin[15] => BrentKungGenerator:recursive_generate:LEFT.Pin[7]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:RIGHT.Gin[4]
+Gin[5] => BrentKungGenerator:recursive_generate:RIGHT.Gin[5]
+Gin[6] => BrentKungGenerator:recursive_generate:RIGHT.Gin[6]
+Gin[7] => BrentKungGenerator:recursive_generate:RIGHT.Gin[7]
+Gin[8] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[9] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[10] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[11] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Gin[12] => BrentKungGenerator:recursive_generate:LEFT.Gin[4]
+Gin[13] => BrentKungGenerator:recursive_generate:LEFT.Gin[5]
+Gin[14] => BrentKungGenerator:recursive_generate:LEFT.Gin[6]
+Gin[15] => BrentKungGenerator:recursive_generate:LEFT.Gin[7]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[4]
+Pout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[5]
+Pout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[6]
+Pout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[7]
+Pout[8] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[9] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[10] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[11] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[12] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[13] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[14] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[15] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[4]
+Gout[5] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[5]
+Gout[6] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[6]
+Gout[7] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[7]
+Gout[8] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[9] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[10] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[11] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[12] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[13] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[14] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[15] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[5] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[6] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[7] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[5] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[6] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[7] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[5] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[6] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[7] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[5] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[6] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[7] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:RIGHT.Pin[2]
+Pin[3] => BrentKungGenerator:recursive_generate:RIGHT.Pin[3]
+Pin[4] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[5] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Pin[6] => BrentKungGenerator:recursive_generate:LEFT.Pin[2]
+Pin[7] => BrentKungGenerator:recursive_generate:LEFT.Pin[3]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:RIGHT.Gin[2]
+Gin[3] => BrentKungGenerator:recursive_generate:RIGHT.Gin[3]
+Gin[4] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[5] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Gin[6] => BrentKungGenerator:recursive_generate:LEFT.Gin[2]
+Gin[7] => BrentKungGenerator:recursive_generate:LEFT.Gin[3]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[2]
+Pout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[3]
+Pout[4] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[5] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[6] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[7] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[2]
+Gout[3] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[3]
+Gout[4] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[5] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[6] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[7] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:RIGHT.Pin[1]
+Pin[2] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Pin[3] => BrentKungGenerator:recursive_generate:LEFT.Pin[1]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:RIGHT.Gin[1]
+Gin[2] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Gin[3] => BrentKungGenerator:recursive_generate:LEFT.Gin[1]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[1]
+Pout[2] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Pout[3] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[1]
+Gout[2] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[3] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => BrentKungGenerator:recursive_generate:RIGHT.Pin[0]
+Pin[1] => BrentKungGenerator:recursive_generate:LEFT.Pin[0]
+Gin[0] => BrentKungGenerator:recursive_generate:RIGHT.Gin[0]
+Gin[1] => BrentKungGenerator:recursive_generate:LEFT.Gin[0]
+Cin => BrentKungGenerator:recursive_generate:RIGHT.Cin
+Pout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Pout[0]
+Pout[1] <= P_combined.DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= BrentKungGenerator:recursive_generate:RIGHT.Gout[0]
+Gout[1] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:LEFT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BrentKung|BrentKungGenerator:BKGenerator|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT|BrentKungGenerator:\recursive_generate:RIGHT
+Pin[0] => G_combined.IN0
+Pin[0] => Pout[0].DATAIN
+Gin[0] => G_combined.IN1
+Cin => G_combined.IN1
+Pout[0] <= Pin[0].DB_MAX_OUTPUT_PORT_TYPE
+Gout[0] <= G_combined.DB_MAX_OUTPUT_PORT_TYPE
+
+

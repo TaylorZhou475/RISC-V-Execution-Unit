@@ -1,5 +1,5 @@
 Flow report for DP2
-Wed Nov 12 22:07:40 2025
+Sat Nov 15 11:36:01 2025
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -41,10 +41,10 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Successful - Wed Nov 12 22:07:40 2025          ;
+; Flow Status                        ; Successful - Sat Nov 15 11:36:01 2025          ;
 ; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name                      ; DP2                                            ;
-; Top-level Entity Name              ; BKA_Cyclone                                    ;
+; Top-level Entity Name              ; BrentKung                                      ;
 ; Family                             ; Cyclone IV E                                   ;
 ; Device                             ; EP4CE115F29C7                                  ;
 ; Timing Models                      ; Final                                          ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/12/2025 22:07:12 ;
+; Start date & time ; 11/15/2025 11:35:29 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DP2                 ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+-----------------------------------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                                           ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+-----------------------------------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 62156047921690.176301403241212                                  ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 62156047921690.176323532813328                                  ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                                             ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                                             ; --            ; --          ; eda_simulation                    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                                             ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -88,13 +88,13 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TIME_SCALE                      ; 1 ps                                                            ; --            ; --          ; eda_simulation                    ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                              ; --            ; --          ; --                                ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                               ; --            ; --          ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)                          ; --            ; BKA_Cyclone ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                          ; --            ; BKA_Cyclone ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                          ; --            ; BKA_Cyclone ; Top                               ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                          ; --            ; BrentKung   ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                          ; --            ; BrentKung   ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                          ; --            ; BrentKung   ; Top                               ;
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                             ; --            ; --          ; --                                ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                           ; --            ; --          ; --                                ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                    ; --            ; --          ; --                                ;
-; TOP_LEVEL_ENTITY                    ; BKA_Cyclone                                                     ; DP2           ; --          ; --                                ;
+; TOP_LEVEL_ENTITY                    ; BrentKung                                                       ; DP2           ; --          ; --                                ;
 +-------------------------------------+-----------------------------------------------------------------+---------------+-------------+-----------------------------------+
 
 
@@ -104,11 +104,11 @@ https://fpgasoftware.intel.com/eula.
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4844 MB             ; 00:00:19                           ;
-; Fitter               ; 00:00:09     ; 1.0                     ; 5736 MB             ; 00:00:13                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4978 MB             ; 00:00:03                           ;
+; Fitter               ; 00:00:13     ; 1.0                     ; 5736 MB             ; 00:00:14                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4978 MB             ; 00:00:03                           ;
 ; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4874 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4680 MB             ; 00:00:01                           ;
-; Total                ; 00:00:23     ; --                      ; --                  ; 00:00:38                           ;
+; Total                ; 00:00:28     ; --                      ; --                  ; 00:00:39                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

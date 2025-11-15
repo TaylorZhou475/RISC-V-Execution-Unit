@@ -29,8 +29,8 @@
 
 (DELAYFILE
   (SDFVERSION "2.1")
-  (DESIGN "BKA_Cyclone")
-  (DATE "11/12/2025 22:07:40")
+  (DESIGN "BrentKung")
+  (DATE "11/15/2025 11:36:01")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition")

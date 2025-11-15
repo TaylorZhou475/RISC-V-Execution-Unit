@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition"
 
--- DATE "11/12/2025 22:07:39"
+-- DATE "11/15/2025 11:36:01"
 
 -- 
 -- Device: Altera EP4CE115F29C7 Package FBGA780
@@ -75,16 +75,16 @@ LIBRARY IEEE;
 USE CYCLONEIVE.CYCLONEIVE_COMPONENTS.ALL;
 USE IEEE.STD_LOGIC_1164.ALL;
 
-ENTITY 	BKA_Cyclone IS
+ENTITY 	BrentKung IS
     PORT (
 	A : IN std_logic_vector(63 DOWNTO 0);
 	B : IN std_logic_vector(63 DOWNTO 0);
-	S : BUFFER std_logic_vector(63 DOWNTO 0);
+	S : OUT std_logic_vector(63 DOWNTO 0);
 	Cin : IN std_logic;
-	Cout : BUFFER std_logic;
-	Ovfl : BUFFER std_logic
+	Cout : OUT std_logic;
+	Ovfl : OUT std_logic
 	);
-END BKA_Cyclone;
+END BrentKung;
 
 -- Design Ports Information
 -- S[0]	=>  Location: PIN_AA19,	 I/O Standard: 2.5 V,	 Current Strength: Default
@@ -284,7 +284,7 @@ END BKA_Cyclone;
 -- B[63]	=>  Location: PIN_G20,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
-ARCHITECTURE structure OF BKA_Cyclone IS
+ARCHITECTURE structure OF BrentKung IS
 SIGNAL gnd : std_logic := '0';
 SIGNAL vcc : std_logic := '1';
 SIGNAL unknown : std_logic := 'X';
