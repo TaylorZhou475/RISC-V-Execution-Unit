@@ -28,24 +28,47 @@ END CONFIGURATION ConfigBKA_structure;
 -- CONFIGURATIONS FOR KSA ADDER
 ------------------------------------------------------------
 
---For functional verification of KSA
-CONFIGURATION ConfigKSA_rtl OF AdderTB IS
-  FOR Testing  -- matches my testbench architecture name
-	FOR DUT : TestUnit
-      USE ENTITY work.KoggeStone(rtl);
-	END FOR;
-  END FOR;
-END CONFIGURATION ConfigKSA_rtl;
+----For functional verification of KSA
+--CONFIGURATION ConfigKSA_rtl OF AdderTB IS
+--  FOR Testing  -- matches my testbench architecture name
+--	FOR DUT : TestUnit
+--      USE ENTITY work.KoggeStone(rtl);
+--	END FOR;
+--  END FOR;
+--END CONFIGURATION ConfigKSA_rtl;
+--
+--
+----This is for timing verification of KSA
+--CONFIGURATION ConfigKSA_structure OF AdderTB IS
+--  FOR Testing
+--    FOR DUT : TestUnit
+--      USE ENTITY work.KoggeStone(structure);
+--    END FOR;
+--  END FOR;
+--END CONFIGURATION ConfigKSA_structure;
 
+--------------------------------------------------------------
+---- CONFIGURATIONS FOR LADNER-FISCHER ADDER
+--------------------------------------------------------------
 
---This is for timing verification of KSA
-CONFIGURATION ConfigKSA_structure OF AdderTB IS
-  FOR Testing
+--For functional verification of Ladner-Fischer
+CONFIGURATION ConfigLFA_rtl OF AdderTB IS
+  FOR Testing                      -- matches your testbench architecture
     FOR DUT : TestUnit
-      USE ENTITY work.KoggeStone(structure);
+      USE ENTITY work.LadnerFischer(rtl);
     END FOR;
   END FOR;
-END CONFIGURATION ConfigKSA_structure;
+END CONFIGURATION ConfigLFA_rtl;
+
+
+--This is for timing verification of Ladner-Fischer
+CONFIGURATION ConfigLFA_structure OF AdderTB IS
+  FOR Testing
+    FOR DUT : TestUnit
+      USE ENTITY work.LadnerFischer(structure);
+    END FOR;
+  END FOR;
+END CONFIGURATION ConfigLFA_structure;
 
 --------------------------------------------------------------
 ---- CONFIGURATIONS FOR RCA ADDER
