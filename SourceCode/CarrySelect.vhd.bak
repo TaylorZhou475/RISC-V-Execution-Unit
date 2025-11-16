@@ -1,0 +1,73 @@
+-- Carry Select Adder
+
+Library ieee;
+use ieee.std_logic_1164.all;
+
+Entity CarrySelect Is 
+
+
+Generic ( N : natural := 64 );
+
+Port ( 
+
+	A, B : in std_logic_vector( N-1 downto 0 );
+	Cin : in std_logic;
+	S : out std_logic_vector( N-1 downto 0 );
+	Cout : out std_logic;
+	Ovfl : out std_logic );
+	
+End CarrySelect;
+
+ARCHITECTURE Structure OF CarrySelect IS
+	
+    component RippleCarry_Cyclone 
+		generic(
+        N : integer := 64
+		);
+		port(
+        A : in std_logic_vector(N-1 downto 0);
+        B : in std_logic_vector(N-1 downto 0);
+        Cin : in std_logic;
+        Sum : out std_logic_vector(N-1 downto 0);
+        Cout : out std_logic;
+        Ovfl : out std_logic
+		);
+	end component;
+
+	 -- internal signals used to represent seperate results from cases Cin = 0 and Cin = 1
+    signal c0, c1 : std_logic ;  
+    signal s0, s1 : std_logic_vector(N-1 downto 0);
+	 signal ovfl0, ovfl1 : std_logic;
+	
+BEGIN
+
+    Cin_0: RippleCarry_Cyclone 	-- case Cin = 0
+        generic map (
+            N => N )
+				
+        port map (
+            A    => A,
+            B    => B,
+            Cin  => '0',
+            Sum  => s0,
+            Cout => c0,
+				Ovfl => ovfl0 );
+
+    Cin_1: RippleCarry_Cyclone 	-- case Cin = 1
+        generic map (
+            N => N)
+				
+        port map (
+            A    => A,
+            B    => B,
+            Cin  => '1',
+            Sum  => s1,
+            Cout => c1,
+				Ovfl => ovfl1 );
+
+    -- Multiplex results from case Cin_0 and Cin_1 based on Cin
+    S <= s0 when Cin = '0' else s1;		
+    Cout <= c0 when Cin = '0' else c1;
+	 Ovfl <= ovfl0 when Cin = '0' else ovfl1;
+
+END ARCHITECTURE Structure;

@@ -13,10 +13,10 @@ entity KoggeStone is
 	port(
        A : in  std_logic_vector(N_bits-1 downto 0);
        B : in  std_logic_vector(N_bits-1 downto 0);
-       CIN : in  std_logic;
-       SUM : out std_logic_vector(N_bits-1 downto 0);
-       COUT : out std_logic;
-		 OVFL : out std_logic
+       Cin : in  std_logic;
+       S : out std_logic_vector(N_bits-1 downto 0);
+       Cout : out std_logic;
+		 Ovfl : out std_logic
     );
 end entity KoggeStone;
 
@@ -73,18 +73,18 @@ architecture rtl of KoggeStone is
 			end generate gen_bits;
 		end generate gen_levels;
 		
-		carry(0) <= CIN; --inital cin
+		carry(0) <= Cin; --inital cin
 		
 		gen_carry: for i in 1 to N_bits generate
-			carry(i) <= G_array(LEVELS)(i-1) OR (P_array(LEVELS)(i-1) AND CIN); --basically look ahead equation
+			carry(i) <= G_array(LEVELS)(i-1) OR (P_array(LEVELS)(i-1) AND Cin); --basically look ahead equation
 		end generate gen_carry;
 		
 		gen_sum: for i in 0 to N_bits-1 generate
         --sum[i] = A[i] XOR B[i] XOR Carry[i] = P[i] XOR Carry[i]
-        SUM(i) <= p(i) XOR carry(i);
+        S(i) <= p(i) XOR carry(i);
 		end generate gen_sum;
     
     --final cout
-    COUT <= carry(N_bits);
-	 OVFL <= carry(N_bits) xor carry(N_bits - 1);
+    Cout <= carry(N_bits);
+	Ovfl <= carry(N_bits) xor carry(N_bits - 1);
 end architecture rtl;

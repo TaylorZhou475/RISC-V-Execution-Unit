@@ -4,267 +4,267 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "S[0]",
+					"name" : "SUM[0]",
 					"strict" : false
 				},
 				{
-					"name" : "S[1]",
+					"name" : "SUM[1]",
 					"strict" : false
 				},
 				{
-					"name" : "S[2]",
+					"name" : "SUM[2]",
 					"strict" : false
 				},
 				{
-					"name" : "S[3]",
+					"name" : "SUM[3]",
 					"strict" : false
 				},
 				{
-					"name" : "S[4]",
+					"name" : "SUM[4]",
 					"strict" : false
 				},
 				{
-					"name" : "S[5]",
+					"name" : "SUM[5]",
 					"strict" : false
 				},
 				{
-					"name" : "S[6]",
+					"name" : "SUM[6]",
 					"strict" : false
 				},
 				{
-					"name" : "S[7]",
+					"name" : "SUM[7]",
 					"strict" : false
 				},
 				{
-					"name" : "S[8]",
+					"name" : "SUM[8]",
 					"strict" : false
 				},
 				{
-					"name" : "S[9]",
+					"name" : "SUM[9]",
 					"strict" : false
 				},
 				{
-					"name" : "S[10]",
+					"name" : "SUM[10]",
 					"strict" : false
 				},
 				{
-					"name" : "S[11]",
+					"name" : "SUM[11]",
 					"strict" : false
 				},
 				{
-					"name" : "S[12]",
+					"name" : "SUM[12]",
 					"strict" : false
 				},
 				{
-					"name" : "S[13]",
+					"name" : "SUM[13]",
 					"strict" : false
 				},
 				{
-					"name" : "S[14]",
+					"name" : "SUM[14]",
 					"strict" : false
 				},
 				{
-					"name" : "S[15]",
+					"name" : "SUM[15]",
 					"strict" : false
 				},
 				{
-					"name" : "S[16]",
+					"name" : "SUM[16]",
 					"strict" : false
 				},
 				{
-					"name" : "S[17]",
+					"name" : "SUM[17]",
 					"strict" : false
 				},
 				{
-					"name" : "S[18]",
+					"name" : "SUM[18]",
 					"strict" : false
 				},
 				{
-					"name" : "S[19]",
+					"name" : "SUM[19]",
 					"strict" : false
 				},
 				{
-					"name" : "S[20]",
+					"name" : "SUM[20]",
 					"strict" : false
 				},
 				{
-					"name" : "S[21]",
+					"name" : "SUM[21]",
 					"strict" : false
 				},
 				{
-					"name" : "S[22]",
+					"name" : "SUM[22]",
 					"strict" : false
 				},
 				{
-					"name" : "S[23]",
+					"name" : "SUM[23]",
 					"strict" : false
 				},
 				{
-					"name" : "S[24]",
+					"name" : "SUM[24]",
 					"strict" : false
 				},
 				{
-					"name" : "S[25]",
+					"name" : "SUM[25]",
 					"strict" : false
 				},
 				{
-					"name" : "S[26]",
+					"name" : "SUM[26]",
 					"strict" : false
 				},
 				{
-					"name" : "S[27]",
+					"name" : "SUM[27]",
 					"strict" : false
 				},
 				{
-					"name" : "S[28]",
+					"name" : "SUM[28]",
 					"strict" : false
 				},
 				{
-					"name" : "S[29]",
+					"name" : "SUM[29]",
 					"strict" : false
 				},
 				{
-					"name" : "S[30]",
+					"name" : "SUM[30]",
 					"strict" : false
 				},
 				{
-					"name" : "S[31]",
+					"name" : "SUM[31]",
 					"strict" : false
 				},
 				{
-					"name" : "S[32]",
+					"name" : "SUM[32]",
 					"strict" : false
 				},
 				{
-					"name" : "S[33]",
+					"name" : "SUM[33]",
 					"strict" : false
 				},
 				{
-					"name" : "S[34]",
+					"name" : "SUM[34]",
 					"strict" : false
 				},
 				{
-					"name" : "S[35]",
+					"name" : "SUM[35]",
 					"strict" : false
 				},
 				{
-					"name" : "S[36]",
+					"name" : "SUM[36]",
 					"strict" : false
 				},
 				{
-					"name" : "S[37]",
+					"name" : "SUM[37]",
 					"strict" : false
 				},
 				{
-					"name" : "S[38]",
+					"name" : "SUM[38]",
 					"strict" : false
 				},
 				{
-					"name" : "S[39]",
+					"name" : "SUM[39]",
 					"strict" : false
 				},
 				{
-					"name" : "S[40]",
+					"name" : "SUM[40]",
 					"strict" : false
 				},
 				{
-					"name" : "S[41]",
+					"name" : "SUM[41]",
 					"strict" : false
 				},
 				{
-					"name" : "S[42]",
+					"name" : "SUM[42]",
 					"strict" : false
 				},
 				{
-					"name" : "S[43]",
+					"name" : "SUM[43]",
 					"strict" : false
 				},
 				{
-					"name" : "S[44]",
+					"name" : "SUM[44]",
 					"strict" : false
 				},
 				{
-					"name" : "S[45]",
+					"name" : "SUM[45]",
 					"strict" : false
 				},
 				{
-					"name" : "S[46]",
+					"name" : "SUM[46]",
 					"strict" : false
 				},
 				{
-					"name" : "S[47]",
+					"name" : "SUM[47]",
 					"strict" : false
 				},
 				{
-					"name" : "S[48]",
+					"name" : "SUM[48]",
 					"strict" : false
 				},
 				{
-					"name" : "S[49]",
+					"name" : "SUM[49]",
 					"strict" : false
 				},
 				{
-					"name" : "S[50]",
+					"name" : "SUM[50]",
 					"strict" : false
 				},
 				{
-					"name" : "S[51]",
+					"name" : "SUM[51]",
 					"strict" : false
 				},
 				{
-					"name" : "S[52]",
+					"name" : "SUM[52]",
 					"strict" : false
 				},
 				{
-					"name" : "S[53]",
+					"name" : "SUM[53]",
 					"strict" : false
 				},
 				{
-					"name" : "S[54]",
+					"name" : "SUM[54]",
 					"strict" : false
 				},
 				{
-					"name" : "S[55]",
+					"name" : "SUM[55]",
 					"strict" : false
 				},
 				{
-					"name" : "S[56]",
+					"name" : "SUM[56]",
 					"strict" : false
 				},
 				{
-					"name" : "S[57]",
+					"name" : "SUM[57]",
 					"strict" : false
 				},
 				{
-					"name" : "S[58]",
+					"name" : "SUM[58]",
 					"strict" : false
 				},
 				{
-					"name" : "S[59]",
+					"name" : "SUM[59]",
 					"strict" : false
 				},
 				{
-					"name" : "S[60]",
+					"name" : "SUM[60]",
 					"strict" : false
 				},
 				{
-					"name" : "S[61]",
+					"name" : "SUM[61]",
 					"strict" : false
 				},
 				{
-					"name" : "S[62]",
+					"name" : "SUM[62]",
 					"strict" : false
 				},
 				{
-					"name" : "S[63]",
+					"name" : "SUM[63]",
 					"strict" : false
 				},
 				{
-					"name" : "Cout",
+					"name" : "COUT",
 					"strict" : false
 				},
 				{
-					"name" : "Ovfl",
+					"name" : "OVFL",
 					"strict" : false
 				},
 				{
@@ -276,15 +276,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "Cin",
-					"strict" : false
-				},
-				{
-					"name" : "B[1]",
+					"name" : "CIN",
 					"strict" : false
 				},
 				{
 					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B[1]",
 					"strict" : false
 				},
 				{
