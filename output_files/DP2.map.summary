@@ -1,7 +1,7 @@
-Analysis & Synthesis Status : Successful - Sat Nov 15 14:45:29 2025
-Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Sun Nov 16 12:12:05 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 Revision Name : DP2
-Top-level Entity Name : KoggeStone
+Top-level Entity Name : LadnerFischer
 Family : Cyclone IV E
 Total logic elements : 574
     Total combinational functions : 574

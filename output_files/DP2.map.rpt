@@ -1,6 +1,6 @@
 Analysis & Synthesis report for DP2
-Sat Nov 15 14:45:29 2025
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Sun Nov 16 12:12:05 2025
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
 ---------------------
@@ -14,7 +14,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: Top-level Entity: |KoggeStone
+  9. Parameter Settings for User Entity Instance: Top-level Entity: |LadnerFischer
  10. Post-Synthesis Netlist Statistics for Top Partition
  11. Elapsed Time Per Partition
  12. Analysis & Synthesis Messages
@@ -24,7 +24,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2024  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -41,24 +41,24 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
-+------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Nov 15 14:45:29 2025       ;
-; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
-; Revision Name                      ; DP2                                         ;
-; Top-level Entity Name              ; KoggeStone                                  ;
-; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 574                                         ;
-;     Total combinational functions  ; 574                                         ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 195                                         ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total PLLs                         ; 0                                           ;
-+------------------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sun Nov 16 12:12:05 2025          ;
+; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
+; Revision Name                      ; DP2                                            ;
+; Top-level Entity Name              ; LadnerFischer                                  ;
+; Family                             ; Cyclone IV E                                   ;
+; Total logic elements               ; 574                                            ;
+;     Total combinational functions  ; 574                                            ;
+;     Dedicated logic registers      ; 0                                              ;
+; Total registers                    ; 0                                              ;
+; Total pins                         ; 195                                            ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------+
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; EP4CE115F29C7      ;                    ;
-; Top-level entity name                                            ; KoggeStone         ; DP2                ;
+; Top-level entity name                                            ; LadnerFischer      ; DP2                ;
 ; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -152,8 +152,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -163,54 +163,54 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                              ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                       ; Library ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; SourceCode/KoggeStone.vhd        ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/KoggeStone.vhd ;         ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                    ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                             ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
+; SourceCode/LadnerFischer.vhd     ; yes             ; User VHDL File  ; C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/LadnerFischer.vhd ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 574         ;
-;                                             ;             ;
-; Total combinational functions               ; 574         ;
-; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 410         ;
-;     -- 3 input functions                    ; 116         ;
-;     -- <=2 input functions                  ; 48          ;
-;                                             ;             ;
-; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 574         ;
-;     -- arithmetic mode                      ; 0           ;
-;                                             ;             ;
-; Total registers                             ; 0           ;
-;     -- Dedicated logic registers            ; 0           ;
-;     -- I/O registers                        ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 195         ;
-;                                             ;             ;
-; Embedded Multiplier 9-bit elements          ; 0           ;
-;                                             ;             ;
-; Maximum fan-out node                        ; G_array~100 ;
-; Maximum fan-out                             ; 11          ;
-; Total fan-out                               ; 2345        ;
-; Average fan-out                             ; 2.43        ;
-+---------------------------------------------+-------------+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimated Total logic elements              ; 574          ;
+;                                             ;              ;
+; Total combinational functions               ; 574          ;
+; Logic element usage by number of LUT inputs ;              ;
+;     -- 4 input functions                    ; 410          ;
+;     -- 3 input functions                    ; 116          ;
+;     -- <=2 input functions                  ; 48           ;
+;                                             ;              ;
+; Logic elements by mode                      ;              ;
+;     -- normal mode                          ; 574          ;
+;     -- arithmetic mode                      ; 0            ;
+;                                             ;              ;
+; Total registers                             ; 0            ;
+;     -- Dedicated logic registers            ; 0            ;
+;     -- I/O registers                        ; 0            ;
+;                                             ;              ;
+; I/O pins                                    ; 195          ;
+;                                             ;              ;
+; Embedded Multiplier 9-bit elements          ; 0            ;
+;                                             ;              ;
+; Maximum fan-out node                        ; pg_levels~33 ;
+; Maximum fan-out                             ; 11           ;
+; Total fan-out                               ; 2345         ;
+; Average fan-out                             ; 2.43         ;
++---------------------------------------------+--------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |KoggeStone                ; 574 (574)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 195  ; 0            ; |KoggeStone         ; KoggeStone  ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                        ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+---------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name   ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+---------------+--------------+
+; |LadnerFischer             ; 574 (574)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 195  ; 0            ; |LadnerFischer      ; LadnerFischer ; work         ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+---------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -229,13 +229,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |KoggeStone ;
-+----------------+-------+---------------------------------------------------+
-; Parameter Name ; Value ; Type                                              ;
-+----------------+-------+---------------------------------------------------+
-; N_bits         ; 64    ; Signed Integer                                    ;
-+----------------+-------+---------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |LadnerFischer ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; N              ; 64    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -261,7 +261,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:06     ;
 +----------------+--------------+
 
 
@@ -270,30 +270,34 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Nov 15 14:45:15 2025
+    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+    Info: Processing started: Sun Nov 16 12:11:39 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DP2 -c DP2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/ladnerfischer.vhd
+    Info (12022): Found design unit 1: LadnerFischer-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/LadnerFischer.vhd Line: 22
+    Info (12023): Found entity 1: LadnerFischer File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/LadnerFischer.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/ripplecarry.vhd
-    Info (12022): Found design unit 1: RippleCarry-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/RippleCarry.vhd Line: 21
-    Info (12023): Found entity 1: RippleCarry File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/RippleCarry.vhd Line: 5
+    Info (12022): Found design unit 1: RippleCarry-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/RippleCarry.vhd Line: 21
+    Info (12023): Found entity 1: RippleCarry File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/RippleCarry.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/fulladder.vhd
-    Info (12022): Found design unit 1: FullAdder-structural File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/FullAdder.vhd Line: 15
-    Info (12023): Found entity 1: FullAdder File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/FullAdder.vhd Line: 5
+    Info (12022): Found design unit 1: FullAdder-structural File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/FullAdder.vhd Line: 15
+    Info (12023): Found entity 1: FullAdder File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/FullAdder.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/conditionalsum.vhd
-    Info (12022): Found design unit 1: ConditionalSum-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/ConditionalSum.vhd Line: 20
-    Info (12023): Found entity 1: ConditionalSum File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/ConditionalSum.vhd Line: 5
+    Info (12022): Found design unit 1: ConditionalSum-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/ConditionalSum.vhd Line: 19
+    Info (12023): Found entity 1: ConditionalSum File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/ConditionalSum.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/brentkung.vhd
-    Info (12022): Found design unit 1: BrentKung-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/BrentKung.vhd Line: 18
-    Info (12023): Found entity 1: BrentKung File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/BrentKung.vhd Line: 6
+    Info (12022): Found design unit 1: BrentKung-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/BrentKung.vhd Line: 18
+    Info (12023): Found entity 1: BrentKung File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/BrentKung.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/koggestone.vhd
-    Info (12022): Found design unit 1: KoggeStone-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/KoggeStone.vhd Line: 23
-    Info (12023): Found entity 1: KoggeStone File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/KoggeStone.vhd Line: 10
+    Info (12022): Found design unit 1: KoggeStone-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/KoggeStone.vhd Line: 23
+    Info (12023): Found entity 1: KoggeStone File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/KoggeStone.vhd Line: 10
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/brentkunggenerator.vhd
-    Info (12022): Found design unit 1: BrentKungGenerator-Logic File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/BrentKungGenerator.vhd Line: 18
-    Info (12023): Found entity 1: BrentKungGenerator File: C:/Users/micha/OneDrive/Documents/GitHub/DP-2.1-Timing-Analysis-of-Adder-Implementations/SourceCode/BrentKungGenerator.vhd Line: 5
-Info (12127): Elaborating entity "KoggeStone" for the top level hierarchy
+    Info (12022): Found design unit 1: BrentKungGenerator-Logic File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/BrentKungGenerator.vhd Line: 18
+    Info (12023): Found entity 1: BrentKungGenerator File: C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/SourceCode/BrentKungGenerator.vhd Line: 5
+Info (12127): Elaborating entity "LadnerFischer" for the top level hierarchy
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "pg_levels" into its bus
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -302,9 +306,9 @@ Info (21057): Implemented 769 device resources after synthesis - the final resou
     Info (21059): Implemented 66 output pins
     Info (21061): Implemented 574 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4796 megabytes
-    Info: Processing ended: Sat Nov 15 14:45:29 2025
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Peak virtual memory: 4844 megabytes
+    Info: Processing ended: Sun Nov 16 12:12:05 2025
+    Info: Elapsed time: 00:00:26
+    Info: Total CPU time (on all processors): 00:00:37
 
 

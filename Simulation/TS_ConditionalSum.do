@@ -3,9 +3,8 @@
 #End any existing simulation
 quit -sim
 
-
 # Start transcript
-transcript file "../Documentation/OutputFiles/TS_LadnerFischer.log"
+transcript file "../Documentation/OutputFiles/TS_ConditionalSum.log"
 transcript off
 
 #Deletes the old work library and recreates a work library
@@ -14,17 +13,17 @@ vlib work
 vmap work work
 
 #Compile vho file
-vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/LadnerFischer.vho
+vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/ConditionalSum.vho
 
 #Compile testbench
 vcom -work work -2008 -quiet -stats=none ../Simulation/AdderTB.vhd
 
 #Compile configuration (binds structure)
-vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigLadnerFischer.vhd
+vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigConditionalSum.vhd
 
 
 #Starts the simulation with the right configuration
-vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/LadnerFischer.sdo work.ConfigLFA_structure
+vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/ConditionalSum.sdo work.ConfigCSA_structure
 
 
 #Setup the wave window

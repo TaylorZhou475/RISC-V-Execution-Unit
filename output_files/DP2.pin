@@ -1,4 +1,4 @@
- -- Copyright (C) 2020  Intel Corporation. All rights reserved.
+ -- Copyright (C) 2024  Intel Corporation. All rights reserved.
  -- Your use of Intel Corporation's design tools, logic functions 
  -- and other software and tools, and any partner logic 
  -- functions, and any output files from any of the foregoing 
@@ -64,7 +64,7 @@
  -- Pin directions (input, output or bidir) are based on device operating in user mode.
  ---------------------------------------------------------------------------------
 
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 CHIP  "DP2"  ASSIGNED TO AN: EP4CE115F29C7
 
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
@@ -74,12 +74,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : A3        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : A4        :        :                   :         : 8         :                
 VCCIO8                       : A5        : power  :                   : 2.5V    : 8         :                
 A[63]                        : A6        : input  : 2.5 V             :         : 8         : N              
-SUM[43]                      : A7        : output : 2.5 V             :         : 8         : N              
+S[43]                        : A7        : output : 2.5 V             :         : 8         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8         :                
 VCCIO8                       : A9        : power  :                   : 2.5V    : 8         :                
 B[57]                        : A10       : input  : 2.5 V             :         : 8         : N              
-SUM[52]                      : A11       : output : 2.5 V             :         : 8         : N              
-SUM[50]                      : A12       : output : 2.5 V             :         : 8         : N              
+S[52]                        : A11       : output : 2.5 V             :         : 8         : N              
+S[50]                        : A12       : output : 2.5 V             :         : 8         : N              
 VCCIO8                       : A13       : power  :                   : 2.5V    : 8         :                
 GND+                         : A14       :        :                   :         : 8         :                
 GND+                         : A15       :        :                   :         : 7         :                
@@ -88,8 +88,8 @@ A[60]                        : A17       : input  : 2.5 V             :         
 A[54]                        : A18       : input  : 2.5 V             :         : 7         : N              
 B[34]                        : A19       : input  : 2.5 V             :         : 7         : N              
 VCCIO7                       : A20       : power  :                   : 2.5V    : 7         :                
-SUM[21]                      : A21       : output : 2.5 V             :         : 7         : N              
-SUM[27]                      : A22       : output : 2.5 V             :         : 7         : N              
+S[21]                        : A21       : output : 2.5 V             :         : 7         : N              
+S[27]                        : A22       : output : 2.5 V             :         : 7         : N              
 A[28]                        : A23       : input  : 2.5 V             :         : 7         : N              
 VCCIO7                       : A24       : power  :                   : 2.5V    : 7         :                
 A[35]                        : A25       : input  : 2.5 V             :         : 7         : N              
@@ -227,7 +227,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AE17      :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE18      :        :                   :         : 4         :                
 B[11]                        : AE19      : input  : 2.5 V             :         : 4         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE20      :        :                   :         : 4         :                
-SUM[1]                       : AE21      : output : 2.5 V             :         : 4         : N              
+S[1]                         : AE21      : output : 2.5 V             :         : 4         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE22      :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE23      :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE24      :        :                   :         : 4         :                
@@ -323,11 +323,11 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : B4        :        :                   :         : 8         :                
 GND                          : B5        : gnd    :                   :         :           :                
 B[52]                        : B6        : input  : 2.5 V             :         : 8         : N              
-SUM[49]                      : B7        : output : 2.5 V             :         : 8         : N              
+S[49]                        : B7        : output : 2.5 V             :         : 8         : N              
 A[47]                        : B8        : input  : 2.5 V             :         : 8         : N              
 GND                          : B9        : gnd    :                   :         :           :                
-SUM[60]                      : B10       : output : 2.5 V             :         : 8         : N              
-SUM[45]                      : B11       : output : 2.5 V             :         : 8         : N              
+S[60]                        : B10       : output : 2.5 V             :         : 8         : N              
+S[45]                        : B11       : output : 2.5 V             :         : 8         : N              
 GND                          : B12       : gnd    :                   :         :           :                
 GND                          : B13       : gnd    :                   :         :           :                
 GND+                         : B14       :        :                   :         : 8         :                
@@ -335,13 +335,13 @@ GND+                         : B15       :        :                   :         
 GND                          : B16       : gnd    :                   :         :           :                
 A[56]                        : B17       : input  : 2.5 V             :         : 7         : N              
 A[53]                        : B18       : input  : 2.5 V             :         : 7         : N              
-SUM[56]                      : B19       : output : 2.5 V             :         : 7         : N              
+S[56]                        : B19       : output : 2.5 V             :         : 7         : N              
 GND                          : B20       : gnd    :                   :         :           :                
 A[27]                        : B21       : input  : 2.5 V             :         : 7         : N              
 B[22]                        : B22       : input  : 2.5 V             :         : 7         : N              
-SUM[30]                      : B23       : output : 2.5 V             :         : 7         : N              
+S[30]                        : B23       : output : 2.5 V             :         : 7         : N              
 GND                          : B24       : gnd    :                   :         :           :                
-SUM[37]                      : B25       : output : 2.5 V             :         : 7         : N              
+S[37]                        : B25       : output : 2.5 V             :         : 7         : N              
 B[13]                        : B26       : input  : 2.5 V             :         : 7         : N              
 GND                          : B27       : gnd    :                   :         :           :                
 VCCIO6                       : B28       : power  :                   : 2.5V    : 6         :                
@@ -355,22 +355,22 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : C7        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8         :                
 B[41]                        : C9        : input  : 2.5 V             :         : 8         : N              
 B[58]                        : C10       : input  : 2.5 V             :         : 8         : N              
-SUM[51]                      : C11       : output : 2.5 V             :         : 8         : N              
-SUM[36]                      : C12       : output : 2.5 V             :         : 8         : N              
-SUM[59]                      : C13       : output : 2.5 V             :         : 8         : N              
-SUM[33]                      : C14       : output : 2.5 V             :         : 8         : N              
-SUM[58]                      : C15       : output : 2.5 V             :         : 7         : N              
+S[51]                        : C11       : output : 2.5 V             :         : 8         : N              
+S[36]                        : C12       : output : 2.5 V             :         : 8         : N              
+S[59]                        : C13       : output : 2.5 V             :         : 8         : N              
+S[33]                        : C14       : output : 2.5 V             :         : 8         : N              
+S[58]                        : C15       : output : 2.5 V             :         : 7         : N              
 A[62]                        : C16       : input  : 2.5 V             :         : 7         : N              
 B[35]                        : C17       : input  : 2.5 V             :         : 7         : N              
-SUM[34]                      : C18       : output : 2.5 V             :         : 7         : N              
+S[34]                        : C18       : output : 2.5 V             :         : 7         : N              
 A[29]                        : C19       : input  : 2.5 V             :         : 7         : N              
 B[15]                        : C20       : input  : 2.5 V             :         : 7         : N              
 B[8]                         : C21       : input  : 2.5 V             :         : 7         : N              
-SUM[13]                      : C22       : output : 2.5 V             :         : 7         : N              
-SUM[44]                      : C23       : output : 2.5 V             :         : 7         : N              
+S[13]                        : C22       : output : 2.5 V             :         : 7         : N              
+S[44]                        : C23       : output : 2.5 V             :         : 7         : N              
 A[5]                         : C24       : input  : 2.5 V             :         : 7         : N              
 A[14]                        : C25       : input  : 2.5 V             :         : 7         : N              
-SUM[16]                      : C26       : output : 2.5 V             :         : 7         : N              
+S[16]                        : C26       : output : 2.5 V             :         : 7         : N              
 A[25]                        : C27       : input  : 2.5 V             :         : 6         : N              
 GND                          : C28       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D1        :        :                   :         : 1         :                
@@ -386,7 +386,7 @@ B[44]                        : D10       : input  : 2.5 V             :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : D11       :        :                   :         : 8         :                
 A[57]                        : D12       : input  : 2.5 V             :         : 8         : N              
 A[58]                        : D13       : input  : 2.5 V             :         : 8         : N              
-SUM[46]                      : D14       : output : 2.5 V             :         : 8         : N              
+S[46]                        : D14       : output : 2.5 V             :         : 8         : N              
 B[59]                        : D15       : input  : 2.5 V             :         : 7         : N              
 A[59]                        : D16       : input  : 2.5 V             :         : 7         : N              
 B[49]                        : D17       : input  : 2.5 V             :         : 7         : N              
@@ -396,18 +396,18 @@ A[51]                        : D20       : input  : 2.5 V             :         
 A[49]                        : D21       : input  : 2.5 V             :         : 7         : N              
 A[21]                        : D22       : input  : 2.5 V             :         : 7         : N              
 A[22]                        : D23       : input  : 2.5 V             :         : 7         : N              
-SUM[32]                      : D24       : output : 2.5 V             :         : 7         : N              
+S[32]                        : D24       : output : 2.5 V             :         : 7         : N              
 B[32]                        : D25       : input  : 2.5 V             :         : 7         : N              
 B[27]                        : D26       : input  : 2.5 V             :         : 6         : N              
-SUM[31]                      : D27       : output : 2.5 V             :         : 6         : N              
-SUM[57]                      : D28       : output : 2.5 V             :         : 6         : N              
+S[31]                        : D27       : output : 2.5 V             :         : 6         : N              
+S[57]                        : D28       : output : 2.5 V             :         : 6         : N              
 A[43]                        : E1        : input  : 2.5 V             :         : 1         : N              
 ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E5        :        :                   :         : 8         :                
 VCCIO8                       : E6        : power  :                   : 2.5V    : 8         :                
-SUM[54]                      : E7        : output : 2.5 V             :         : 8         : N              
+S[54]                        : E7        : output : 2.5 V             :         : 8         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E8        :        :                   :         : 8         :                
 VCCIO8                       : E9        : power  :                   : 2.5V    : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 8         :                
@@ -424,7 +424,7 @@ VCCIO7                       : E20       : power  :                   : 2.5V    
 A[15]                        : E21       : input  : 2.5 V             :         : 7         : N              
 A[38]                        : E22       : input  : 2.5 V             :         : 7         : N              
 VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
-SUM[47]                      : E24       : output : 2.5 V             :         : 7         : N              
+S[47]                        : E24       : output : 2.5 V             :         : 7         : N              
 B[31]                        : E25       : input  : 2.5 V             :         : 7         : N              
 B[17]                        : E26       : input  : 2.5 V             :         : 6         : N              
 A[16]                        : E27       : input  : 2.5 V             :         : 6         : N              
@@ -438,25 +438,25 @@ GND                          : F6        : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : F7        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F8        :        :                   :         : 8         :                
 GND                          : F9        : gnd    :                   :         :           :                
-SUM[40]                      : F10       : output : 2.5 V             :         : 8         : N              
-SUM[53]                      : F11       : output : 2.5 V             :         : 8         : N              
+S[40]                        : F10       : output : 2.5 V             :         : 8         : N              
+S[53]                        : F11       : output : 2.5 V             :         : 8         : N              
 A[48]                        : F12       : input  : 2.5 V             :         : 8         : N              
 GND                          : F13       : gnd    :                   :         :           :                
 B[60]                        : F14       : input  : 2.5 V             :         : 8         : N              
 B[62]                        : F15       : input  : 2.5 V             :         : 7         : N              
 GND                          : F16       : gnd    :                   :         :           :                
 B[43]                        : F17       : input  : 2.5 V             :         : 7         : N              
-SUM[26]                      : F18       : output : 2.5 V             :         : 7         : N              
+S[26]                        : F18       : output : 2.5 V             :         : 7         : N              
 A[23]                        : F19       : input  : 2.5 V             :         : 7         : N              
 GND                          : F20       : gnd    :                   :         :           :                
 B[20]                        : F21       : input  : 2.5 V             :         : 7         : N              
 A[20]                        : F22       : input  : 2.5 V             :         : 7         : N              
 GND                          : F23       : gnd    :                   :         :           :                
-SUM[35]                      : F24       : output : 2.5 V             :         : 6         : N              
+S[35]                        : F24       : output : 2.5 V             :         : 6         : N              
 B[28]                        : F25       : input  : 2.5 V             :         : 6         : N              
 A[33]                        : F26       : input  : 2.5 V             :         : 6         : N              
 A[9]                         : F27       : input  : 2.5 V             :         : 6         : N              
-SUM[10]                      : F28       : output : 2.5 V             :         : 6         : N              
+S[10]                        : F28       : output : 2.5 V             :         : 6         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G1        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G2        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G3        :        :                   :         : 1         :                
@@ -468,18 +468,18 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : G9        :        :                   :         : 8         :                
 A[46]                        : G10       : input  : 2.5 V             :         : 8         : N              
 A[40]                        : G11       : input  : 2.5 V             :         : 8         : N              
-SUM[39]                      : G12       : output : 2.5 V             :         : 8         : N              
+S[39]                        : G12       : output : 2.5 V             :         : 8         : N              
 A[61]                        : G13       : input  : 2.5 V             :         : 8         : N              
 B[39]                        : G14       : input  : 2.5 V             :         : 8         : N              
-SUM[61]                      : G15       : output : 2.5 V             :         : 7         : N              
-SUM[48]                      : G16       : output : 2.5 V             :         : 7         : N              
-SUM[38]                      : G17       : output : 2.5 V             :         : 7         : N              
-OVFL                         : G18       : output : 2.5 V             :         : 7         : N              
+S[61]                        : G15       : output : 2.5 V             :         : 7         : N              
+S[48]                        : G16       : output : 2.5 V             :         : 7         : N              
+S[38]                        : G17       : output : 2.5 V             :         : 7         : N              
+Ovfl                         : G18       : output : 2.5 V             :         : 7         : N              
 B[47]                        : G19       : input  : 2.5 V             :         : 7         : N              
 B[54]                        : G20       : input  : 2.5 V             :         : 7         : N              
 B[53]                        : G21       : input  : 2.5 V             :         : 7         : N              
 B[48]                        : G22       : input  : 2.5 V             :         : 7         : N              
-SUM[29]                      : G23       : output : 2.5 V             :         : 6         : N              
+S[29]                        : G23       : output : 2.5 V             :         : 6         : N              
 B[21]                        : G24       : input  : 2.5 V             :         : 6         : N              
 B[25]                        : G25       : input  : 2.5 V             :         : 6         : N              
 B[29]                        : G26       : input  : 2.5 V             :         : 6         : N              
@@ -501,16 +501,16 @@ B[42]                        : H13       : input  : 2.5 V             :         
 B[55]                        : H14       : input  : 2.5 V             :         : 8         : N              
 B[40]                        : H15       : input  : 2.5 V             :         : 7         : N              
 A[44]                        : H16       : input  : 2.5 V             :         : 7         : N              
-SUM[63]                      : H17       : output : 2.5 V             :         : 7         : N              
+S[63]                        : H17       : output : 2.5 V             :         : 7         : N              
 VCCIO7                       : H18       : power  :                   : 2.5V    : 7         :                
 A[50]                        : H19       : input  : 2.5 V             :         : 7         : N              
 GNDA2                        : H20       : gnd    :                   :         :           :                
 A[39]                        : H21       : input  : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
-SUM[28]                      : H23       : output : 2.5 V             :         : 6         : N              
+S[28]                        : H23       : output : 2.5 V             :         : 6         : N              
 A[26]                        : H24       : input  : 2.5 V             :         : 6         : N              
-SUM[4]                       : H25       : output : 2.5 V             :         : 6         : N              
-SUM[23]                      : H26       : output : 2.5 V             :         : 6         : N              
+S[4]                         : H25       : output : 2.5 V             :         : 6         : N              
+S[23]                        : H26       : output : 2.5 V             :         : 6         : N              
 GND                          : H27       : gnd    :                   :         :           :                
 VCCIO6                       : H28       : power  :                   : 2.5V    : 6         :                
 GND+                         : J1        :        :                   :         : 1         :                
@@ -524,21 +524,21 @@ VCCA3                        : J8        : power  :                   : 2.5V    
 VCCD_PLL3                    : J9        : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J10       :        :                   :         : 8         :                
 GND                          : J11       : gnd    :                   :         :           :                
-SUM[42]                      : J12       : output : 2.5 V             :         : 8         : N              
-SUM[62]                      : J13       : output : 2.5 V             :         : 8         : N              
+S[42]                        : J12       : output : 2.5 V             :         : 8         : N              
+S[62]                        : J13       : output : 2.5 V             :         : 8         : N              
 B[56]                        : J14       : input  : 2.5 V             :         : 8         : N              
 A[41]                        : J15       : input  : 2.5 V             :         : 7         : N              
 B[45]                        : J16       : input  : 2.5 V             :         : 7         : N              
 B[51]                        : J17       : input  : 2.5 V             :         : 7         : N              
 GND                          : J18       : gnd    :                   :         :           :                
-COUT                         : J19       : output : 2.5 V             :         : 7         : N              
+Cout                         : J19       : output : 2.5 V             :         : 7         : N              
 VCCD_PLL2                    : J20       : power  :                   : 1.2V    :           :                
 VCCA2                        : J21       : power  :                   : 2.5V    :           :                
-SUM[25]                      : J22       : output : 2.5 V             :         : 6         : N              
+S[25]                        : J22       : output : 2.5 V             :         : 6         : N              
 A[24]                        : J23       : input  : 2.5 V             :         : 6         : N              
 A[32]                        : J24       : input  : 2.5 V             :         : 6         : N              
 B[2]                         : J25       : input  : 2.5 V             :         : 6         : N              
-SUM[3]                       : J26       : output : 2.5 V             :         : 6         : N              
+S[3]                         : J26       : output : 2.5 V             :         : 6         : N              
 GND+                         : J27       :        :                   :         : 6         :                
 GND+                         : J28       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K1        :        :                   :         : 1         :                
@@ -561,11 +561,11 @@ VCCINT                       : K17       : power  :                   : 1.2V    
 GND                          : K18       : gnd    :                   :         :           :                
 VCCINT                       : K19       : power  :                   : 1.2V    :           :                
 GND                          : K20       : gnd    :                   :         :           :                
-SUM[22]                      : K21       : output : 2.5 V             :         : 6         : N              
-SUM[41]                      : K22       : output : 2.5 V             :         : 6         : N              
+S[22]                        : K21       : output : 2.5 V             :         : 6         : N              
+S[41]                        : K22       : output : 2.5 V             :         : 6         : N              
 GND                          : K23       : gnd    :                   :         :           :                
 VCCIO6                       : K24       : power  :                   : 2.5V    : 6         :                
-SUM[18]                      : K25       : output : 2.5 V             :         : 6         : N              
+S[18]                        : K25       : output : 2.5 V             :         : 6         : N              
 A[12]                        : K26       : input  : 2.5 V             :         : 6         : N              
 B[12]                        : K27       : input  : 2.5 V             :         : 6         : N              
 B[3]                         : K28       : input  : 2.5 V             :         : 6         : N              
@@ -589,13 +589,13 @@ GND                          : L17       : gnd    :                   :         
 VCCINT                       : L18       : power  :                   : 1.2V    :           :                
 GND                          : L19       : gnd    :                   :         :           :                
 VCCINT                       : L20       : power  :                   : 1.2V    :           :                
-SUM[17]                      : L21       : output : 2.5 V             :         : 6         : N              
-SUM[24]                      : L22       : output : 2.5 V             :         : 6         : N              
+S[17]                        : L21       : output : 2.5 V             :         : 6         : N              
+S[24]                        : L22       : output : 2.5 V             :         : 6         : N              
 B[1]                         : L23       : input  : 2.5 V             :         : 6         : N              
 B[5]                         : L24       : input  : 2.5 V             :         : 6         : N              
-SUM[7]                       : L25       : output : 2.5 V             :         : 6         : N              
-SUM[19]                      : L26       : output : 2.5 V             :         : 6         : N              
-SUM[15]                      : L27       : output : 2.5 V             :         : 6         : N              
+S[7]                         : L25       : output : 2.5 V             :         : 6         : N              
+S[19]                        : L26       : output : 2.5 V             :         : 6         : N              
+S[15]                        : L27       : output : 2.5 V             :         : 6         : N              
 A[13]                        : L28       : input  : 2.5 V             :         : 6         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : M1        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M2        :        :                   :         : 1         :                
@@ -617,10 +617,10 @@ VCCINT                       : M17       : power  :                   : 1.2V    
 GND                          : M18       : gnd    :                   :         :           :                
 VCCINT                       : M19       : power  :                   : 1.2V    :           :                
 GND                          : M20       : gnd    :                   :         :           :                
-SUM[0]                       : M21       : output : 2.5 V             :         : 6         : N              
+S[0]                         : M21       : output : 2.5 V             :         : 6         : N              
 MSEL2                        : M22       :        :                   :         : 6         :                
 A[10]                        : M23       : input  : 2.5 V             :         : 6         : N              
-SUM[9]                       : M24       : output : 2.5 V             :         : 6         : N              
+S[9]                         : M24       : output : 2.5 V             :         : 6         : N              
 B[6]                         : M25       : input  : 2.5 V             :         : 6         : N              
 A[3]                         : M26       : input  : 2.5 V             :         : 6         : N              
 A[0]                         : M27       : input  : 2.5 V             :         : 6         : N              
@@ -677,7 +677,7 @@ B[18]                        : P21       : input  : 2.5 V             :         
 MSEL3                        : P22       :        :                   :         : 6         :                
 MSEL1                        : P23       :        :                   :         : 6         :                
 CONF_DONE                    : P24       :        :                   :         : 6         :                
-SUM[14]                      : P25       : output : 2.5 V             :         : 6         : N              
+S[14]                        : P25       : output : 2.5 V             :         : 6         : N              
 B[19]                        : P26       : input  : 2.5 V             :         : 6         : N              
 A[2]                         : P27       : input  : 2.5 V             :         : 6         : N              
 ~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : P28       : output : 2.5 V             :         : 6         : N              
@@ -701,13 +701,13 @@ GND                          : R17       : gnd    :                   :         
 VCCINT                       : R18       : power  :                   : 1.2V    :           :                
 GND                          : R19       : gnd    :                   :         :           :                
 VCCINT                       : R20       : power  :                   : 1.2V    :           :                
-SUM[2]                       : R21       : output : 2.5 V             :         : 5         : N              
+S[2]                         : R21       : output : 2.5 V             :         : 5         : N              
 B[10]                        : R22       : input  : 2.5 V             :         : 5         : N              
-SUM[12]                      : R23       : output : 2.5 V             :         : 5         : N              
-SUM[20]                      : R24       : output : 2.5 V             :         : 5         : N              
+S[12]                        : R23       : output : 2.5 V             :         : 5         : N              
+S[20]                        : R24       : output : 2.5 V             :         : 5         : N              
 A[4]                         : R25       : input  : 2.5 V             :         : 5         : N              
-SUM[6]                       : R26       : output : 2.5 V             :         : 5         : N              
-SUM[8]                       : R27       : output : 2.5 V             :         : 5         : N              
+S[6]                         : R26       : output : 2.5 V             :         : 5         : N              
+S[8]                         : R27       : output : 2.5 V             :         : 5         : N              
 A[8]                         : R28       : input  : 2.5 V             :         : 5         : N              
 VCCIO2                       : T1        : power  :                   : 2.5V    : 2         :                
 GND                          : T2        : gnd    :                   :         :           :                
@@ -730,7 +730,7 @@ GND                          : T18       : gnd    :                   :         
 VCCINT                       : T19       : power  :                   : 1.2V    :           :                
 GND                          : T20       : gnd    :                   :         :           :                
 A[17]                        : T21       : input  : 2.5 V             :         : 5         : N              
-SUM[5]                       : T22       : output : 2.5 V             :         : 5         : N              
+S[5]                         : T22       : output : 2.5 V             :         : 5         : N              
 GND                          : T23       : gnd    :                   :         :           :                
 VCCIO5                       : T24       : power  :                   : 2.5V    : 5         :                
 B[0]                         : T25       : input  : 2.5 V             :         : 5         : N              
@@ -757,7 +757,7 @@ GND                          : U17       : gnd    :                   :         
 VCCINT                       : U18       : power  :                   : 1.2V    :           :                
 GND                          : U19       : gnd    :                   :         :           :                
 VCCINT                       : U20       : power  :                   : 1.2V    :           :                
-CIN                          : U21       : input  : 2.5 V             :         : 5         : N              
+Cin                          : U21       : input  : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : U22       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U23       :        :                   :         : 5         :                
 A[37]                        : U24       : input  : 2.5 V             :         : 5         : N              
@@ -785,7 +785,7 @@ VCCINT                       : V17       : power  :                   : 1.2V    
 GND                          : V18       : gnd    :                   :         :           :                
 VCCINT                       : V19       : power  :                   : 1.2V    :           :                
 GND                          : V20       : gnd    :                   :         :           :                
-SUM[11]                      : V21       : output : 2.5 V             :         : 5         : N              
+S[11]                        : V21       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V22       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V23       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V24       :        :                   :         : 5         :                
@@ -842,7 +842,7 @@ GND                          : Y18       : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y19       :        :                   :         : 4         :                
 VCCD_PLL4                    : Y20       : power  :                   : 1.2V    :           :                
 VCCA4                        : Y21       : power  :                   : 2.5V    :           :                
-SUM[55]                      : Y22       : output : 2.5 V             :         : 5         : N              
+S[55]                        : Y22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y23       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y24       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y25       :        :                   :         : 5         :                

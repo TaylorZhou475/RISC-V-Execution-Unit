@@ -1,10 +1,136 @@
-# End time: 13:59:10 on Nov 15,2025, Elapsed time: 0:01:41
-# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/Simulation/DP2.mpf
+# ** Error: (vcom-11) Could not find work.ladnerfischer.
+# ** Error (suppressible): ../SourceCode/ConfigAdder.vhd(58): (vcom-1195) Cannot find expanded name "work.LadnerFischer".
+# ** Error: ../SourceCode/ConfigAdder.vhd(58): (vcom-1105) Name (indexed name) does not denote an entity name.
+# ** Error: ../SourceCode/ConfigAdder.vhd(58): Unknown expanded name.
+# ** Note: ../SourceCode/ConfigAdder.vhd(61): VHDL Compiler exiting
+# ** Error: C:/Users/taylo/OneDrive/Desktop/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Ts_BrentKung.do line 22
+# C:/Users/taylo/OneDrive/Desktop/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigAdder.vhd"
+do Ts_BrentKung.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/Simulation/DP2.mpf
+# ** Error: ../SourceCode/ConfigAdder.vhd(28): near "CONFIGURATIONS": syntax error
+# ** Error: C:/Users/taylo/OneDrive/Desktop/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Ts_BrentKung.do line 22
+# C:/Users/taylo/OneDrive/Desktop/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigAdder.vhd"
+do Ts_BrentKung.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/Simulation/DP2.mpf
+# ** Error: (vcom-11) Could not find work.koggestone.
+# ** Error (suppressible): ../SourceCode/ConfigAdder.vhd(35): (vcom-1195) Cannot find expanded name "work.KoggeStone".
+# ** Error: ../SourceCode/ConfigAdder.vhd(35): (vcom-1105) Name (indexed name) does not denote an entity name.
+# ** Error: ../SourceCode/ConfigAdder.vhd(35): Unknown expanded name.
+# ** Note: ../SourceCode/ConfigAdder.vhd(38): VHDL Compiler exiting
+# ** Error: C:/Users/taylo/OneDrive/Desktop/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Ts_BrentKung.do line 22
+# C:/Users/taylo/OneDrive/Desktop/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigAdder.vhd"
+--------------------------------------------------------------
+# invalid command name "--------------------------------------------------------------"
+---- CONFIGURATIONS FOR BKA ADDER
+# invalid command name "----"
+--------------------------------------------------------------
+# invalid command name "--------------------------------------------------------------"
+
+--For functional verification of BKA
+# invalid command name "--For"
+CONFIGURATION ConfigBKA_rtl OF AdderTB IS
+# invalid command name "CONFIGURATION"
+ FOR Testing  -- matches my testbench architecture name
+# invalid command name "FOR"
+	FOR DUT : TestUnit
+# invalid command name "FOR"
+     USE ENTITY work.BrentKung(rtl);
+# invalid command name "USE"
+	END FOR;
+# invalid command name "END"
+ END FOR;
+# invalid command name "END"
+END CONFIGURATION ConfigBKA_rtl;
+# invalid command name "END"
+
+
+--This is for timing verification of BKA
+# invalid command name "--This"
+CONFIGURATION ConfigBKA_structure OF AdderTB IS
+# invalid command name "CONFIGURATION"
+ FOR Testing
+# invalid command name "FOR"
+   FOR DUT : TestUnit
+# invalid command name "FOR"
+     USE ENTITY work.BrentKung(structure);
+# invalid command name "USE"
+   END FOR;
+# invalid command name "END"
+ END FOR;
+# invalid command name "END"
+END CONFIGURATION ConfigBKA_structure;
+# invalid command name "END"
+
+----------------------------------------------------------
+# invalid command name "----------------------------------------------------------"
+---- CONFIGURATIONS FOR KSA ADDER
+# invalid command name "----"
+----------------------------------------------------------
+# invalid command name "----------------------------------------------------------"
+
+--For functional verification of KSA
+# invalid command name "--For"
+CONFIGURATION ConfigKSA_rtl OF AdderTB IS
+# invalid command name "CONFIGURATION"
+  FOR Testing  -- matches my testbench architecture name
+# invalid command name "FOR"
+	FOR DUT : TestUnit
+# invalid command name "FOR"
+      USE ENTITY work.KoggeStone(rtl);
+# invalid command name "USE"
+	END FOR;
+# invalid command name "END"
+  END FOR;
+# invalid command name "END"
+END CONFIGURATION ConfigKSA_rtl;
+# invalid command name "END"
+
+
+--This is for timing verification of KSA
+# invalid command name "--This"
+CONFIGURATION ConfigKSA_structure OF AdderTB IS
+# invalid command name "CONFIGURATION"
+  FOR Testing
+# invalid command name "FOR"
+    FOR DUT : TestUnit
+# invalid command name "FOR"
+      USE ENTITY work.KoggeStone(structure);
+# invalid command name "USE"
+    END FOR;
+# invalid command name "END"
+  END FOR;
+# invalid command name "END"
+END CONFIGURATION ConfigKSA_structure;
+# invalid command name "END"
+
+--------------------------------------------------------------
+# invalid command name "--------------------------------------------------------------"
+---- CONFIGURATIONS FOR LADNER-FISCHER ADDER
+# invalid command name "----"
+--------------------------------------------------------------
+# invalid command name "--------------------------------------------------------------"
+do TS_BrentKung.do
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap work work 
 # Modifying C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/Simulation/DP2.mpf
 # vsim -quiet -t 100ps -gui -sdftyp "/AdderTB/DUT=../Simulation/ModelSim/BrentKung.sdo" work.ConfigBKA_structure -GTIMING_MEASUREMENT=true 
-# Start time: 13:59:11 on Nov 15,2025
+# Start time: 15:02:11 on Nov 16,2025
 # ** Warning: Design size of 41212 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
@@ -921,16 +1047,79 @@
 #       Status (Ovfl and Cout) Propagation Delay: 11600 ps
 # 
 #    Time: 17043600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 101
+#       A=0000000000000000, B=0000000000000000, Cin='0'
+#       Sum Expected=0000000000000000, Actual=0000000000000000
+#    Time: 17212300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 8900 ps
+# 
+#    Time: 17212300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 102
+#       A=FFFFFFFFFFFFFFFF, B=0000000000000001, Cin='0'
+#       Sum Expected=0000000000000000, Actual=0000000000000000
+#    Time: 17400300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 33000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 30300 ps
+# 
+#    Time: 17400300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 103
+#       A=7FFFFFFFFFFFFFFF, B=0000000000000001, Cin='0'
+#       Sum Expected=8000000000000000, Actual=8000000000000000
+#    Time: 17563600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 7800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 8300 ps
+# 
+#    Time: 17563600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 104
+#       A=8000000000000000, B=8000000000000000, Cin='0'
+#       Sum Expected=0000000000000000, Actual=0000000000000000
+#    Time: 17733800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 15200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 17733800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 105
+#       A=FFFFFFFFFFFFFFFF, B=FFFFFFFFFFFFFFFF, Cin='1'
+#       Sum Expected=FFFFFFFFFFFFFFFF, Actual=FFFFFFFFFFFFFFFF
+#    Time: 17903200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10300 ps
+# 
+#    Time: 17903200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 106
+#       A=AAAAAAAAAAAAAAAA, B=5555555555555555, Cin='0'
+#       Sum Expected=FFFFFFFFFFFFFFFF, Actual=FFFFFFFFFFFFFFFF
+#    Time: 18091200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 33000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 30400 ps
+# 
+#    Time: 18091200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 107
+#       A=0000000000000001, B=FFFFFFFFFFFFFFFE, Cin='1'
+#       Sum Expected=0000000000000000, Actual=0000000000000000
+#    Time: 18278900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 32700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 30000 ps
+# 
+#    Time: 18278900 ps  Iteration: 0  Instance: /addertb
 # ** Note: =====================================================
 # >>>>>>>>>>>>>>>> Simulation Complete <<<<<<<<<<<<<<<<
 # =====================================================
-# Test cases passed: 100
+# Test cases passed: 107
 # Test cases failed : 0
 # 
-#    Time: 17043600 ps  Iteration: 0  Instance: /addertb
-# ** Note: The worst case propagation delay was 17900 ps in test case 88
+#    Time: 18278900 ps  Iteration: 0  Instance: /addertb
+# ** Note: The worst case propagation delay was 32700 ps in test case 107
 # 
-#    Time: 17043600 ps  Iteration: 0  Instance: /addertb
+#    Time: 18278900 ps  Iteration: 0  Instance: /addertb
 # transcript off
 # 0 ps
-# 17895800 ps
+# 19192800 ps

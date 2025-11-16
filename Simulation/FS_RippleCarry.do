@@ -1,9 +1,8 @@
-transcript file "../Documentation/OutputFiles/FS_RippleCarry.log"
-transcript off
-
 #End any existing simulation
 quit -sim
 
+transcript file "../Documentation/OutputFiles/FS_RippleCarry.log"
+transcript off
 
 #Deletes the old work library and recreates a work library
 vdel -lib work -all
@@ -20,7 +19,7 @@ vcom -work work -2008 -quiet -stats=none ../SourceCode/RippleCarry.vhd
 vcom -work work -2008 -quiet -stats=none ../Simulation/AdderTB.vhd
 
 #Compile configuration (binds rtl)
-vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigAdder.vhd
+vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigRippleCarry.vhd
 
 #Starts the simulation with the right configuration
 vsim -quiet -GTIMING_MEASUREMENT=false work.ConfigRCA_rtl

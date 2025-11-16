@@ -1,11 +1,11 @@
 
 
+#End any existing simulation
+quit -sim
+
 # Start transcript
 transcript file "../Documentation/OutputFiles/TS_BrentKung.log"
 transcript off
-
-#End any existing simulation
-quit -sim
 
 #Deletes the old work library and recreates a work library
 vdel -lib work -all
@@ -19,7 +19,7 @@ vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/BrentKung.vho
 vcom -work work -2008 -quiet -stats=none ../Simulation/AdderTB.vhd
 
 #Compile configuration (binds structure)
-vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigAdder.vhd
+vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigBrentKung.vhd
 
 
 #Starts the simulation with the right configuration

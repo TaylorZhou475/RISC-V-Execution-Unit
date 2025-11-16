@@ -1,10 +1,10 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
-/*--------------------------------------------------------------
+--------------------------------------------------------------
 ---- CONFIGURATIONS FOR BKA ADDER
 --------------------------------------------------------------
---
+
 --For functional verification of BKA
 CONFIGURATION ConfigBKA_rtl OF AdderTB IS
  FOR Testing  -- matches my testbench architecture name
@@ -24,28 +24,28 @@ CONFIGURATION ConfigBKA_structure OF AdderTB IS
  END FOR;
 END CONFIGURATION ConfigBKA_structure;
 
-*/------------------------------------------------------------
--- CONFIGURATIONS FOR KSA ADDER
-------------------------------------------------------------
+----------------------------------------------------------
+---- CONFIGURATIONS FOR KSA ADDER
+----------------------------------------------------------
 
-----For functional verification of KSA
---CONFIGURATION ConfigKSA_rtl OF AdderTB IS
---  FOR Testing  -- matches my testbench architecture name
---	FOR DUT : TestUnit
---      USE ENTITY work.KoggeStone(rtl);
---	END FOR;
---  END FOR;
---END CONFIGURATION ConfigKSA_rtl;
---
---
-----This is for timing verification of KSA
---CONFIGURATION ConfigKSA_structure OF AdderTB IS
---  FOR Testing
---    FOR DUT : TestUnit
---      USE ENTITY work.KoggeStone(structure);
---    END FOR;
---  END FOR;
---END CONFIGURATION ConfigKSA_structure;
+--For functional verification of KSA
+CONFIGURATION ConfigKSA_rtl OF AdderTB IS
+  FOR Testing  -- matches my testbench architecture name
+	FOR DUT : TestUnit
+      USE ENTITY work.KoggeStone(rtl);
+	END FOR;
+  END FOR;
+END CONFIGURATION ConfigKSA_rtl;
+
+
+--This is for timing verification of KSA
+CONFIGURATION ConfigKSA_structure OF AdderTB IS
+  FOR Testing
+    FOR DUT : TestUnit
+      USE ENTITY work.KoggeStone(structure);
+    END FOR;
+  END FOR;
+END CONFIGURATION ConfigKSA_structure;
 
 --------------------------------------------------------------
 ---- CONFIGURATIONS FOR LADNER-FISCHER ADDER
@@ -58,15 +58,15 @@ CONFIGURATION ConfigLFA_rtl OF AdderTB IS
       USE ENTITY work.LadnerFischer(rtl);
     END FOR;
   END FOR;
-END CONFIGURATION ConfigLAF_rtl;
+END CONFIGURATION ConfigLFA_rtl;
 
 
 --This is for timing verification of Ladner-Fischer
-CONFIGURATION ConfigLF_structure OF AdderTB IS
+CONFIGURATION ConfigLFA_structure OF AdderTB IS
   FOR Testing
     FOR DUT : TestUnit
       USE ENTITY work.LadnerFischer(structure);
-    END FOR;S
+    END FOR;
   END FOR;
 END CONFIGURATION ConfigLFA_structure;
 
