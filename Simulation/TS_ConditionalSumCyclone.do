@@ -4,7 +4,7 @@
 quit -sim
 
 # Start transcript
-transcript file "../Documentation/OutputFiles/TS_ConditionalSum.log"
+transcript file "../Documentation/OutputFiles/TS_ConditionalSumCyclone.log"
 transcript off
 
 #Deletes the old work library and recreates a work library
@@ -13,7 +13,7 @@ vlib work
 vmap work work
 
 #Compile vho file
-vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/ConditionalSum.vho
+vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/ConditionalSum_Cyclone.vho
 
 #Compile testbench
 vcom -work work -2008 -quiet -stats=none ../Simulation/AdderTB.vhd
@@ -23,7 +23,7 @@ vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigConditionalSum.vhd
 
 
 #Starts the simulation with the right configuration
-vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/ConditionalSum.sdo work.ConfigCSA_structure
+vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/ConditionalSum_Cyclone.sdo work.ConfigCSA_structure
 
 
 #Setup the wave window

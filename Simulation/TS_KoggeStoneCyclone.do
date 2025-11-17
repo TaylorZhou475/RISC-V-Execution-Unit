@@ -4,7 +4,7 @@ quit -sim
 
 
 # Start transcript
-transcript file "../Documentation/OutputFiles/TS_KoggeStone.log"
+transcript file "../Documentation/OutputFiles/TS_KoggeStoneCyclone.log"
 transcript off
 
 
@@ -14,7 +14,7 @@ vlib work
 vmap work work
 
 #Compile vho file
-vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/KoggeStone.vho
+vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/KoggeStone_Cyclone.vho
 
 #Compile testbench
 vcom -work work -2008 -quiet -stats=none ../Simulation/AdderTB.vhd
@@ -24,7 +24,7 @@ vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigKoggeStone.vhd
 
 
 #Starts the simulation with the right configuration
-vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/KoggeStone.sdo work.ConfigKSA_structure
+vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/KoggeStone_Cyclone.sdo work.ConfigKSA_structure
 
 
 #Setup the wave window

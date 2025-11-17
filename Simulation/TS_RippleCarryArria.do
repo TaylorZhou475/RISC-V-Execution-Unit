@@ -1,11 +1,9 @@
-
-
 #End any existing simulation
 quit -sim
 
 
 # Start transcript
-transcript file "../Documentation/OutputFiles/TS_RippleCarry.log"
+transcript file "../Documentation/OutputFiles/TS_RippleCarryArria.log"
 transcript off
 
 #Deletes the old work library and recreates a work library
@@ -14,7 +12,7 @@ vlib work
 vmap work work
 
 #Compile vho file
-vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/RippleCarry.vho
+vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/RippleCarry_Arria.vho
 
 #Compile testbench
 vcom -work work -2008 -quiet -stats=none ../Simulation/AdderTB.vhd
@@ -24,7 +22,7 @@ vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigRippleCarry.vhd
 
 
 #Starts the simulation with the right configuration
-vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/RippleCarry.sdo work.ConfigRCA_structure
+vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/RippleCarry_Arria.sdo work.ConfigRCA_structure
 
 
 #Setup the wave window

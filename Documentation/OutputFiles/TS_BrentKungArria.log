@@ -1,0 +1,999 @@
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/taylo/OneDrive/Desktop/ENSC350/DP2/Simulation/DP2.mpf
+# vsim -quiet -t 100ps -gui -sdftyp "/AdderTB/DUT=../Simulation/ModelSim/BrentKung_Arria.sdo" work.ConfigBKA_structure -GTIMING_MEASUREMENT=true 
+# Start time: 16:11:13 on Nov 16,2025
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# ** Warning: Design size of 59492 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /addertb File: ../Simulation/AdderTB.vhd
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: Design size of 30000 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /addertb File: ../Simulation/AdderTB.vhd
+# run -all
+# ** Note: =====================================================
+# >>>>>>>>>>>>>>>> Starting Simulation <<<<<<<<<<<<<<<<
+# =====================================================
+# 
+#    Time: 0 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 1
+#       A=31891328AC9A0D63, B=CD3A49F1C55C7908, Cin='0'
+#       Sum Expected=FEC35D1A71F6866B, Actual=FEC35D1A71F6866B
+#    Time: 208800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 12800 ps
+# 
+#    Time: 208800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 2
+#       A=25CC313C6AAF4B59, B=A4BFBE3CA863517A, Cin='1'
+#       Sum Expected=CA8BEF7913129CD4, Actual=CA8BEF7913129CD4
+#    Time: 376200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 376200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 3
+#       A=1823A1104878E914, B=61C97623993B6027, Cin='0'
+#       Sum Expected=79ED1733E1B4493B, Actual=79ED1733E1B4493B
+#    Time: 543900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10200 ps
+# 
+#    Time: 543900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 4
+#       A=AD5E53D963AFA8D4, B=93FCF269FF7ECB66, Cin='0'
+#       Sum Expected=415B4643632E743A, Actual=415B4643632E743A
+#    Time: 711900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 711900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 5
+#       A=0168351733E92D67, B=C78CEB911A51B372, Cin='0'
+#       Sum Expected=C8F520A84E3AE0D9, Actual=C8F520A84E3AE0D9
+#    Time: 880700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9800 ps
+# 
+#    Time: 880700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 6
+#       A=321F418940EFC804, B=DD4539DE1364B34D, Cin='1'
+#       Sum Expected=0F647B6754547B52, Actual=0F647B6754547B52
+#    Time: 1048700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10400 ps
+# 
+#    Time: 1048700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 7
+#       A=0453C3DD8910B377, B=E05EFFEE01D81115, Cin='1'
+#       Sum Expected=E4B2C3CB8AE8C48D, Actual=E4B2C3CB8AE8C48D
+#    Time: 1217800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10300 ps
+# 
+#    Time: 1217800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 8
+#       A=9577C360B7ED7B1C, B=0785D16C7E5FAD85, Cin='0'
+#       Sum Expected=9CFD94CD364D28A1, Actual=9CFD94CD364D28A1
+#    Time: 1384700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 11900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10100 ps
+# 
+#    Time: 1384700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 9
+#       A=CBAA40D6BBB96CCE, B=7349C77E8A8E3DCB, Cin='0'
+#       Sum Expected=3EF408554647AA99, Actual=3EF408554647AA99
+#    Time: 1552500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10000 ps
+# 
+#    Time: 1552500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 10
+#       A=079FABE6799B17E3, B=15AB37FB8AE9B998, Cin='1'
+#       Sum Expected=1D4AE3E20484D17C, Actual=1D4AE3E20484D17C
+#    Time: 1720800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9800 ps
+# 
+#    Time: 1720800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 11
+#       A=42036900E690FD28, B=60CB6458FC48BF2E, Cin='0'
+#       Sum Expected=A2CECD59E2D9BC56, Actual=A2CECD59E2D9BC56
+#    Time: 1888 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 1888 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 12
+#       A=248F719606346EAC, B=0009C8E142A84EC8, Cin='1'
+#       Sum Expected=24993A7748DCBD75, Actual=24993A7748DCBD75
+#    Time: 2056500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 2056500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 13
+#       A=55DDEC82C05B22B5, B=3294D4D32B55E5EC, Cin='1'
+#       Sum Expected=8872C155EBB108A2, Actual=8872C155EBB108A2
+#    Time: 2223800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10300 ps
+# 
+#    Time: 2223800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 14
+#       A=CBFE7C3895197B61, B=0B399640BB3C1423, Cin='1'
+#       Sum Expected=D738127950558F85, Actual=D738127950558F85
+#    Time: 2391800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10400 ps
+# 
+#    Time: 2391800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 15
+#       A=2883CE0D5B063B55, B=5BB1459F68B38E9D, Cin='1'
+#       Sum Expected=843513ACC3B9C9F3, Actual=843513ACC3B9C9F3
+#    Time: 2559 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10900 ps
+# 
+#    Time: 2559 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 16
+#       A=08864046E81FB298, B=0F9E4976E11C3A23, Cin='0'
+#       Sum Expected=182489BDC93BECBB, Actual=182489BDC93BECBB
+#    Time: 2726100 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10100 ps
+# 
+#    Time: 2726100 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 17
+#       A=32F8D817FC30B734, B=4A7856A31A7B3555, Cin='0'
+#       Sum Expected=7D712EBB16ABEC89, Actual=7D712EBB16ABEC89
+#    Time: 2893600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 2893600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 18
+#       A=826BEB7ABF9AFC32, B=660F3B6A30813B16, Cin='0'
+#       Sum Expected=E87B26E4F01C3748, Actual=E87B26E4F01C3748
+#    Time: 3062 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 3062 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 19
+#       A=9497443F0CA20AE6, B=EC109720521C4514, Cin='1'
+#       Sum Expected=80A7DB5F5EBE4FFB, Actual=80A7DB5F5EBE4FFB
+#    Time: 3230200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 11200 ps
+# 
+#    Time: 3230200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 20
+#       A=F32BA8D7A75B25F6, B=37E19C599A87126B, Cin='0'
+#       Sum Expected=2B0D453141E23861, Actual=2B0D453141E23861
+#    Time: 3397700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 3397700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 21
+#       A=6C662660B97BA2DC, B=FBFA89F9389B5317, Cin='1'
+#       Sum Expected=6860B059F216F5F4, Actual=6860B059F216F5F4
+#    Time: 3565800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 3565800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 22
+#       A=5E2B2C18AD90C1C9, B=7C92BE2609FAE3FB, Cin='1'
+#       Sum Expected=DABDEA3EB78BA5C5, Actual=DABDEA3EB78BA5C5
+#    Time: 3733300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10100 ps
+# 
+#    Time: 3733300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 23
+#       A=A763CEECEFAF4EFD, B=B31869E01FF2584F, Cin='0'
+#       Sum Expected=5A7C38CD0FA1A74C, Actual=5A7C38CD0FA1A74C
+#    Time: 3901200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9600 ps
+# 
+#    Time: 3901200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 24
+#       A=28F3B1C08640CD65, B=E684BD21D75187ED, Cin='1'
+#       Sum Expected=0F786EE25D925553, Actual=0F786EE25D925553
+#    Time: 4070400 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10000 ps
+# 
+#    Time: 4070400 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 25
+#       A=94C943786B8DBF0D, B=6BC58F541F4456A7, Cin='1'
+#       Sum Expected=008ED2CC8AD215B5, Actual=008ED2CC8AD215B5
+#    Time: 4241 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 15600 ps
+#       Status (Ovfl and Cout) Propagation Delay: 15100 ps
+# 
+#    Time: 4241 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 26
+#       A=55A906F408BE4ED2, B=2AD5D6682FD06295, Cin='0'
+#       Sum Expected=807EDD5C388EB167, Actual=807EDD5C388EB167
+#    Time: 4411500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 15500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 15000 ps
+# 
+#    Time: 4411500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 27
+#       A=87475F0C7FDAB927, B=308E91F1CDA35838, Cin='1'
+#       Sum Expected=B7D5F0FE4D7E1160, Actual=B7D5F0FE4D7E1160
+#    Time: 4579200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10600 ps
+# 
+#    Time: 4579200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 28
+#       A=0FDFFC5B0062F305, B=8B72DA2674F62437, Cin='1'
+#       Sum Expected=9B52D6817559173D, Actual=9B52D6817559173D
+#    Time: 4747400 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 4747400 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 29
+#       A=36A1786FFAE0F84D, B=F5EE009BC4B4C5B4, Cin='0'
+#       Sum Expected=2C8F790BBF95BE01, Actual=2C8F790BBF95BE01
+#    Time: 4914600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10600 ps
+# 
+#    Time: 4914600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 30
+#       A=4410A19FE473C592, B=0ECE7C6BB9B62BDB, Cin='0'
+#       Sum Expected=52DF1E0B9E29F16D, Actual=52DF1E0B9E29F16D
+#    Time: 5083 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 5083 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 31
+#       A=2F5605D70FCA5183, B=D5AFEA524075D77F, Cin='1'
+#       Sum Expected=0505F02950402903, Actual=0505F02950402903
+#    Time: 5251300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10800 ps
+# 
+#    Time: 5251300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 32
+#       A=F2AAE4FB3058A2BA, B=B966C3E0A64D5912, Cin='0'
+#       Sum Expected=AC11A8DBD6A5FBCC, Actual=AC11A8DBD6A5FBCC
+#    Time: 5419800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 5419800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 33
+#       A=CA8C8BBA20E1B8A8, B=18DD19B75D423351, Cin='1'
+#       Sum Expected=E369A5717E23EBFA, Actual=E369A5717E23EBFA
+#    Time: 5587400 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12600 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10900 ps
+# 
+#    Time: 5587400 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 34
+#       A=9CC9CB04EFA9F2D6, B=BA809BE324E7D930, Cin='0'
+#       Sum Expected=574A66E81491CC06, Actual=574A66E81491CC06
+#    Time: 5754900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 5754900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 35
+#       A=7F86D598E680A18C, B=EA1FFAA1671951DC, Cin='0'
+#       Sum Expected=69A6D03A4D99F368, Actual=69A6D03A4D99F368
+#    Time: 5923200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10000 ps
+# 
+#    Time: 5923200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 36
+#       A=AE333BAC630C5CA1, B=9B84C514FAB218C5, Cin='0'
+#       Sum Expected=49B800C15DBE7566, Actual=49B800C15DBE7566
+#    Time: 6095400 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 17200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 6095400 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 37
+#       A=BF9732AFA6DA5753, B=DE0BA63A593433F1, Cin='0'
+#       Sum Expected=9DA2D8EA000E8B44, Actual=9DA2D8EA000E8B44
+#    Time: 6263700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10100 ps
+# 
+#    Time: 6263700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 38
+#       A=6D2ACAD9637F5985, B=E0983C181E442322, Cin='0'
+#       Sum Expected=4DC306F181C37CA7, Actual=4DC306F181C37CA7
+#    Time: 6432500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 6432500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 39
+#       A=8CD05BD1D423CF43, B=4C141495A81C8996, Cin='1'
+#       Sum Expected=D8E470677C4058DA, Actual=D8E470677C4058DA
+#    Time: 6601500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10800 ps
+# 
+#    Time: 6601500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 40
+#       A=AE2895F5D67E66B9, B=B5531C0406ED6383, Cin='0'
+#       Sum Expected=637BB1F9DD6BCA3C, Actual=637BB1F9DD6BCA3C
+#    Time: 6768900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 6768900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 41
+#       A=9D5997C29C51926A, B=371750AFB3C37308, Cin='1'
+#       Sum Expected=D470E87250150573, Actual=D470E87250150573
+#    Time: 6936700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10100 ps
+# 
+#    Time: 6936700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 42
+#       A=7345D179AE88DCA8, B=24426A72A896DA90, Cin='1'
+#       Sum Expected=97883BEC571FB739, Actual=97883BEC571FB739
+#    Time: 7103700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10000 ps
+# 
+#    Time: 7103700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 43
+#       A=584343D5110AEC7B, B=BCBF5F1CAE5F50FF, Cin='1'
+#       Sum Expected=1502A2F1BF6A3D7B, Actual=1502A2F1BF6A3D7B
+#    Time: 7271700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 7271700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 44
+#       A=7C510AC1A4558BCF, B=C734F4321263610F, Cin='1'
+#       Sum Expected=4385FEF3B6B8ECDF, Actual=4385FEF3B6B8ECDF
+#    Time: 7440600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 7440600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 45
+#       A=F32931C940C76432, B=B5C35565A3C6F4E9, Cin='1'
+#       Sum Expected=A8EC872EE48E591C, Actual=A8EC872EE48E591C
+#    Time: 7608100 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 7608100 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 46
+#       A=A3F9570AD21455FD, B=47762B841AD98336, Cin='1'
+#       Sum Expected=EB6F828EECEDD934, Actual=EB6F828EECEDD934
+#    Time: 7777300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10900 ps
+# 
+#    Time: 7777300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 47
+#       A=5C945B114131830D, B=575E5E1D947131DB, Cin='0'
+#       Sum Expected=B3F2B92ED5A2B4E8, Actual=B3F2B92ED5A2B4E8
+#    Time: 7945800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10000 ps
+# 
+#    Time: 7945800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 48
+#       A=41EE11DB9ADA1715, B=3CA1E729E8F7B51A, Cin='0'
+#       Sum Expected=7E8FF90583D1CC2F, Actual=7E8FF90583D1CC2F
+#    Time: 8114600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 13200 ps
+# 
+#    Time: 8114600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 49
+#       A=CCF5061A1432289F, B=AE68B77FE8D4D5B2, Cin='1'
+#       Sum Expected=7B5DBD99FD06FE52, Actual=7B5DBD99FD06FE52
+#    Time: 8282300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 11000 ps
+# 
+#    Time: 8282300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 50
+#       A=384AFE2E6472E0B1, B=E6077935600752FA, Cin='0'
+#       Sum Expected=1E527763C47A33AB, Actual=1E527763C47A33AB
+#    Time: 8450100 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10600 ps
+# 
+#    Time: 8450100 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 51
+#       A=0E6E0E1AB4F0D16C, B=59BC622BB2209FA8, Cin='1'
+#       Sum Expected=682A704667117115, Actual=682A704667117115
+#    Time: 8617500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10400 ps
+# 
+#    Time: 8617500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 52
+#       A=DAD6E416E14E04CC, B=C284E13E26583E91, Cin='0'
+#       Sum Expected=9D5BC55507A6435D, Actual=9D5BC55507A6435D
+#    Time: 8785200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9800 ps
+# 
+#    Time: 8785200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 53
+#       A=128AA7DEB8F7067D, B=27E2DA4B1E206444, Cin='0'
+#       Sum Expected=3A6D8229D7176AC1, Actual=3A6D8229D7176AC1
+#    Time: 8954400 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10100 ps
+# 
+#    Time: 8954400 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 54
+#       A=96ED8391B046DB58, B=D9758005EAFE9E0B, Cin='1'
+#       Sum Expected=706303979B457964, Actual=706303979B457964
+#    Time: 9123600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10600 ps
+# 
+#    Time: 9123600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 55
+#       A=BA7E130EDB08431F, B=76EF1841D915BD6B, Cin='0'
+#       Sum Expected=316D2B50B41E008A, Actual=316D2B50B41E008A
+#    Time: 9291500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10600 ps
+# 
+#    Time: 9291500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 56
+#       A=97FCB11D5267AD4B, B=A1FB7A07AB5C2A6B, Cin='1'
+#       Sum Expected=39F82B24FDC3D7B7, Actual=39F82B24FDC3D7B7
+#    Time: 9459800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 9459800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 57
+#       A=A5E3C9DF7B7117F0, B=DA4C0444C2E69F31, Cin='1'
+#       Sum Expected=802FCE243E57B722, Actual=802FCE243E57B722
+#    Time: 9630300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 15500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 15000 ps
+# 
+#    Time: 9630300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 58
+#       A=74EA15325C925DD1, B=54E4395DA11C7776, Cin='0'
+#       Sum Expected=C9CE4E8FFDAED547, Actual=C9CE4E8FFDAED547
+#    Time: 9798600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10300 ps
+# 
+#    Time: 9798600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 59
+#       A=0D117E9EF329FCFF, B=A7ACE9DEAFAA7056, Cin='0'
+#       Sum Expected=B4BE687DA2D46D55, Actual=B4BE687DA2D46D55
+#    Time: 9965900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10200 ps
+# 
+#    Time: 9965900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 60
+#       A=E7FA0F7FD56E4D38, B=A7F963FD8B59E834, Cin='1'
+#       Sum Expected=8FF3737D60C8356D, Actual=8FF3737D60C8356D
+#    Time: 10133200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10300 ps
+# 
+#    Time: 10133200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 61
+#       A=1B165F3B6A7211B7, B=0F2EBE28566DDA3C, Cin='1'
+#       Sum Expected=2A451D63C0DFEBF4, Actual=2A451D63C0DFEBF4
+#    Time: 10302700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 10302700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 62
+#       A=111032896AE0E3F8, B=FCDE0BB99C463A78, Cin='1'
+#       Sum Expected=0DEE3E4307271E71, Actual=0DEE3E4307271E71
+#    Time: 10471200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10900 ps
+# 
+#    Time: 10471200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 63
+#       A=38556AF4D5113697, B=12311A9FF55D563C, Cin='1'
+#       Sum Expected=4A868594CA6E8CD4, Actual=4A868594CA6E8CD4
+#    Time: 10638800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12600 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10100 ps
+# 
+#    Time: 10638800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 64
+#       A=EEC4DBCB77F32A12, B=530432D4993B7C4B, Cin='0'
+#       Sum Expected=41C90EA0112EA65D, Actual=41C90EA0112EA65D
+#    Time: 10807200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10000 ps
+# 
+#    Time: 10807200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 65
+#       A=54591B50B47D810A, B=B0D5AF9A2D64EFAD, Cin='0'
+#       Sum Expected=052ECAEAE1E270B7, Actual=052ECAEAE1E270B7
+#    Time: 10974300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10600 ps
+# 
+#    Time: 10974300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 66
+#       A=DC6728FB7194201A, B=822E95E0C45B3792, Cin='1'
+#       Sum Expected=5E95BEDC35EF57AD, Actual=5E95BEDC35EF57AD
+#    Time: 11143700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 14400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 11143700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 67
+#       A=3EBD5E887474B549, B=2AE7F44E89F311E0, Cin='0'
+#       Sum Expected=69A552D6FE67C729, Actual=69A552D6FE67C729
+#    Time: 11312 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9800 ps
+# 
+#    Time: 11312 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 68
+#       A=3B02E9C9C765E4CC, B=D803FD24496D54E3, Cin='1'
+#       Sum Expected=1306E6EE10D339B0, Actual=1306E6EE10D339B0
+#    Time: 11479 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10000 ps
+# 
+#    Time: 11479 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 69
+#       A=0CAEF95BB8EBDC9D, B=E45E759F65662349, Cin='1'
+#       Sum Expected=F10D6EFB1E51FFE7, Actual=F10D6EFB1E51FFE7
+#    Time: 11646600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12600 ps
+#       Status (Ovfl and Cout) Propagation Delay: 11500 ps
+# 
+#    Time: 11646600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 70
+#       A=CB0B396A31A711E3, B=BB0C9CED907C2DB9, Cin='0'
+#       Sum Expected=8617D657C2233F9C, Actual=8617D657C2233F9C
+#    Time: 11813900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10900 ps
+# 
+#    Time: 11813900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 71
+#       A=7F8E73083FEF9F4A, B=5D31D6D9419DB10C, Cin='1'
+#       Sum Expected=DCC049E1818D5057, Actual=DCC049E1818D5057
+#    Time: 11980600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 11700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10200 ps
+# 
+#    Time: 11980600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 72
+#       A=956A5A49BC319204, B=4870C027CE2170E3, Cin='1'
+#       Sum Expected=DDDB1A718A5302E8, Actual=DDDB1A718A5302E8
+#    Time: 12148100 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10400 ps
+# 
+#    Time: 12148100 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 73
+#       A=135C40540A903806, B=4336BEE3A1B1D2B6, Cin='0'
+#       Sum Expected=5692FF37AC420ABC, Actual=5692FF37AC420ABC
+#    Time: 12316200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 12316200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 74
+#       A=76CC2A459BF597C7, B=5E444482403545AC, Cin='0'
+#       Sum Expected=D5106EC7DC2ADD73, Actual=D5106EC7DC2ADD73
+#    Time: 12484600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10000 ps
+# 
+#    Time: 12484600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 75
+#       A=F9A08E175E97DDC1, B=C765FBAC8A869BA6, Cin='1'
+#       Sum Expected=C10689C3E91E7968, Actual=C10689C3E91E7968
+#    Time: 12652700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 12652700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 76
+#       A=071A702A3F3ADB67, B=8CE09A002A4E3486, Cin='1'
+#       Sum Expected=93FB0A2A69890FEE, Actual=93FB0A2A69890FEE
+#    Time: 12820600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10200 ps
+# 
+#    Time: 12820600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 77
+#       A=8918A984780EBBF0, B=D594B0F2D6DAFA84, Cin='0'
+#       Sum Expected=5EAD5A774EE9B674, Actual=5EAD5A774EE9B674
+#    Time: 12988900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 12988900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 78
+#       A=A4863EFBFDDB7C1E, B=637EE2209AC8295A, Cin='0'
+#       Sum Expected=0805211C98A3A578, Actual=0805211C98A3A578
+#    Time: 13156700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10900 ps
+# 
+#    Time: 13156700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 79
+#       A=490DF51DD63D6D23, B=1BEE7B5935EFE73B, Cin='1'
+#       Sum Expected=64FC70770C2D545F, Actual=64FC70770C2D545F
+#    Time: 13324400 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10300 ps
+# 
+#    Time: 13324400 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 80
+#       A=C962A7E1BC2C6E63, B=998B77B8D1F53AAD, Cin='0'
+#       Sum Expected=62EE1F9A8E21A910, Actual=62EE1F9A8E21A910
+#    Time: 13491900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 13491900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 81
+#       A=FF74A9744DE6DCD5, B=EFE7BF12F7AD12C9, Cin='0'
+#       Sum Expected=EF5C68874593EF9E, Actual=EF5C68874593EF9E
+#    Time: 13659800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 13659800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 82
+#       A=6FF8673C57092A14, B=EBE03A6A1388E7A9, Cin='1'
+#       Sum Expected=5BD8A1A66A9211BE, Actual=5BD8A1A66A9211BE
+#    Time: 13827 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 13827 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 83
+#       A=EA4F883F386B1BEE, B=C1D419F25FB05948, Cin='0'
+#       Sum Expected=AC23A231981B7536, Actual=AC23A231981B7536
+#    Time: 13995300 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13300 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 13995300 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 84
+#       A=B8AB02241E28CACB, B=A2B440CB64029719, Cin='1'
+#       Sum Expected=5B5F42EF822B61E5, Actual=5B5F42EF822B61E5
+#    Time: 14162100 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 11800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 14162100 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 85
+#       A=C8B218F63179E2AD, B=032E91A949D31105, Cin='0'
+#       Sum Expected=CBE0AA9F7B4CF3B2, Actual=CBE0AA9F7B4CF3B2
+#    Time: 14330200 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10800 ps
+# 
+#    Time: 14330200 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 86
+#       A=C60D9D4C825B38ED, B=F6475289DD55A002, Cin='1'
+#       Sum Expected=BC54EFD65FB0D8F0, Actual=BC54EFD65FB0D8F0
+#    Time: 14497900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9900 ps
+# 
+#    Time: 14497900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 87
+#       A=9AA0D7CBF41B3A1C, B=C31F5625412EC3DB, Cin='0'
+#       Sum Expected=5DC02DF13549FDF7, Actual=5DC02DF13549FDF7
+#    Time: 14665700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10100 ps
+# 
+#    Time: 14665700 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 88
+#       A=878ED9C33E0BD58D, B=7A05653C488FDB2C, Cin='0'
+#       Sum Expected=01943EFF869BB0B9, Actual=01943EFF869BB0B9
+#    Time: 14836500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 15800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 11500 ps
+# 
+#    Time: 14836500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 89
+#       A=787E1CB531D09E2F, B=AF8C95CE929465B0, Cin='1'
+#       Sum Expected=280AB283C46503E0, Actual=280AB283C46503E0
+#    Time: 15005 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10400 ps
+# 
+#    Time: 15005 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 90
+#       A=798EE519C109B17C, B=EF7639AA8FB00F6A, Cin='0'
+#       Sum Expected=69051EC450B9C0E6, Actual=69051EC450B9C0E6
+#    Time: 15173400 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 15173400 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 91
+#       A=BE22721DF4B7B595, B=FD6074349321CB6F, Cin='0'
+#       Sum Expected=BB82E65287D98104, Actual=BB82E65287D98104
+#    Time: 15340 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 11600 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 15340 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 92
+#       A=573B4300686E17AB, B=143A8DC8AF097D07, Cin='0'
+#       Sum Expected=6B75D0C9177794B2, Actual=6B75D0C9177794B2
+#    Time: 15507900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10600 ps
+# 
+#    Time: 15507900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 93
+#       A=2BB5629DD57AF031, B=A3EA5EA95DFD893E, Cin='0'
+#       Sum Expected=CF9FC1473378796F, Actual=CF9FC1473378796F
+#    Time: 15675400 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 15675400 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 94
+#       A=2974CFBBD5508378, B=0EC9923549C4260E, Cin='0'
+#       Sum Expected=383E61F11F14A986, Actual=383E61F11F14A986
+#    Time: 15843 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12600 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 15843 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 95
+#       A=2ADDCAE8A184621F, B=03AE85945A075D01, Cin='1'
+#       Sum Expected=2E8C507CFB8BBF21, Actual=2E8C507CFB8BBF21
+#    Time: 16011100 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 16011100 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 96
+#       A=A9CA22747FE24A6D, B=559F80368CCDD1AC, Cin='0'
+#       Sum Expected=FF69A2AB0CB01C19, Actual=FF69A2AB0CB01C19
+#    Time: 16179500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 12000 ps
+# 
+#    Time: 16179500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 97
+#       A=829192844BEA2CB7, B=3F2AF2E3815AA956, Cin='1'
+#       Sum Expected=C1BC8567CD44D60E, Actual=C1BC8567CD44D60E
+#    Time: 16347900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13400 ps
+#       Status (Ovfl and Cout) Propagation Delay: 0 ps
+# 
+#    Time: 16347900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 98
+#       A=FCBDFED792A8613E, B=061FC7A4C107BB1A, Cin='0'
+#       Sum Expected=02DDC67C53B01C58, Actual=02DDC67C53B01C58
+#    Time: 16515900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 11300 ps
+# 
+#    Time: 16515900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 99
+#       A=37B42C37F5D440C9, B=697C3E98FEE59C57, Cin='0'
+#       Sum Expected=A1306AD0F4B9DD20, Actual=A1306AD0F4B9DD20
+#    Time: 16683900 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13000 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 16683900 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 100
+#       A=A3EC5CE4E3ADB0C1, B=D4F632F945F91C62, Cin='1'
+#       Sum Expected=78E28FDE29A6CD24, Actual=78E28FDE29A6CD24
+#    Time: 16851500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12600 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10400 ps
+# 
+#    Time: 16851500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 101
+#       A=0000000000000000, B=0000000000000000, Cin='0'
+#       Sum Expected=0000000000000000, Actual=0000000000000000
+#    Time: 17018600 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12100 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9800 ps
+# 
+#    Time: 17018600 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 102
+#       A=FFFFFFFFFFFFFFFF, B=0000000000000001, Cin='0'
+#       Sum Expected=0000000000000000, Actual=0000000000000000
+#    Time: 17200500 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 26900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 24900 ps
+# 
+#    Time: 17200500 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 103
+#       A=7FFFFFFFFFFFFFFF, B=0000000000000001, Cin='0'
+#       Sum Expected=8000000000000000, Actual=8000000000000000
+#    Time: 17364100 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 8500 ps
+#       Status (Ovfl and Cout) Propagation Delay: 8600 ps
+# 
+#    Time: 17364100 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 104
+#       A=8000000000000000, B=8000000000000000, Cin='0'
+#       Sum Expected=0000000000000000, Actual=0000000000000000
+#    Time: 17532800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 13700 ps
+#       Status (Ovfl and Cout) Propagation Delay: 10300 ps
+# 
+#    Time: 17532800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 105
+#       A=FFFFFFFFFFFFFFFF, B=FFFFFFFFFFFFFFFF, Cin='1'
+#       Sum Expected=FFFFFFFFFFFFFFFF, Actual=FFFFFFFFFFFFFFFF
+#    Time: 17700 ns  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 12200 ps
+#       Status (Ovfl and Cout) Propagation Delay: 9700 ps
+# 
+#    Time: 17700 ns  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 106
+#       A=AAAAAAAAAAAAAAAA, B=5555555555555555, Cin='0'
+#       Sum Expected=FFFFFFFFFFFFFFFF, Actual=FFFFFFFFFFFFFFFF
+#    Time: 17880800 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 25800 ps
+#       Status (Ovfl and Cout) Propagation Delay: 23700 ps
+# 
+#    Time: 17880800 ps  Iteration: 0  Instance: /addertb
+# ** Note: PASS: Test Case 107
+#       A=0000000000000001, B=FFFFFFFFFFFFFFFE, Cin='1'
+#       Sum Expected=0000000000000000, Actual=0000000000000000
+#    Time: 18062700 ps  Iteration: 0  Instance: /addertb
+# ** Note: 
+#       Sum Propagation Delay: 26900 ps
+#       Status (Ovfl and Cout) Propagation Delay: 24900 ps
+# 
+#    Time: 18062700 ps  Iteration: 0  Instance: /addertb
+# ** Note: =====================================================
+# >>>>>>>>>>>>>>>> Simulation Complete <<<<<<<<<<<<<<<<
+# =====================================================
+# Test cases passed: 107
+# Test cases failed : 0
+# 
+#    Time: 18062700 ps  Iteration: 0  Instance: /addertb
+# ** Note: The worst case propagation delay was 26900 ps in test case 107
+# 
+#    Time: 18062700 ps  Iteration: 0  Instance: /addertb
+# transcript off
+# 0 ps
+# 18965800 ps

@@ -1,10 +1,9 @@
-
-
 #End any existing simulation
 quit -sim
 
+
 # Start transcript
-transcript file "../Documentation/OutputFiles/TS_BrentKung.log"
+transcript file "../Documentation/OutputFiles/TS_LadnerFischerArria.log"
 transcript off
 
 #Deletes the old work library and recreates a work library
@@ -13,17 +12,17 @@ vlib work
 vmap work work
 
 #Compile vho file
-vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/BrentKung.vho
+vcom -work work -2008 -quiet -stats=none ../Simulation/ModelSim/LadnerFischer_Arria.vho
 
 #Compile testbench
 vcom -work work -2008 -quiet -stats=none ../Simulation/AdderTB.vhd
 
 #Compile configuration (binds structure)
-vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigBrentKung.vhd
+vcom -work work -2008 -quiet -stats=none ../SourceCode/ConfigLadnerFischer.vhd
 
 
 #Starts the simulation with the right configuration
-vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/BrentKung.sdo work.ConfigBKA_structure
+vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /AdderTB/DUT=../Simulation/ModelSim/LadnerFischer_Arria.sdo work.ConfigLFA_structure
 
 
 #Setup the wave window
