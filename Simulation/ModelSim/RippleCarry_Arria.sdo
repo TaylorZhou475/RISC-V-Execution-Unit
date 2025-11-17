@@ -30,7 +30,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "RippleCarry")
-  (DATE "11/16/2025 15:59:52")
+  (DATE "11/16/2025 17:20:54")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition")
@@ -39,7 +39,7 @@
 
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[0\]\~output\\)
+    (INSTANCE \\S\[0\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (683:683:683) (663:663:663))
@@ -49,7 +49,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[1\]\~output\\)
+    (INSTANCE \\S\[1\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (597:597:597) (586:586:586))
@@ -59,7 +59,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[2\]\~output\\)
+    (INSTANCE \\S\[2\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (840:840:840) (781:781:781))
@@ -69,7 +69,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[3\]\~output\\)
+    (INSTANCE \\S\[3\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (730:730:730) (781:781:781))
@@ -79,7 +79,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[4\]\~output\\)
+    (INSTANCE \\S\[4\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (610:610:610) (583:583:583))
@@ -89,7 +89,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[5\]\~output\\)
+    (INSTANCE \\S\[5\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (576:576:576) (567:567:567))
@@ -99,7 +99,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[6\]\~output\\)
+    (INSTANCE \\S\[6\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (398:398:398) (382:382:382))
@@ -109,7 +109,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[7\]\~output\\)
+    (INSTANCE \\S\[7\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (621:621:621) (597:597:597))
@@ -119,7 +119,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[8\]\~output\\)
+    (INSTANCE \\S\[8\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (563:563:563) (540:540:540))
@@ -129,7 +129,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[9\]\~output\\)
+    (INSTANCE \\S\[9\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (398:398:398) (382:382:382))
@@ -139,7 +139,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[10\]\~output\\)
+    (INSTANCE \\S\[10\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (417:417:417) (416:416:416))
@@ -149,7 +149,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[11\]\~output\\)
+    (INSTANCE \\S\[11\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (417:417:417) (414:414:414))
@@ -159,7 +159,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[12\]\~output\\)
+    (INSTANCE \\S\[12\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (602:602:602) (574:574:574))
@@ -169,7 +169,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[13\]\~output\\)
+    (INSTANCE \\S\[13\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (760:760:760) (713:713:713))
@@ -179,7 +179,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[14\]\~output\\)
+    (INSTANCE \\S\[14\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (396:396:396) (379:379:379))
@@ -189,7 +189,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[15\]\~output\\)
+    (INSTANCE \\S\[15\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (396:396:396) (379:379:379))
@@ -199,7 +199,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[16\]\~output\\)
+    (INSTANCE \\S\[16\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (396:396:396) (379:379:379))
@@ -209,7 +209,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[17\]\~output\\)
+    (INSTANCE \\S\[17\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (740:740:740) (798:798:798))
@@ -219,7 +219,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[18\]\~output\\)
+    (INSTANCE \\S\[18\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (562:562:562) (647:647:647))
@@ -229,7 +229,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[19\]\~output\\)
+    (INSTANCE \\S\[19\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (897:897:897) (934:934:934))
@@ -239,7 +239,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[20\]\~output\\)
+    (INSTANCE \\S\[20\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (750:750:750) (784:784:784))
@@ -249,7 +249,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[21\]\~output\\)
+    (INSTANCE \\S\[21\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (697:697:697) (744:744:744))
@@ -259,7 +259,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[22\]\~output\\)
+    (INSTANCE \\S\[22\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (569:569:569) (658:658:658))
@@ -269,7 +269,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[23\]\~output\\)
+    (INSTANCE \\S\[23\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (597:597:597) (669:669:669))
@@ -279,7 +279,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[24\]\~output\\)
+    (INSTANCE \\S\[24\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (766:766:766) (803:803:803))
@@ -289,7 +289,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[25\]\~output\\)
+    (INSTANCE \\S\[25\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (602:602:602) (676:676:676))
@@ -299,7 +299,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[26\]\~output\\)
+    (INSTANCE \\S\[26\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (757:757:757) (824:824:824))
@@ -309,7 +309,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[27\]\~output\\)
+    (INSTANCE \\S\[27\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (769:769:769) (808:808:808))
@@ -319,7 +319,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[28\]\~output\\)
+    (INSTANCE \\S\[28\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (773:773:773) (815:815:815))
@@ -329,7 +329,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[29\]\~output\\)
+    (INSTANCE \\S\[29\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (749:749:749) (781:781:781))
@@ -339,7 +339,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[30\]\~output\\)
+    (INSTANCE \\S\[30\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (679:679:679) (783:783:783))
@@ -349,7 +349,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[31\]\~output\\)
+    (INSTANCE \\S\[31\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (623:623:623) (744:744:744))
@@ -359,7 +359,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[32\]\~output\\)
+    (INSTANCE \\S\[32\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (744:744:744) (683:683:683))
@@ -369,7 +369,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[33\]\~output\\)
+    (INSTANCE \\S\[33\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (724:724:724) (666:666:666))
@@ -379,7 +379,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[34\]\~output\\)
+    (INSTANCE \\S\[34\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (637:637:637) (733:733:733))
@@ -389,7 +389,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[35\]\~output\\)
+    (INSTANCE \\S\[35\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (615:615:615) (732:732:732))
@@ -399,7 +399,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[36\]\~output\\)
+    (INSTANCE \\S\[36\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (255:255:255) (263:263:263))
@@ -409,7 +409,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[37\]\~output\\)
+    (INSTANCE \\S\[37\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (575:575:575) (670:670:670))
@@ -419,7 +419,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[38\]\~output\\)
+    (INSTANCE \\S\[38\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (685:685:685) (795:795:795))
@@ -429,7 +429,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[39\]\~output\\)
+    (INSTANCE \\S\[39\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (221:221:221) (244:244:244))
@@ -439,7 +439,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[40\]\~output\\)
+    (INSTANCE \\S\[40\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (658:658:658) (758:758:758))
@@ -449,7 +449,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[41\]\~output\\)
+    (INSTANCE \\S\[41\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (682:682:682) (790:790:790))
@@ -459,7 +459,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[42\]\~output\\)
+    (INSTANCE \\S\[42\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (644:644:644) (744:744:744))
@@ -469,7 +469,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[43\]\~output\\)
+    (INSTANCE \\S\[43\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (616:616:616) (734:734:734))
@@ -479,7 +479,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[44\]\~output\\)
+    (INSTANCE \\S\[44\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (568:568:568) (661:661:661))
@@ -489,7 +489,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[45\]\~output\\)
+    (INSTANCE \\S\[45\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (1450:1450:1450) (1507:1507:1507))
@@ -499,7 +499,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[46\]\~output\\)
+    (INSTANCE \\S\[46\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (615:615:615) (711:711:711))
@@ -509,7 +509,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[47\]\~output\\)
+    (INSTANCE \\S\[47\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (624:624:624) (581:581:581))
@@ -519,7 +519,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[48\]\~output\\)
+    (INSTANCE \\S\[48\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (565:565:565) (656:656:656))
@@ -529,7 +529,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[49\]\~output\\)
+    (INSTANCE \\S\[49\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (661:661:661) (761:761:761))
@@ -539,7 +539,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[50\]\~output\\)
+    (INSTANCE \\S\[50\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (1574:1574:1574) (1525:1525:1525))
@@ -549,7 +549,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[51\]\~output\\)
+    (INSTANCE \\S\[51\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (1512:1512:1512) (1575:1575:1575))
@@ -559,7 +559,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[52\]\~output\\)
+    (INSTANCE \\S\[52\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (822:822:822) (878:878:878))
@@ -569,7 +569,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[53\]\~output\\)
+    (INSTANCE \\S\[53\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (652:652:652) (745:745:745))
@@ -579,7 +579,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[54\]\~output\\)
+    (INSTANCE \\S\[54\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (674:674:674) (781:781:781))
@@ -589,7 +589,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[55\]\~output\\)
+    (INSTANCE \\S\[55\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (728:728:728) (787:787:787))
@@ -599,7 +599,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[56\]\~output\\)
+    (INSTANCE \\S\[56\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (979:979:979) (1022:1022:1022))
@@ -609,7 +609,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[57\]\~output\\)
+    (INSTANCE \\S\[57\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (995:995:995) (1021:1021:1021))
@@ -619,7 +619,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[58\]\~output\\)
+    (INSTANCE \\S\[58\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (777:777:777) (817:817:817))
@@ -629,7 +629,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[59\]\~output\\)
+    (INSTANCE \\S\[59\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (804:804:804) (878:878:878))
@@ -639,7 +639,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[60\]\~output\\)
+    (INSTANCE \\S\[60\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (806:806:806) (861:861:861))
@@ -649,7 +649,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[61\]\~output\\)
+    (INSTANCE \\S\[61\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (745:745:745) (810:810:810))
@@ -659,7 +659,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[62\]\~output\\)
+    (INSTANCE \\S\[62\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (570:570:570) (663:663:663))
@@ -669,7 +669,7 @@
   )
   (CELL
     (CELLTYPE "arriaii_io_obuf")
-    (INSTANCE \\Sum\[63\]\~output\\)
+    (INSTANCE \\S\[63\]\~output\\)
     (DELAY
       (ABSOLUTE
         (PORT i (255:255:255) (264:264:264))

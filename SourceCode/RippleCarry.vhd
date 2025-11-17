@@ -11,7 +11,7 @@ entity RippleCarry is
 		A : in std_logic_vector((N-1) downto 0);
 		B : in std_logic_vector((N-1) downto 0);
 		Cin : in std_logic;
-		Sum : out std_logic_vector((N-1) downto 0);
+		S : out std_logic_vector((N-1) downto 0);
 		Cout : out std_logic;
 		Ovfl : out std_logic
 	);
@@ -45,7 +45,7 @@ architecture rtl of RippleCarry is
 		gen_adders : for i in 0 to (N-1) generate
 			FA_inst: FullAdder
 				port map(
-					x => A(i), y => B(i), cin => carry(i), sum => Sum(i), cout => carry(i+1)
+					x => A(i), y => B(i), cin => carry(i), sum => S(i), cout => carry(i+1)
 				);
 				
 		end generate gen_adders;
