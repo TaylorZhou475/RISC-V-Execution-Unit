@@ -48,7 +48,7 @@ Begin
                 A    => A, 
                 B    => B, 
                 Cin  => Cin,  -- Pass the actual input Cin directly
-                Sum  => S, 
+                S  => S, 
                 Cout => Cout, 
                 Ovfl => Ovfl
             );
