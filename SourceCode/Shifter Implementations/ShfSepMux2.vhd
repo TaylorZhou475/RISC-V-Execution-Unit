@@ -77,12 +77,14 @@ BEGIN
 	y1 <= Arith when sgnExt = "00" else
          Arith when sgnExt = "01" else
 			std_logic_vector(sllout) when sgnExt = "10" else
-			std_logic_vector(resize(unsigned(sllout(N/2-1 downto 0)), N)) when sgnExt = "11";
+			std_logic_vector(resize(unsigned(sllout(N/2-1 downto 0)), N)); 
+			--(above line) dont need another "when" statement as this else is the last of the when else block
 			
 	y2 <= std_logic_vector(srlout) when sgnExt = "00" else
          std_logic_vector(resize(unsigned(srlout(N-1 downto N/2-1)), N))  when sgnExt = "01" else
 			std_logic_vector(sraout) when sgnExt = "10" else
-			std_logic_vector(resize(signed(sraout(N-1 downto N/2-1)), N)) when sgnExt = "11";
+			std_logic_vector(resize(signed(sraout(N-1 downto N/2-1)), N));
+			--same comment as end of y1 about else statement
 			
 	Output <= y2 when ShiftFN(1) = '1' else y1;
 	 

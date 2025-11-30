@@ -1,6 +1,6 @@
 Analysis & Synthesis report for FP
-Sat Nov 29 20:29:24 2025
-Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Sat Nov 29 22:40:19 2025
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -19,17 +19,16 @@ Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
  11. Parameter Settings for User Entity Instance: KoggeStone:Adder
  12. Parameter Settings for User Entity Instance: ShfSepMux2:Shifter
  13. Parameter Settings for User Entity Instance: LogicUnit:LogicUnit
- 14. Port Connectivity Checks: "KoggeStone:Adder"
- 15. Post-Synthesis Netlist Statistics for Top Partition
- 16. Elapsed Time Per Partition
- 17. Analysis & Synthesis Messages
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2024  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -46,27 +45,27 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
-+---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Nov 29 20:29:24 2025          ;
-; Quartus Prime Version           ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
-; Revision Name                   ; FP                                             ;
-; Top-level Entity Name           ; ExecUnit                                       ;
-; Family                          ; Cyclone V                                      ;
-; Logic utilization (in ALMs)     ; N/A                                            ;
-; Total registers                 ; 0                                              ;
-; Total pins                      ; 203                                            ;
-; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 0                                              ;
-; Total DSP Blocks                ; 0                                              ;
-; Total HSSI RX PCSs              ; 0                                              ;
-; Total HSSI PMA RX Deserializers ; 0                                              ;
-; Total HSSI TX PCSs              ; 0                                              ;
-; Total HSSI PMA TX Serializers   ; 0                                              ;
-; Total PLLs                      ; 0                                              ;
-; Total DLLs                      ; 0                                              ;
-+---------------------------------+------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sat Nov 29 22:40:19 2025       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; FP                                          ;
+; Top-level Entity Name           ; ExecUnit                                    ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 203                                         ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -161,56 +160,62 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 2           ;
+; Maximum used               ; 8           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                         ;
-+---------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                  ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                 ; Library ;
-+---------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------+---------+
-; SourceCode/Logic Implementation/LogicUnit.vhd     ; yes             ; User VHDL File  ; C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Logic Implementation/LogicUnit.vhd     ;         ;
-; SourceCode/ExecUnit.vhd                           ; yes             ; User VHDL File  ; C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd                           ;         ;
-; SourceCode/Shifter Implementations/ShfSepMux2.vhd ; yes             ; User VHDL File  ; C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd ;         ;
-; SourceCode/Adder Implementations/KoggeStone.vhd   ; yes             ; User VHDL File  ; C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/KoggeStone.vhd   ;         ;
-; SourceCode/LogPackage.vhd                         ; yes             ; User VHDL File  ; C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/LogPackage.vhd                         ;         ;
-+---------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                             ;
++---------------------------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                  ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                     ; Library ;
++---------------------------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+---------+
+; SourceCode/Logic Implementation/LogicUnit.vhd     ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Logic Implementation/LogicUnit.vhd     ;         ;
+; SourceCode/ExecUnit.vhd                           ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd                           ;         ;
+; SourceCode/Shifter Implementations/ShfSepMux2.vhd ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Shifter Implementations/ShfSepMux2.vhd ;         ;
+; SourceCode/Adder Implementations/KoggeStone.vhd   ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/KoggeStone.vhd   ;         ;
+; SourceCode/LogPackage.vhd                         ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/LogPackage.vhd                         ;         ;
++---------------------------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary              ;
-+---------------------------------------------+------------+
-; Resource                                    ; Usage      ;
-+---------------------------------------------+------------+
-; Estimate of Logic utilization (ALMs needed) ; 790        ;
-;                                             ;            ;
-; Combinational ALUT usage for logic          ; 1183       ;
-;     -- 7 input functions                    ; 7          ;
-;     -- 6 input functions                    ; 389        ;
-;     -- 5 input functions                    ; 275        ;
-;     -- 4 input functions                    ; 355        ;
-;     -- <=3 input functions                  ; 157        ;
-;                                             ;            ;
-; Dedicated logic registers                   ; 0          ;
-;                                             ;            ;
-; I/O pins                                    ; 203        ;
-;                                             ;            ;
-; Total DSP Blocks                            ; 0          ;
-;                                             ;            ;
-; Maximum fan-out node                        ; B[3]~input ;
-; Maximum fan-out                             ; 152        ;
-; Total fan-out                               ; 5846       ;
-; Average fan-out                             ; 3.68       ;
-+---------------------------------------------+------------+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimate of Logic utilization (ALMs needed) ; 865           ;
+;                                             ;               ;
+; Combinational ALUT usage for logic          ; 1330          ;
+;     -- 7 input functions                    ; 7             ;
+;     -- 6 input functions                    ; 392           ;
+;     -- 5 input functions                    ; 333           ;
+;     -- 4 input functions                    ; 294           ;
+;     -- <=3 input functions                  ; 304           ;
+;                                             ;               ;
+; Dedicated logic registers                   ; 0             ;
+;                                             ;               ;
+; I/O pins                                    ; 203           ;
+;                                             ;               ;
+; Total DSP Blocks                            ; 0             ;
+;                                             ;               ;
+; Maximum fan-out node                        ; AddnSub~input ;
+; Maximum fan-out                             ; 179           ;
+; Total fan-out                               ; 6333          ;
+; Average fan-out                             ; 3.65          ;
++---------------------------------------------+---------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -218,10 +223,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name           ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------+-------------+--------------+
-; |ExecUnit                  ; 1183 (402)          ; 0 (0)                     ; 0                 ; 0          ; 203  ; 0            ; |ExecUnit                     ; ExecUnit    ; work         ;
-;    |KoggeStone:Adder|      ; 387 (387)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ExecUnit|KoggeStone:Adder    ; KoggeStone  ; work         ;
+; |ExecUnit                  ; 1330 (409)          ; 0 (0)                     ; 0                 ; 0          ; 203  ; 0            ; |ExecUnit                     ; ExecUnit    ; work         ;
+;    |KoggeStone:Adder|      ; 524 (524)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ExecUnit|KoggeStone:Adder    ; KoggeStone  ; work         ;
 ;    |LogicUnit:LogicUnit|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ExecUnit|LogicUnit:LogicUnit ; LogicUnit   ; work         ;
-;    |ShfSepMux2:Shifter|    ; 388 (388)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ExecUnit|ShfSepMux2:Shifter  ; ShfSepMux2  ; work         ;
+;    |ShfSepMux2:Shifter|    ; 391 (391)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ExecUnit|ShfSepMux2:Shifter  ; ShfSepMux2  ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -247,22 +252,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
 ; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|srlvals[6][55] ;
-; 3:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|srlvals[6][36] ;
-; 3:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[6][47] ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[6][35] ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sllvals[4][3]  ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sllvals[4][6]  ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[4][41] ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sllvals[4][9]  ;
-; 4:1                ; 61 bits   ; 122 LEs       ; 122 LEs              ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sllvals[4][33] ;
+; 3:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|srlvals[6][40] ;
+; 3:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[6][56] ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[6][41] ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sllvals[4][2]  ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sllvals[4][5]  ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[4][45] ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sllvals[4][8]  ;
+; 4:1                ; 61 bits   ; 122 LEs       ; 122 LEs              ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[4][21] ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[2][60] ;
 ; 4:1                ; 112 bits  ; 224 LEs       ; 224 LEs              ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sllvals[2][32] ;
-; 15:1               ; 15 bits   ; 150 LEs       ; 150 LEs              ; 0 LEs                  ; No         ; |ExecUnit|Y[47]                             ;
-; 18:1               ; 12 bits   ; 144 LEs       ; 144 LEs              ; 0 LEs                  ; No         ; |ExecUnit|Y[56]                             ;
-; 19:1               ; 14 bits   ; 168 LEs       ; 154 LEs              ; 14 LEs                 ; No         ; |ExecUnit|Y[18]                             ;
-; 21:1               ; 2 bits    ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |ExecUnit|Y[60]                             ;
-; 21:1               ; 12 bits   ; 168 LEs       ; 144 LEs              ; 24 LEs                 ; No         ; |ExecUnit|Y[8]                              ;
-; 24:1               ; 3 bits    ; 48 LEs        ; 42 LEs               ; 6 LEs                  ; No         ; |ExecUnit|Y[3]                              ;
+; 15:1               ; 15 bits   ; 150 LEs       ; 150 LEs              ; 0 LEs                  ; No         ; |ExecUnit|Y                                 ;
+; 18:1               ; 12 bits   ; 144 LEs       ; 144 LEs              ; 0 LEs                  ; No         ; |ExecUnit|Y                                 ;
+; 19:1               ; 14 bits   ; 168 LEs       ; 154 LEs              ; 14 LEs                 ; No         ; |ExecUnit|Y                                 ;
+; 21:1               ; 2 bits    ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |ExecUnit|Y                                 ;
+; 21:1               ; 12 bits   ; 168 LEs       ; 144 LEs              ; 24 LEs                 ; No         ; |ExecUnit|Y                                 ;
+; 24:1               ; 3 bits    ; 48 LEs        ; 42 LEs               ; 6 LEs                  ; No         ; |ExecUnit|Y                                 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
 
 
@@ -306,35 +311,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------+
-; Port Connectivity Checks: "KoggeStone:Adder" ;
-+------+-------+----------+--------------------+
-; Port ; Type  ; Severity ; Details            ;
-+------+-------+----------+--------------------+
-; cin  ; Input ; Info     ; Stuck at GND       ;
-+------+-------+----------+--------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1185                        ;
+; arriav_lcell_comb     ; 1331                        ;
 ;     extend            ; 7                           ;
 ;         7 data inputs ; 7                           ;
-;     normal            ; 1178                        ;
-;         0 data inputs ; 1                           ;
+;     normal            ; 1324                        ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 72                          ;
-;         3 data inputs ; 85                          ;
-;         4 data inputs ; 355                         ;
-;         5 data inputs ; 275                         ;
-;         6 data inputs ; 389                         ;
+;         2 data inputs ; 91                          ;
+;         3 data inputs ; 213                         ;
+;         4 data inputs ; 294                         ;
+;         5 data inputs ; 333                         ;
+;         6 data inputs ; 392                         ;
 ; boundary_port         ; 203                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 7.00                        ;
-; Average LUT depth     ; 6.30                        ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 7.04                        ;
 +-----------------------+-----------------------------+
 
 
@@ -343,7 +338,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:04     ;
 +----------------+--------------+
 
 
@@ -352,429 +347,41 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
-    Info: Processing started: Sat Nov 29 20:29:12 2025
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Sat Nov 29 22:40:06 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FP -c FP
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/logic implementation/logicunit.vhd
-    Info (12022): Found design unit 1: LogicUnit-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Logic Implementation/LogicUnit.vhd Line: 16
-    Info (12023): Found entity 1: LogicUnit File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Logic Implementation/LogicUnit.vhd Line: 6
+    Info (12022): Found design unit 1: LogicUnit-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Logic Implementation/LogicUnit.vhd Line: 16
+    Info (12023): Found entity 1: LogicUnit File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Logic Implementation/LogicUnit.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/execunit.vhd
-    Info (12022): Found design unit 1: ExecUnit-ShfSepMux2_KS File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 15
-    Info (12023): Found entity 1: ExecUnit File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 6
+    Info (12022): Found design unit 1: ExecUnit-ShfSepMux2_KS File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 15
+    Info (12023): Found entity 1: ExecUnit File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/shifter implementations/shfsepmux2.vhd
-    Info (12022): Found design unit 1: ShfSepMux2-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 19
-    Info (12023): Found entity 1: ShfSepMux2 File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 7
+    Info (12022): Found design unit 1: ShfSepMux2-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 19
+    Info (12023): Found entity 1: ShfSepMux2 File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/adder implementations/koggestone.vhd
-    Info (12022): Found design unit 1: KoggeStone-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/KoggeStone.vhd Line: 23
-    Info (12023): Found entity 1: KoggeStone File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/KoggeStone.vhd Line: 10
+    Info (12022): Found design unit 1: KoggeStone-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/KoggeStone.vhd Line: 23
+    Info (12023): Found entity 1: KoggeStone File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/KoggeStone.vhd Line: 10
 Info (12021): Found 2 design units, including 0 entities, in source file sourcecode/logpackage.vhd
-    Info (12022): Found design unit 1: LogPackage File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/LogPackage.vhd Line: 4
-    Info (12022): Found design unit 2: LogPackage-body File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/LogPackage.vhd Line: 11
+    Info (12022): Found design unit 1: LogPackage File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/LogPackage.vhd Line: 4
+    Info (12022): Found design unit 2: LogPackage-body File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/LogPackage.vhd Line: 11
 Info (12127): Elaborating entity "ExecUnit" for the top level hierarchy
-Info (10041): Inferred latch for "Y[0]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[1]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[2]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[3]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[4]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[5]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[6]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[7]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[8]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[9]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[10]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[11]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[12]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[13]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[14]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[15]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[16]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[17]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[18]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[19]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[20]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[21]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[22]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[23]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[24]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[25]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[26]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[27]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[28]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[29]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[30]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[31]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[32]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[33]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[34]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[35]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[36]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[37]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[38]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[39]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[40]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[41]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[42]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[43]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[44]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[45]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[46]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[47]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[48]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[49]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[50]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[51]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[52]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[53]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[54]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[55]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[56]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[57]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[58]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[59]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[60]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[61]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[62]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (10041): Inferred latch for "Y[63]" at ExecUnit.vhd(68) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Info (12128): Elaborating entity "KoggeStone" for hierarchy "KoggeStone:Adder" File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 24
-Info (12128): Elaborating entity "ShfSepMux2" for hierarchy "ShfSepMux2:Shifter" File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 49
-Info (10041): Inferred latch for "y2[0]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[1]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[2]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[3]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[4]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[5]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[6]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[7]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[8]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[9]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[10]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[11]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[12]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[13]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[14]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[15]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[16]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[17]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[18]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[19]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[20]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[21]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[22]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[23]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[24]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[25]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[26]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[27]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[28]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[29]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[30]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[31]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[32]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[33]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[34]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[35]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[36]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[37]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[38]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[39]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[40]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[41]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[42]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[43]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[44]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[45]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[46]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[47]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[48]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[49]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[50]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[51]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[52]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[53]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[54]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[55]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[56]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[57]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[58]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[59]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[60]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[61]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[62]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y2[63]" at ShfSepMux2.vhd(82) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Info (10041): Inferred latch for "y1[0]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[1]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[2]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[3]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[4]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[5]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[6]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[7]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[8]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[9]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[10]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[11]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[12]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[13]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[14]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[15]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[16]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[17]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[18]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[19]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[20]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[21]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[22]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[23]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[24]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[25]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[26]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[27]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[28]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[29]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[30]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[31]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[32]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[33]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[34]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[35]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[36]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[37]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[38]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[39]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[40]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[41]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[42]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[43]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[44]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[45]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[46]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[47]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[48]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[49]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[50]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[51]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[52]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[53]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[54]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[55]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[56]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[57]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[58]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[59]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[60]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[61]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[62]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (10041): Inferred latch for "y1[63]" at ShfSepMux2.vhd(77) File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Info (12128): Elaborating entity "LogicUnit" for hierarchy "LogicUnit:LogicUnit" File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 59
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[1]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[2]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[3]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[4]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[5]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[6]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[7]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[8]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[9]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[10]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[11]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[12]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[13]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[14]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[15]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[16]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[17]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[18]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[19]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[20]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[21]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[22]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[23]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[24]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[25]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[26]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[27]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[28]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[29]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[30]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[31]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[32]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[33]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[34]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[35]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[36]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[37]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[38]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[39]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[40]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[41]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[42]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[43]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[44]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[45]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[46]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[47]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[48]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[49]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[50]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[51]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[52]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[53]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[54]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[55]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[56]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[57]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[58]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[59]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[60]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[61]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[62]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[63]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[1]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[2]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[3]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[4]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[5]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[6]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[7]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[8]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[9]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[10]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[11]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[12]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[13]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[14]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[15]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[16]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[17]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[18]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[19]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[20]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[21]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[22]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[23]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[24]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[25]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[26]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[27]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[28]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[29]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[30]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[31]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[32]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[33]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[34]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[35]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[36]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[37]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[38]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[39]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[40]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[41]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[42]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[43]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[44]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[45]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[46]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[47]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[48]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[49]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[50]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[51]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[52]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[53]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[54]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[55]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[56]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[57]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[58]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[59]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[60]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[61]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[62]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[63]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (14026): LATCH primitive "Y[0]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[1]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[2]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[3]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[4]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[5]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[6]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[7]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[8]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[9]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[10]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[11]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[12]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[13]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[14]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[15]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[16]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[17]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[18]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[19]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[20]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[21]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[22]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[23]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[24]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[25]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[26]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[27]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[28]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[29]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[30]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[31]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[32]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[33]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[34]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[35]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[36]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[37]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[38]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[39]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[40]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[41]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[42]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[43]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[44]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[45]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[46]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[47]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[48]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[49]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[50]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[51]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[52]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[53]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[54]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[55]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[56]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[57]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[58]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[59]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[60]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[61]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[62]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "Y[63]$latch" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 68
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y2[0]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 82
-Warning (14026): LATCH primitive "ShfSepMux2:Shifter|y1[0]" is permanently enabled File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 77
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "Zero" is stuck at VCC File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 12
+Info (12128): Elaborating entity "KoggeStone" for hierarchy "KoggeStone:Adder" File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 31
+Info (12128): Elaborating entity "ShfSepMux2" for hierarchy "ShfSepMux2:Shifter" File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 56
+Info (12128): Elaborating entity "LogicUnit" for hierarchy "LogicUnit:LogicUnit" File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 66
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "AddnSub" File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 10
-Info (21057): Implemented 1386 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1533 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 136 input pins
     Info (21059): Implemented 67 output pins
-    Info (21061): Implemented 1183 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 197 warnings
-    Info: Peak virtual memory: 4908 megabytes
-    Info: Processing ended: Sat Nov 29 20:29:24 2025
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:21
+    Info (21061): Implemented 1330 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4868 megabytes
+    Info: Processing ended: Sat Nov 29 22:40:19 2025
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:25
 
 
