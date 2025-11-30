@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Sat Nov 29 20:06:06 2025
+Analysis & Synthesis Status : Successful - Sat Nov 29 20:29:24 2025
 Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 Revision Name : FP
-Top-level Entity Name : ShfSepMux2
+Top-level Entity Name : ExecUnit
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 201
+Total pins : 203
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

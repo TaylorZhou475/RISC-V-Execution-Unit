@@ -1,5 +1,5 @@
 Flow report for FP
-Sat Nov 29 20:06:58 2025
+Sat Nov 29 20:30:20 2025
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -41,16 +41,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Sat Nov 29 20:06:58 2025          ;
+; Flow Status                     ; Successful - Sat Nov 29 20:30:20 2025          ;
 ; Quartus Prime Version           ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name                   ; FP                                             ;
-; Top-level Entity Name           ; ShfSepMux2                                     ;
+; Top-level Entity Name           ; ExecUnit                                       ;
 ; Family                          ; Cyclone V                                      ;
 ; Device                          ; 5CGXFC7C7F23C8                                 ;
 ; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 381 / 56,480 ( < 1 % )                         ;
+; Logic utilization (in ALMs)     ; 797 / 56,480 ( 1 % )                           ;
 ; Total registers                 ; 0                                              ;
-; Total pins                      ; 201 / 268 ( 75 % )                             ;
+; Total pins                      ; 203 / 268 ( 76 % )                             ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0 / 7,024,640 ( 0 % )                          ;
 ; Total DSP Blocks                ; 0 / 156 ( 0 % )                                ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/29/2025 20:05:57 ;
+; Start date & time ; 11/29/2025 20:29:13 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FP                  ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 62156047921690.176447555713408         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 62156047921690.176447695307984         ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -89,13 +89,13 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --                                ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; ShfSepMux2  ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; ShfSepMux2  ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; ShfSepMux2  ; Top                               ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; ExecUnit    ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; ExecUnit    ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; ExecUnit    ; Top                               ;
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --                                ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                                ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --                                ;
-; TOP_LEVEL_ENTITY                    ; ShfSepMux2                             ; FP            ; --          ; --                                ;
+; TOP_LEVEL_ENTITY                    ; ExecUnit                               ; FP            ; --          ; --                                ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 
 
@@ -104,12 +104,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4908 MB             ; 00:00:18                           ;
-; Fitter               ; 00:00:36     ; 1.0                     ; 6772 MB             ; 00:01:18                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4908 MB             ; 00:00:21                           ;
+; Fitter               ; 00:00:37     ; 1.1                     ; 6772 MB             ; 00:01:19                           ;
 ; Assembler            ; 00:00:06     ; 1.0                     ; 5359 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.2                     ; 5395 MB             ; 00:00:07                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4747 MB             ; 00:00:01                           ;
-; Total                ; 00:00:56     ; --                      ; --                  ; 00:01:50                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.4                     ; 5395 MB             ; 00:00:09                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4747 MB             ; 00:00:01                           ;
+; Total                ; 00:01:03     ; --                      ; --                  ; 00:01:56                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
