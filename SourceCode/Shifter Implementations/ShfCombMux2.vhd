@@ -1,3 +1,5 @@
+--possible solution for sra being funky is to create
+--a hybrid approach of combined shifter and the seperate one (other design candiadte)
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -35,46 +37,78 @@ constant M : INTEGER := log2(N);
 type unsigned_array is array (natural range <>) of unsigned(N-1 downto 0);
 type signed_array is array (natural range <>) of signed(N-1 downto 0);
 
-signal signbit : std_logic;
-
+--signals for logical path (combined)
+signal input_logical : std_logic_vector(N-1 downto 0);
 signal preShift : std_logic_vector(N-1 downto 0);
 signal shiftvals : unsigned_array(0 to M);
-signal postShift : std_logic_vector(N-1 downto 0);
+signal logical_result : std_logic_vector(N-1 downto 0);
+signal logical_result_rev : std_logic_vector(N-1 downto 0);
 
-signal InputSwapped : signed(N-1 downto 0);
-signal InputSigned : signed(N-1 downto 0);
+--signals for arithmetic path (seperated part aka why hybrid)
+signal input_arithmetic : signed(N-1 downto 0);
 signal sravals : signed_array(0 to M);
+signal arithmetic_result : std_logic_vector(N-1 downto 0);
 
 BEGIN
-  
-	InputSwapped <= signed(Input(N/2-1 downto 0) & Input(N-1 downto N/2));
-	InputSigned <= signed(Input);
+  --for sll, srl
+  input_logical <= Input when ExtWord = '0' else
+						 (N-1 downto 32 => '0') & Input(31 downto 0); --removes sign extend and keeps lower 32 bit
+  --for sra
+  input_arithmetic <= signed(Input) when ExtWord = '0' else
+							 resize(signed(Input(31 downto 0)), N);
 	
-	preShift <= reverse_any_vector(Input) when ShiftFN(1) = '1' else Input;
-
-	shiftvals(0) <= preShift;
-
-	Shift : for i in 0 to M-1 generate
-		constant S : natural := 2**i;
-		begin
-			shiftvals(i+1) <= shift_left(shiftvals(i), S) when ShiftCount(i)='1'else shiftvals(i);
-		end generate;
-		
-	sravals(0) <= InputSigned when ExtWord = '0' else InputSwapped;
-	Gen_SRA : for i in 0 to M-1 generate
+--LOGICAL SHIFT---
+	preShift <= reverse_any_vector(input_logical) when ShiftFN = "10" else input_logical;
+	
+	shiftvals(0) <= unsigned(preShift);
+	
+	--left shift only barrel shifter
+	GenShift : for i in 0 to M-1 generate
 		constant S : natural := 2**i;
 	begin
+		shiftvals(i+1) <= shift_left(shiftvals(i), S) when ShiftCount(i) = '1' else shiftvals(i);
+	end generate;
+	
+	logical_result <= std_logic_vector(shiftvals(M));
+	logical_result_rev <= reverse_any_vector(logical_result);
+	
+--Arithmetic Shifter, sra seperate
+	
+	sravals(0) <= input_arithmetic;
+	
+	GenSRA : for i in 0 to M-1 generate
+		constant S : natural := 2**i;
+	begin 
 		sravals(i+1) <= shift_right(sravals(i), S) when ShiftCount(i) = '1' else sravals(i);
 	end generate;
 	
+	arithmetic_result <= std_logic_vector(sravals(M));
 	
-
-
+	--Output Mux
 	
-	postShift <= Arith when ShiftFN = '00' else
-					 shiftvals(M) when ShiftFN = '01' else
-					 reverse_any_vector(shiftvals(M)) when ShiftFN = '10' else
-					 std_logic_vector(sravals(M));
-					 
+	process(shiftFN, ExtWord, Arith, logical_result, logical_result_rev, arithmetic_result)
+		variable temp_res : std_logic_vector(N-1 downto 0);
+		begin
+			case ShiftFN is 
+				when "00" => --Arithmetic pass through
+					temp_res := Arith;
+				when "01" => --SLL
+					temp_res := logical_result;
+				when "10" => --SRL
+					temp_res := logical_result_rev;
+				when "11" => --SRA
+					temp_res := arithmetic_result;
+				when others => --Dont cares
+					temp_res := (others => 'X');
+			end case;
+	
+		--extend 32 bit result to 64 bit, sign extended
+		if ExtWord = '1' and ShiftFN /= "00" then --btw /= is not equal to
+			output <= std_logic_vector(resize(signed(temp_res(31 downto 0)), N));
+		else
+			output <= temp_res;
+		end if;
+	end process;
+					
 	 
 END rtl;
