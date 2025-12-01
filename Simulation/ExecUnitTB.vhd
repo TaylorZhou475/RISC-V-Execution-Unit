@@ -152,6 +152,7 @@ BEGIN
     		ELSE
         -- Word mode: DO NOT check flags
         		report "PASS: Test Case " & INTEGER'IMAGE(MeasurementIndex);
+				SuccessCount := SuccessCount + 1;
     		END IF;
 	    ELSE
     		REPORT "FAIL: Test Case " & integer'image(MeasurementIndex) & LF &

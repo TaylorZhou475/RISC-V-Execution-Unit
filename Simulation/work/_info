@@ -8,20 +8,20 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/taylo/OneDrive/Desktop/ENSC350/FP/Simulation
+Z0 dC:/Users/pius/Documents/GitHub/RISC-V-Execution-Unit/Simulation
 Cconfigexecunit_ks
 eExecUnitTB
 aTesting
 Z1 DPx4 work 10 logpackage 0 22 `cX26O6CGiHNo=iciI1;80
 Z2 DEx4 work 8 execunit 0 22 NeY?eQ`0X>B_Y[f17A>dC3
-DAx4 work 10 execunittb 7 testing 22 kU_UVdO4aPmSnjAcaaa:M1
+DAx4 work 10 execunittb 7 testing 22 82CTzd1zQEM38UVGZKmI`2
 Z3 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z7 DEx4 work 10 execunittb 0 22 8<F<C`F6KX[l5<G[Z^6DF3
 !i122 6
-w1764562166
+Z8 w1764570712
 R0
 8../SourceCode/ConfigExecUnit_KS.vhd
 F../SourceCode/ConfigExecUnit_KS.vhd
@@ -29,18 +29,18 @@ l0
 L1 1
 VO]P>4TCKXC4]Re?AiN`OR2
 !s100 KB<`W``=BcKWL`W;_59kA2
-Z8 OV;C;2020.1;71
+Z9 OV;C;2020.1;71
 33
-Z9 !s110 1764567288
+Z10 !s110 1764615970
 !i10b 1
-Z10 !s108 1764567288.000000
+Z11 !s108 1764615970.000000
 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/ConfigExecUnit_KS.vhd|
 !s107 ../SourceCode/ConfigExecUnit_KS.vhd|
 !i113 1
-Z11 o-quiet -work work -2008
-Z12 tExplicit 1 CvgOpt 0
+Z12 o-quiet -work work -2008
+Z13 tExplicit 1 CvgOpt 0
 Eexecunit
-Z13 w1764564171
+R8
 R1
 R4
 R5
@@ -53,21 +53,21 @@ l0
 L6 1
 VNeY?eQ`0X>B_Y[f17A>dC3
 !s100 Jc1H5b_]:Ue0SPZ@al22F0
-R8
-33
 R9
+33
+R10
 !i10b 1
-Z16 !s108 1764567287.000000
-Z17 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/ExecUnit.vhd|
-Z18 !s107 ../SourceCode/ExecUnit.vhd|
-!i113 1
 R11
+Z16 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/ExecUnit.vhd|
+Z17 !s107 ../SourceCode/ExecUnit.vhd|
+!i113 1
 R12
+R13
 Atest
-Z19 DEx4 work 9 logicunit 0 22 ANEj:g_Hkb8ie^1E<KU=z1
-Z20 DEx4 work 10 shfsepmux2 0 22 JJH7BkoF=z:bjIPHgFFc83
-Z21 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-Z22 DEx4 work 10 koggestone 0 22 dL?3S[NVL1`AV<AQgIQ0H1
+Z18 DEx4 work 9 logicunit 0 22 ne1]VWF6dHSdG<>_A9JE;3
+Z19 DEx4 work 10 shfsepmux2 0 22 JJH7BkoF=z:bjIPHgFFc83
+Z20 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z21 DEx4 work 10 koggestone 0 22 dL?3S[NVL1`AV<AQgIQ0H1
 R1
 R4
 R5
@@ -78,40 +78,40 @@ l26
 L15 70
 V4jIf[^jzhL>O?[NF:agA41
 !s100 ZILLT?amiD7N0C^[zZ<BV1
-R8
-33
 R9
+33
+R10
 !i10b 1
+R11
 R16
 R17
-R18
 !i113 1
-R11
 R12
+R13
 Eexecunittb
-Z23 w1764563753
+Z22 w1764574583
 R3
 R4
 R5
 R6
 !i122 5
 R0
-Z24 8../Simulation/ExecUnitTB.vhd
-Z25 F../Simulation/ExecUnitTB.vhd
+Z23 8../Simulation/ExecUnitTB.vhd
+Z24 F../Simulation/ExecUnitTB.vhd
 l0
 L7 1
 V8<F<C`F6KX[l5<G[Z^6DF3
 !s100 W3HQG3<ieOXEddNfA^Dc<2
-R8
-33
 R9
-!i10b 1
+33
 R10
-Z26 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../Simulation/ExecUnitTB.vhd|
-Z27 !s107 ../Simulation/ExecUnitTB.vhd|
-!i113 1
+!i10b 1
 R11
+Z25 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../Simulation/ExecUnitTB.vhd|
+Z26 !s107 ../Simulation/ExecUnitTB.vhd|
+!i113 1
 R12
+R13
 Atesting
 R3
 R4
@@ -120,128 +120,130 @@ R6
 R7
 !i122 5
 l52
-L13 171
-VkU_UVdO4aPmSnjAcaaa:M1
-!s100 ;A2fESaN`S?cWBk@keKzJ1
-R8
-33
+L13 172
+V82CTzd1zQEM38UVGZKmI`2
+!s100 nJP;@3hhBaDa=A[:Q_K_[1
 R9
-!i10b 1
+33
 R10
-R26
-R27
-!i113 1
+!i10b 1
 R11
+R25
+R26
+!i113 1
 R12
+R13
 Ekoggestone
-Z28 w1764562679
-R21
+R8
+R20
 R4
 R5
 R6
 !i122 3
 R0
-Z29 8../SourceCode/Adder Implementations/KoggeStone.vhd
-Z30 F../SourceCode/Adder Implementations/KoggeStone.vhd
+Z27 8../SourceCode/Adder Implementations/KoggeStone.vhd
+Z28 F../SourceCode/Adder Implementations/KoggeStone.vhd
 l0
 L10 1
 VdL?3S[NVL1`AV<AQgIQ0H1
 !s100 hN00=T70I4QAcJm;D70c^0
-R8
+R9
 33
-Z31 !s110 1764567287
+R10
 !i10b 1
-R16
-Z32 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/Adder Implementations/KoggeStone.vhd|
-Z33 !s107 ../SourceCode/Adder Implementations/KoggeStone.vhd|
+Z29 !s108 1764615969.000000
+Z30 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/Adder Implementations/KoggeStone.vhd|
+Z31 !s107 ../SourceCode/Adder Implementations/KoggeStone.vhd|
 !i113 1
-R11
 R12
+R13
 Artl
-R21
+R20
 R4
 R5
 R6
-R22
+R21
 !i122 3
 l43
 L23 69
 V@[O_E9igH6zHUVS3SNSb33
 !s100 D@VL_GMm5od>C2DH>PSEW3
-R8
+R9
 33
-R31
+R10
 !i10b 1
-R16
-R32
-R33
+R29
+R30
+R31
 !i113 1
-R11
 R12
+R13
 Elogicunit
-Z34 w1764475827
+Z32 w1764573785
+R4
 R5
 R6
 !i122 1
 R0
-Z35 8../SourceCode/Logic Implementation/LogicUnit.vhd
-Z36 F../SourceCode/Logic Implementation/LogicUnit.vhd
+Z33 8../SourceCode/Logic Implementation/LogicUnit.vhd
+Z34 F../SourceCode/Logic Implementation/LogicUnit.vhd
 l0
-L6 1
-VANEj:g_Hkb8ie^1E<KU=z1
-!s100 e9hL^9Z`HEzb1>6Fi66gH3
-R8
+L7 1
+Vne1]VWF6dHSdG<>_A9JE;3
+!s100 U@_W:Z?IgWBZ?kXBbAU>B0
+R9
 33
-R31
+Z35 !s110 1764615969
 !i10b 1
-R16
-Z37 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/Logic Implementation/LogicUnit.vhd|
-Z38 !s107 ../SourceCode/Logic Implementation/LogicUnit.vhd|
+R29
+Z36 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/Logic Implementation/LogicUnit.vhd|
+Z37 !s107 ../SourceCode/Logic Implementation/LogicUnit.vhd|
 !i113 1
-R11
 R12
+R13
 Artl
+R4
 R5
 R6
-R19
+R18
 !i122 1
-l17
-L16 11
-VBQkbB@EnZAm`Z_X4B1WHR3
-!s100 lQi58=[YidLfolB@IICPU2
-R8
+l19
+L17 15
+V@ZQfO7`H3H>=MIEbK[5L:3
+!s100 81V8W1mo`XImS?41aNfJE1
+R9
 33
-R31
+R35
 !i10b 1
-R16
+R29
+R36
 R37
-R38
 !i113 1
-R11
 R12
+R13
 Plogpackage
 R5
 R6
 !i122 0
-Z39 w1764474538
+R8
 R0
-Z40 8../SourceCode/LogPackage.vhd
-Z41 F../SourceCode/LogPackage.vhd
+Z38 8../SourceCode/LogPackage.vhd
+Z39 F../SourceCode/LogPackage.vhd
 l0
 L4 1
 V`cX26O6CGiHNo=iciI1;80
 !s100 6G0DahX`k90=8NIBC1V:f2
-R8
+R9
 33
 b1
-R31
+R35
 !i10b 1
-R16
-Z42 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/LogPackage.vhd|
-Z43 !s107 ../SourceCode/LogPackage.vhd|
+R29
+Z40 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/LogPackage.vhd|
+Z41 !s107 ../SourceCode/LogPackage.vhd|
 !i113 1
-R11
 R12
+R13
 Bbody
 R1
 R5
@@ -251,58 +253,58 @@ l0
 L11 1
 VdP`L9j[J5fkg?GkC0dBcI3
 !s100 B8ZIK11iONeg^kZfCZ6@Y2
-R8
+R9
 33
-R31
+R35
 !i10b 1
-R16
-R42
-R43
+R29
+R40
+R41
 !i113 1
-R11
 R12
+R13
 Eshfsepmux2
-Z44 w1764561782
+Z42 w1764615830
 R1
 R4
 R5
 R6
 !i122 2
 R0
-Z45 8../SourceCode/Shifter Implementations/ShfSepMux2.vhd
-Z46 F../SourceCode/Shifter Implementations/ShfSepMux2.vhd
+Z43 8../SourceCode/Shifter Implementations/ShfSepMux2.vhd
+Z44 F../SourceCode/Shifter Implementations/ShfSepMux2.vhd
 l0
 L7 1
 VJJH7BkoF=z:bjIPHgFFc83
 !s100 CA;UmlW<GAZComXJH:geo3
-R8
+R9
 33
-R31
+R35
 !i10b 1
-R16
-Z47 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/Shifter Implementations/ShfSepMux2.vhd|
-Z48 !s107 ../SourceCode/Shifter Implementations/ShfSepMux2.vhd|
+R29
+Z45 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/Shifter Implementations/ShfSepMux2.vhd|
+Z46 !s107 ../SourceCode/Shifter Implementations/ShfSepMux2.vhd|
 !i113 1
-R11
 R12
+R13
 Artl
 R1
 R4
 R5
 R6
-R20
+R19
 !i122 2
 l42
 L19 80
-Vz`UCfWelI012T2ZAYi3OY1
-!s100 ]nH946Am>[KjlWg[3::b?3
-R8
+VDdPm`1E4n?bciCLg8aU4L3
+!s100 zB0?7YP;kRIYaX<Xg@=Xg3
+R9
 33
-R31
+R35
 !i10b 1
-R16
-R47
-R48
+R29
+R45
+R46
 !i113 1
-R11
 R12
+R13

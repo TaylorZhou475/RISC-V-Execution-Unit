@@ -11,7 +11,6 @@ entity RippleCarry is
 		A : in std_logic_vector((N-1) downto 0);
 		B : in std_logic_vector((N-1) downto 0);
 		Cin : in std_logic;
-		AddnSub : in std_logic := '0';
 		S : out std_logic_vector((N-1) downto 0);
 		Cout : out std_logic;
 		Ovfl : out std_logic
@@ -36,11 +35,8 @@ architecture rtl of RippleCarry is
 	--carry network signals (internal)
 	
 	signal carry : std_logic_vector(N downto 0);
-	signal B_internal : std_logic_vector((N-1) downto 0);
 	
 	begin
-	
-		B_internal <= B when AddnSub = '0' else NOT B;
 	
 		carry(0) <= Cin;
 		
@@ -49,7 +45,7 @@ architecture rtl of RippleCarry is
 		gen_adders : for i in 0 to (N-1) generate
 			FA_inst: FullAdder
 				port map(
-					x => A(i), y => B_internal(i), cin => carry(i), sum => S(i), cout => carry(i+1)
+					x => A(i), y => B(i), cin => carry(i), sum => S(i), cout => carry(i+1)
 				);
 				
 		end generate gen_adders;

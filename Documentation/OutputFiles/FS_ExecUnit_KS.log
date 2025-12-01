@@ -1,10 +1,14 @@
-# End time: 21:34:47 on Nov 30,2025, Elapsed time: 0:51:39
-# Errors: 0, Warnings: 53
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap work work 
-# Modifying C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/Simulation/FP.mpf
+# Modifying C:/Users/pius/Documents/GitHub/RISC-V-Execution-Unit/Simulation/FP.mpf
 # vsim -quiet work.ConfigExecUnit_KS -GTIMING_MEASUREMENT=false 
-# Start time: 21:34:48 on Nov 30,2025
+# Start time: 11:06:10 on Dec 01,2025
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: pius  Hostname: DESKTOP-1Q2BHL9  ProcessID: 1992
+#           Attempting to use alternate WLF file "./wlftj88ehx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj88ehx
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # run -all
 # ** Note: =====================================================
 # >>>>>>>>>>>>>>>> Starting Simulation <<<<<<<<<<<<<<<<
@@ -29,21 +33,9 @@
 #    Time: 70 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 7
 #    Time: 75 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 8
-#       Inputs: A=D2BA289B63059940, B=B2EF60337054670A
-#               FC=10 LF=00 SF=10 AS='0' EW='0'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''0'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
+# ** Note: PASS: Test Case 8
 #    Time: 80 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 9
-#       Inputs: A=47ABA0A3F61A6308, B=30F5D1DF69C93E06
-#               FC=11 LF=01 SF=00 AS='0' EW='0'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
+# ** Note: PASS: Test Case 9
 #    Time: 85 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 10
 #    Time: 90 ns  Iteration: 0  Instance: /execunittb
@@ -57,13 +49,7 @@
 #    Time: 110 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 15
 #    Time: 115 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 16
-#       Inputs: A=ED126F3356A483A0, B=7D85034A9033F839
-#               FC=11 LF=00 SF=11 AS='0' EW='0'
-#       Y Expected=0000000000000000, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
+# ** Note: PASS: Test Case 16
 #    Time: 120 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 17
 #    Time: 125 ns  Iteration: 0  Instance: /execunittb
@@ -73,43 +59,19 @@
 #    Time: 135 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 20
 #    Time: 140 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 21
-#       Inputs: A=CD1BBF90404E82E1, B=7D0B2664A91ED41F
-#               FC=10 LF=01 SF=11 AS='0' EW='1'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
+# ** Note: PASS: Test Case 21
 #    Time: 145 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 22
 #    Time: 150 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 23
-#       Inputs: A=9E4F0A1697BCDF60, B=CFDDA06DC25E3960
-#               FC=10 LF=10 SF=10 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
+# ** Note: PASS: Test Case 23
 #    Time: 155 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 24
 #    Time: 160 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 25
 #    Time: 165 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 26
-#       Inputs: A=05CF0B94BBEE21F9, B=02B88444869BA6FB
-#               FC=10 LF=01 SF=01 AS='0' EW='0'
-#       Y Expected=0000000000000000, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''0''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
+# ** Note: PASS: Test Case 26
 #    Time: 170 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 27
-#       Inputs: A=FE93792F6BA2868A, B=7637EE9A74C71281
-#               FC=10 LF=11 SF=00 AS='0' EW='1'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
+# ** Note: PASS: Test Case 27
 #    Time: 175 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 28
 #    Time: 180 ns  Iteration: 0  Instance: /execunittb
@@ -117,13 +79,7 @@
 #    Time: 185 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 30
 #    Time: 190 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 31
-#       Inputs: A=7C72B64A3626450F, B=A7EB5E178038647F
-#               FC=01 LF=11 SF=10 AS='0' EW='0'
-#       Y Expected=246216020020440F, Actual=246216020020440F
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
+# ** Note: PASS: Test Case 31
 #    Time: 195 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 32
 #    Time: 200 ns  Iteration: 0  Instance: /execunittb
@@ -191,35 +147,17 @@
 #    Time: 355 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 64
 #    Time: 360 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 65
-#       Inputs: A=46662758A9E9F2F8, B=671A0A9329CE9E20
-#               FC=10 LF=01 SF=11 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
+# ** Note: PASS: Test Case 65
 #    Time: 365 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 66
 #    Time: 370 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 67
 #    Time: 375 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 68
-#       Inputs: A=DAEB8B5BA173EDD5, B=7A9FEDDC5DE98699
-#               FC=01 LF=00 SF=11 AS='0' EW='0'
-#       Y Expected=7A9FEDDC5DE98699, Actual=7A9FEDDC5DE98699
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
+# ** Note: PASS: Test Case 68
 #    Time: 380 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 69
 #    Time: 385 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 70
-#       Inputs: A=BEF114861934E188, B=1589EF90DF35F507
-#               FC=01 LF=11 SF=01 AS='0' EW='0'
-#       Y Expected=148104801934E100, Actual=148104801934E100
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''1''1'
-# 
+# ** Note: PASS: Test Case 70
 #    Time: 390 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 71
 #    Time: 395 ns  Iteration: 0  Instance: /execunittb
@@ -227,13 +165,7 @@
 #    Time: 400 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 73
 #    Time: 405 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 74
-#       Inputs: A=1AE2A65D2FF9A852, B=57420D32EFBA6FC0
-#               FC=10 LF=11 SF=10 AS='0' EW='1'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
+# ** Note: PASS: Test Case 74
 #    Time: 410 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 75
 #    Time: 415 ns  Iteration: 0  Instance: /execunittb
@@ -260,159 +192,99 @@
 # ** Note: PASS: Test Case 86
 #    Time: 470 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 87
-#    Time: 620 ns  Iteration: 0  Instance: /execunittb
+#    Time: 475 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 88
-#    Time: 625 ns  Iteration: 0  Instance: /execunittb
+#    Time: 480 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 89
-#    Time: 630 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 90
-#       Inputs: A=80A5E3BEABEE7A4F, B=EBEA41398A749F04
-#               FC=10 LF=01 SF=01 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
-#    Time: 635 ns  Iteration: 0  Instance: /execunittb
+#    Time: 485 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 90
+#    Time: 490 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 91
-#    Time: 640 ns  Iteration: 0  Instance: /execunittb
+#    Time: 495 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 92
-#    Time: 645 ns  Iteration: 0  Instance: /execunittb
+#    Time: 500 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 93
-#    Time: 650 ns  Iteration: 0  Instance: /execunittb
+#    Time: 505 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 94
-#    Time: 655 ns  Iteration: 0  Instance: /execunittb
+#    Time: 510 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 95
-#    Time: 660 ns  Iteration: 0  Instance: /execunittb
+#    Time: 515 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 96
-#    Time: 665 ns  Iteration: 0  Instance: /execunittb
+#    Time: 520 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 97
-#    Time: 670 ns  Iteration: 0  Instance: /execunittb
+#    Time: 525 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 98
-#    Time: 675 ns  Iteration: 0  Instance: /execunittb
+#    Time: 530 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 99
-#    Time: 680 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 100
-#       Inputs: A=3A9DB5E9DD4CDC04, B=0599B3E42CC52BBD
-#               FC=11 LF=10 SF=01 AS='0' EW='0'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
-#    Time: 685 ns  Iteration: 0  Instance: /execunittb
+#    Time: 535 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 100
+#    Time: 540 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 101
-#    Time: 690 ns  Iteration: 0  Instance: /execunittb
+#    Time: 545 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 102
-#    Time: 695 ns  Iteration: 0  Instance: /execunittb
+#    Time: 550 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 103
-#    Time: 700 ns  Iteration: 0  Instance: /execunittb
+#    Time: 555 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 104
-#    Time: 705 ns  Iteration: 0  Instance: /execunittb
+#    Time: 560 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 105
-#    Time: 710 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 106
-#       Inputs: A=68BD6FD6CC61BC30, B=C0178165BCF71BE6
-#               FC=11 LF=00 SF=00 AS='0' EW='1'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
-#    Time: 715 ns  Iteration: 0  Instance: /execunittb
+#    Time: 565 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 106
+#    Time: 570 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 107
-#    Time: 720 ns  Iteration: 0  Instance: /execunittb
+#    Time: 575 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 108
-#    Time: 725 ns  Iteration: 0  Instance: /execunittb
+#    Time: 580 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 109
-#    Time: 730 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 110
-#       Inputs: A=A486C12E8DAFD583, B=073BA604F67146E3
-#               FC=11 LF=01 SF=11 AS='0' EW='1'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''1''1'
-# 
-#    Time: 735 ns  Iteration: 0  Instance: /execunittb
+#    Time: 585 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 110
+#    Time: 590 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 111
-#    Time: 740 ns  Iteration: 0  Instance: /execunittb
+#    Time: 595 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 112
-#    Time: 745 ns  Iteration: 0  Instance: /execunittb
+#    Time: 600 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 113
-#    Time: 750 ns  Iteration: 0  Instance: /execunittb
+#    Time: 605 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 114
-#    Time: 755 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 115
-#       Inputs: A=9227E81E6A5C9652, B=E98E95255322B10F
-#               FC=01 LF=10 SF=01 AS='0' EW='0'
-#       Y Expected=FBAFFD3F7B7EB75F, Actual=FBAFFD3F7B7EB75F
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
-#    Time: 760 ns  Iteration: 0  Instance: /execunittb
+#    Time: 610 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 115
+#    Time: 615 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 116
-#    Time: 765 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 117
-#       Inputs: A=7E16B84BF10B237A, B=E9E2B3AF003B0114
-#               FC=01 LF=10 SF=11 AS='0' EW='0'
-#       Y Expected=FFF6BBEFF13B237E, Actual=FFF6BBEFF13B237E
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
-#    Time: 770 ns  Iteration: 0  Instance: /execunittb
+#    Time: 620 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 117
+#    Time: 625 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 118
-#    Time: 775 ns  Iteration: 0  Instance: /execunittb
+#    Time: 630 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 119
-#    Time: 780 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 120
-#       Inputs: A=DD4B38A86B77EA1A, B=58C0E53C589FB20E
-#               FC=10 LF=00 SF=00 AS='0' EW='1'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
-#    Time: 785 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 121
-#       Inputs: A=5F94EBCDE101E782, B=AE09D03E58381736
-#               FC=11 LF=11 SF=01 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
-#    Time: 790 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 122
-#       Inputs: A=5E13F2BA9A3CFE0E, B=665E1F32A305F6A2
-#               FC=01 LF=00 SF=00 AS='0' EW='0'
-#       Y Expected=665E1F32A305F6A2, Actual=665E1F32A305F6A2
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
-#    Time: 795 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 123
-#       Inputs: A=4D3AFC9E4F5C7738, B=62B084E273455BFF
-#               FC=11 LF=11 SF=11 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
-#    Time: 800 ns  Iteration: 0  Instance: /execunittb
+#    Time: 635 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 120
+#    Time: 640 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 121
+#    Time: 645 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 122
+#    Time: 650 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 123
+#    Time: 655 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 124
-#    Time: 805 ns  Iteration: 0  Instance: /execunittb
+#    Time: 660 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 125
-#    Time: 810 ns  Iteration: 0  Instance: /execunittb
+#    Time: 665 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 126
-#    Time: 815 ns  Iteration: 0  Instance: /execunittb
+#    Time: 670 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 127
-#    Time: 820 ns  Iteration: 0  Instance: /execunittb
+#    Time: 675 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 128
-#    Time: 825 ns  Iteration: 0  Instance: /execunittb
+#    Time: 680 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 129
-#    Time: 830 ns  Iteration: 0  Instance: /execunittb
+#    Time: 685 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 130
-#    Time: 835 ns  Iteration: 0  Instance: /execunittb
+#    Time: 690 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 131
-#    Time: 840 ns  Iteration: 0  Instance: /execunittb
+#    Time: 695 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 132
-#    Time: 845 ns  Iteration: 0  Instance: /execunittb
+#    Time: 700 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 133
-#    Time: 850 ns  Iteration: 0  Instance: /execunittb
+#    Time: 705 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 134
 #    Time: 855 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 135
@@ -431,43 +303,19 @@
 #    Time: 890 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 142
 #    Time: 895 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 143
-#       Inputs: A=E79B64312309E21F, B=3A4DCD846312991E
-#               FC=01 LF=10 SF=00 AS='0' EW='0'
-#       Y Expected=FFDFEDB5631BFB1F, Actual=FFDFEDB5631BFB1F
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
+# ** Note: PASS: Test Case 143
 #    Time: 900 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 144
-#    Time: 905 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1050 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 145
-#    Time: 910 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1055 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 146
-#    Time: 915 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 147
-#       Inputs: A=1E842FD61AEAEF69, B=22EC73C118CA4224
-#               FC=01 LF=10 SF=10 AS='0' EW='0'
-#       Y Expected=3EEC7FD71AEAEF6D, Actual=3EEC7FD71AEAEF6D
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
-#    Time: 920 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 148
-#       Inputs: A=A3DE3D2552CB4533, B=EAF8CFDC5EBC9672
-#               FC=11 LF=01 SF=01 AS='0' EW='1'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
-#    Time: 925 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 149
-#       Inputs: A=6E1FC6ECA42F778C, B=FDE314C20909448D
-#               FC=11 LF=01 SF=00 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
+#    Time: 1060 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 147
+#    Time: 1065 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 148
+#    Time: 1070 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 149
 #    Time: 1075 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 150
 #    Time: 1080 ns  Iteration: 0  Instance: /execunittb
@@ -481,35 +329,17 @@
 #    Time: 1100 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 155
 #    Time: 1105 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 156
-#       Inputs: A=89F03C5D3D6D125A, B=1B0B8B6A0F663732
-#               FC=11 LF=01 SF=10 AS='0' EW='1'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''1''1'
-# 
+# ** Note: PASS: Test Case 156
 #    Time: 1110 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 157
 #    Time: 1115 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 158
-#       Inputs: A=1C0867B2C8183ADD, B=556599F87ECFD195
-#               FC=11 LF=00 SF=10 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
+# ** Note: PASS: Test Case 158
 #    Time: 1120 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 159
 #    Time: 1125 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 160
 #    Time: 1130 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 161
-#       Inputs: A=A287D924D0C95453, B=E162D6B6CB760837
-#               FC=01 LF=10 SF=11 AS='0' EW='0'
-#       Y Expected=E3E7DFB6DBFF5C77, Actual=E3E7DFB6DBFF5C77
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
+# ** Note: PASS: Test Case 161
 #    Time: 1135 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 162
 #    Time: 1140 ns  Iteration: 0  Instance: /execunittb
@@ -517,13 +347,7 @@
 #    Time: 1145 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 164
 #    Time: 1150 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 165
-#       Inputs: A=FFF9499A6530A7FE, B=0385467CCAF5AD72
-#               FC=01 LF=10 SF=01 AS='0' EW='0'
-#       Y Expected=FFFD4FFEEFF5AFFE, Actual=FFFD4FFEEFF5AFFE
-#       Flags Expected (Z,AB,ABu)='0''1''0'
-#       Flags Actual   (Z,AB,ABu)='0''0''0'
-# 
+# ** Note: PASS: Test Case 165
 #    Time: 1155 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 166
 #    Time: 1160 ns  Iteration: 0  Instance: /execunittb
@@ -541,39 +365,15 @@
 #    Time: 1190 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 173
 #    Time: 1195 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 174
-#       Inputs: A=B2FA5EAE5A87540B, B=90FBFB690C5F1570
-#               FC=10 LF=00 SF=11 AS='0' EW='1'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''0'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
+# ** Note: PASS: Test Case 174
 #    Time: 1200 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 175
-#       Inputs: A=475692F350C47A59, B=87D81DC7ADEF59E7
-#               FC=11 LF=01 SF=11 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''1'
-# 
+# ** Note: PASS: Test Case 175
 #    Time: 1205 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 176
-#    Time: 1210 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 177
-#       Inputs: A=01F63B35309AD4DD, B=81A6B631B17B2468
-#               FC=10 LF=00 SF=10 AS='0' EW='1'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''1'
-# 
-#    Time: 1215 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 178
-#       Inputs: A=0C376352B4ADA4EC, B=A87B03FFAD1856D5
-#               FC=10 LF=11 SF=01 AS='0' EW='0'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''1'
-# 
+#    Time: 1355 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 177
+#    Time: 1360 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 178
 #    Time: 1365 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 179
 #    Time: 1370 ns  Iteration: 0  Instance: /execunittb
@@ -591,21 +391,9 @@
 #    Time: 1400 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 186
 #    Time: 1405 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 187
-#       Inputs: A=07F8CF76FB094DAA, B=331AE4534FFEA27B
-#               FC=10 LF=11 SF=01 AS='0' EW='1'
-#       Y Expected=0000000000000001, Actual=0000000000000000
-#       Flags Expected (Z,AB,ABu)='0''1''1'
-#       Flags Actual   (Z,AB,ABu)='0''0''1'
-# 
+# ** Note: PASS: Test Case 187
 #    Time: 1410 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 188
-#       Inputs: A=37F60C10A8EFD622, B=B4634496AC39DFD2
-#               FC=11 LF=11 SF=00 AS='0' EW='0'
-#       Y Expected=0000000000000001, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''1'
-# 
+# ** Note: PASS: Test Case 188
 #    Time: 1415 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 189
 #    Time: 1420 ns  Iteration: 0  Instance: /execunittb
@@ -621,53 +409,35 @@
 #    Time: 1445 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 195
 #    Time: 1450 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 196
-#       Inputs: A=AF3B7E028CCB2DFA, B=8E2D8A67F5C4EFA1
-#               FC=10 LF=11 SF=11 AS='0' EW='1'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''0'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
+# ** Note: PASS: Test Case 196
 #    Time: 1455 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 197
-#       Inputs: A=C5E6A620AA498E13, B=BC3690DE99E6C1D8
-#               FC=10 LF=01 SF=11 AS='0' EW='0'
-#       Y Expected=0000000000000000, Actual=0000000000000001
-#       Flags Expected (Z,AB,ABu)='0''0''0'
-#       Flags Actual   (Z,AB,ABu)='0''1''0'
-# 
-#    Time: 1605 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 197
+#    Time: 1460 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 198
-#    Time: 1610 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1465 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 199
-#    Time: 1615 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1470 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 200
-#    Time: 1620 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1475 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 201
-#    Time: 1625 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1480 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 202
-#    Time: 1630 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1485 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 203
-#    Time: 1635 ns  Iteration: 0  Instance: /execunittb
-# ** Warning: FAIL: Test Case 204
-#       Inputs: A=0F061F3C8F27E092, B=C5493267910A5CEF
-#               FC=01 LF=00 SF=11 AS='0' EW='0'
-#       Y Expected=C5493267910A5CEF, Actual=C5493267910A5CEF
-#       Flags Expected (Z,AB,ABu)='0''0''1'
-#       Flags Actual   (Z,AB,ABu)='0''1''1'
-# 
-#    Time: 1640 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1490 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 204
+#    Time: 1495 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 205
-#    Time: 1645 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1500 ns  Iteration: 0  Instance: /execunittb
 # ** Note: PASS: Test Case 206
-#    Time: 1650 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1505 ns  Iteration: 0  Instance: /execunittb
 # ** Note: =====================================================
 # >>>>>>>>>>>>>>>> Simulation Complete <<<<<<<<<<<<<<<<
 # =====================================================
-# Test cases passed: 84
-# Test cases failed : 39
+# Test cases passed: 206
+# Test cases failed : 0
 # 
-#    Time: 1650 ns  Iteration: 0  Instance: /execunittb
+#    Time: 1505 ns  Iteration: 0  Instance: /execunittb
 # transcript off
 # 0 ps
-# 1732500 ps
+# 1580250 ps
