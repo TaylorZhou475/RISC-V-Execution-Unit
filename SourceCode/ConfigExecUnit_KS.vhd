@@ -1,6 +1,6 @@
 CONFIGURATION ConfigExecUnit_KS OF ExecUnitTB IS
   FOR Testing
-    FOR DUT : ExecUnit
+    FOR DUT : TestUnit
       USE ENTITY work.ExecUnit(Test);
     END FOR;
   END FOR;

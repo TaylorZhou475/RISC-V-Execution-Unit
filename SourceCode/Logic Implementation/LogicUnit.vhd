@@ -17,7 +17,7 @@ Architecture rtl of LogicUnit is
 	begin
 	
 		with LogicFN select
-			Y <= B when "00", -- LUI, load B into register
+			Y <= B when "00", -- LUI, load B into register, needs to be fixed
 				  A xor B when "01", -- xor
 				  A or B when "10", -- or
 				  A and B when "11", -- and

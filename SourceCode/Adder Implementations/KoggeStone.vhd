@@ -14,7 +14,6 @@ entity KoggeStone is
        A : in  std_logic_vector(N_bits-1 downto 0);
        B : in  std_logic_vector(N_bits-1 downto 0);
        Cin : in  std_logic;
-       AddnSub : in std_logic := '0';
        S : out std_logic_vector(N_bits-1 downto 0);
        Cout : out std_logic;
 		 Ovfl : out std_logic
@@ -31,8 +30,7 @@ architecture rtl of KoggeStone is
 	
 	signal g : std_logic_vector(N_bits-1 downto 0);
 	signal p : std_logic_vector(N_bits-1 downto 0);
-	
-	signal B_internal : std_logic_vector(N_bits-1 downto 0);
+
 	
 	--prefix network signals formatte G(level)(bit) P(level)(bit)
 	type gp_array is array (0 to levels) of std_logic_vector(N_bits-1 downto 0);
@@ -44,12 +42,10 @@ architecture rtl of KoggeStone is
 	
 	begin
 		
-		B_internal <= B when AddnSub = '0' else NOT B;
-		
 		--inital gen and prop sigs
 		gen_initial_gp: for i in 0 to N_bits-1 generate
-			g(i) <= A(i) AND B_internal(i);
-			p(i) <= A(i) XOR B_internal(i);
+			g(i) <= A(i) AND B(i);
+			p(i) <= A(i) XOR B(i);
 		end generate gen_initial_gp;
 		
 		--level 0 prefix network

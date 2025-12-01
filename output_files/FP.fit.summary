@@ -1,11 +1,11 @@
-Fitter Status : Successful - Sun Nov 30 19:40:12 2025
+Fitter Status : Successful - Sun Nov 30 20:28:27 2025
 Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 Revision Name : FP
 Top-level Entity Name : ExecUnit
 Family : Cyclone V
 Device : 5CGXFC7C7F23C8
 Timing Models : Final
-Logic utilization (in ALMs) : 649 / 56,480 ( 1 % )
+Logic utilization (in ALMs) : 917 / 56,480 ( 2 % )
 Total registers : 0
 Total pins : 203 / 268 ( 76 % )
 Total virtual pins : 0
