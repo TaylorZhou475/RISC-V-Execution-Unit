@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.LogPackage.all;
 
---Shifter using separate barrel shifters, 64 bits, 6 stages of mux
+--Shifter using separate barrel shifters, 6 stages of 2 input mux
 ENTITY ShfSepMux2 IS
 generic(N : integer := 64);
 PORT(
@@ -79,7 +79,7 @@ BEGIN
 	sraout <= sravals(M);
 	
 	-- Sign extension for ADDW/SUBW
-	Arith_Extended <= (N-1 downto 32 => Arith(31)) & Arith(31 downto 0) when ExtWord = '1' else Arith;
+	Arith_Extended <= (N-1 downto N/2 => Arith(N/2-1)) & Arith(N/2-1 downto 0) when ExtWord = '1' else Arith;
 
 	sgnExt <= ShiftFN(0) & ExtWord;
 	 
