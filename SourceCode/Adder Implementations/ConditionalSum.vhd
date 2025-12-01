@@ -10,6 +10,7 @@ Entity ConditionalSum is
         A    : in  std_logic_vector(N_bits-1 downto 0);
         B    : in  std_logic_vector(N_bits-1 downto 0);
         Cin  : in  std_logic;
+        AddnSub : in std_logic := '0';
         S    : out std_logic_vector(N_bits-1 downto 0);
         Cout : out std_logic;
         Ovfl : out std_logic
@@ -48,6 +49,7 @@ Begin
                 A    => A, 
                 B    => B, 
                 Cin  => Cin,  -- Pass the actual input Cin directly
+                AddnSub => AddnSub,
                 S  => S, 
                 Cout => Cout, 
                 Ovfl => Ovfl
@@ -75,6 +77,7 @@ Begin
                 A    => A_lo, 
                 B    => B_lo, 
                 Cin  => Cin,    -- Pass actual Cin
+                AddnSub => AddnSub,
                 S    => S(N_lo-1 downto 0), -- Write directly to lower S
                 Cout => mid_c,              -- This is the select signal for the upper half
                 Ovfl => open                -- Lower half overflow doesn't matter for final result
@@ -87,7 +90,7 @@ Begin
         CSA_Upper_Half_MidC0: entity work.ConditionalSum(rtl)
             generic map ( N_bits => N_hi, Block_size => Block_size )
             port map (
-                A => A_hi, B => B_hi, Cin => '0',
+                A => A_hi, B => B_hi, Cin => '0', AddnSub => AddnSub,
                 S => s_hi_0, Cout => c_hi_0, Ovfl => ovfl_hi_0
             );
 
@@ -95,7 +98,7 @@ Begin
         CSA_Upper_Half_MidC1: entity work.ConditionalSum(rtl)
             generic map ( N_bits => N_hi, Block_size => Block_size )
             port map (
-                A => A_hi, B => B_hi, Cin => '1',
+                A => A_hi, B => B_hi, Cin => '1', AddnSub => AddnSub,
                 S => s_hi_1, Cout => c_hi_1, Ovfl => ovfl_hi_1
             );
 
