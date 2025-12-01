@@ -37,9 +37,10 @@ signal sraout : signed(N-1 downto 0);
 
 signal y1, y2 : std_logic_vector(N-1 downto 0);
 signal sgnExt : std_logic_vector(1 downto 0);
+signal Arith_Extended : std_logic_vector(N-1 downto 0);
 BEGIN
 
-	InputSwapped <= unsigned(Input((N/2)-1 downto 0) & Input(N-1 downto N/2)) when (ExtWord = '1' AND ShiftFN(1) = '1') else unsigned(Input);
+	InputSwapped <= unsigned(Input);
 	InputSigned <= signed(InputSwapped);
 	srlvals(0) <= InputSwapped;
 	sllvals(0) <= InputSwapped;
@@ -71,19 +72,21 @@ BEGIN
 	
 	sraout <= sravals(M);
 	
+	Arith_Extended <= (N-1 downto 32 => Arith(31)) & Arith(31 downto 0) when ExtWord = '1' else Arith;
+
 	sgnExt <= ShiftFN(0) & ExtWord;
 	 
 	 --In theory arithmetic should already be sign extended
-	y1 <= Arith when sgnExt = "00" else
-         Arith when sgnExt = "01" else
+	y1 <= Arith_Extended when sgnExt = "00" else
+         Arith_Extended when sgnExt = "01" else
 			std_logic_vector(sllout) when sgnExt = "10" else
 			std_logic_vector(resize(unsigned(sllout(N/2-1 downto 0)), N)); 
 			--(above line) dont need another "when" statement as this else is the last of the when else block
 			
 	y2 <= std_logic_vector(srlout) when sgnExt = "00" else
-         std_logic_vector(resize(unsigned(srlout(N-1 downto N/2-1)), N))  when sgnExt = "01" else
+         std_logic_vector(resize(unsigned(srlout(N-1 downto N/2)), N))  when sgnExt = "01" else
 			std_logic_vector(sraout) when sgnExt = "10" else
-			std_logic_vector(resize(signed(sraout(N-1 downto N/2-1)), N));
+			std_logic_vector(resize(signed(sraout(N-1 downto N/2)), N));
 			--same comment as end of y1 about else statement
 			
 	Output <= y2 when ShiftFN(1) = '1' else y1;
