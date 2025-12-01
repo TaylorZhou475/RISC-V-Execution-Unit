@@ -31,11 +31,10 @@ ARCHITECTURE Testing OF ExecUnitTB IS
     SIGNAL WorstCaseDelay : TIME := 0 ns;
     SIGNAL WorstCaseIteration : INTEGER := 0;
 
-    COMPONENT ExecUnit
-        GENERIC ( N : natural := 64 );
+    COMPONENT TestUnit
         PORT ( 
-            A, B : in std_logic_vector( N-1 downto 0 );
-            FuncClass, LogicFN, ShiftFN : in std_logic_vector( 1 downto 0 );
+            A, B : in std_logic_vector(TB_N-1 downto 0 );
+            FuncClass, LogicFN, ShiftFN : in std_logic_vector(1 downto 0 );
             AddnSub, ExtWord : in std_logic;
             Y : out std_logic_vector( N-1 downto 0 );
             Zero, AltB, AltBu : out std_logic 
@@ -52,8 +51,7 @@ ARCHITECTURE Testing OF ExecUnitTB IS
 
 BEGIN
 
-    DUT : ExecUnit
-        GENERIC MAP ( N => TB_N )
+    DUT : TestUnit
         PORT MAP (
             A => TB_A, 
             B => TB_B, 

@@ -7,7 +7,7 @@ Entity ExecUnit is
 Generic ( N : natural := 64 );
 Port ( A, B : in std_logic_vector( N-1 downto 0 );
 		FuncClass, LogicFN, ShiftFN : in std_logic_vector( 1 downto 0 );
-		AddnSub, ExtWord : in std_logic := '0';
+		AddnSub, ExtWord : in std_logic;
 		Y : out std_logic_vector( N-1 downto 0 );
 		Zero, AltB, AltBu : out std_logic );
 End Entity ExecUnit;
@@ -28,9 +28,8 @@ signal Zero_Source : std_logic_vector(N-1 downto 0);
 
 begin
 
-	DoSub <= AddnSub when FuncClass = "00" else '1';
-	B_In <= B when DoSub = '0' else NOT B; --inverted B
-	Cin_IN <= DoSub;
+	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+	Cin_IN <= AddnSub;
 	
 	Adder : entity work.RippleCarry		-- edit adder
 	--Cant pass generic in

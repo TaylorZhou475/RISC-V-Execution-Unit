@@ -1,6 +1,6 @@
 Assembler report for FP
-Sat Nov 29 22:43:13 2025
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Sun Nov 30 19:40:56 2025
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
 ---------------------
@@ -10,7 +10,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/output_files/FP.sof
+  5. Assembler Device Options: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/output_files/FP.sof
   6. Assembler Messages
 
 
@@ -18,7 +18,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2024  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Nov 29 22:43:13 2025 ;
+; Assembler Status      ; Successful - Sun Nov 30 19:40:56 2025 ;
 ; Revision Name         ; FP                                    ;
 ; Top-level Entity Name ; ExecUnit                              ;
 ; Family                ; Cyclone V                             ;
@@ -53,23 +53,23 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                          ;
-+------------------------------------------------------------------------------------+
-; File Name                                                                          ;
-+------------------------------------------------------------------------------------+
-; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/output_files/FP.sof ;
-+------------------------------------------------------------------------------------+
++----------------------------------------------------------------+
+; Assembler Generated Files                                      ;
++----------------------------------------------------------------+
+; File Name                                                      ;
++----------------------------------------------------------------+
+; C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/output_files/FP.sof ;
++----------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/output_files/FP.sof ;
-+----------------+---------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                     ;
-+----------------+---------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x010A00D3                                                                                  ;
-; Checksum       ; 0x010A00D3                                                                                  ;
-+----------------+---------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/output_files/FP.sof ;
++----------------+-------------------------------------------------------------------------+
+; Option         ; Setting                                                                 ;
++----------------+-------------------------------------------------------------------------+
+; JTAG usercode  ; 0x01021720                                                              ;
+; Checksum       ; 0x01021720                                                              ;
++----------------+-------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,15 +77,15 @@ https://fpgasoftware.intel.com/eula.
 +--------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
-    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Nov 29 22:43:04 2025
+    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+    Info: Processing started: Sun Nov 30 19:40:18 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off FP -c FP
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4850 megabytes
-    Info: Processing ended: Sat Nov 29 22:43:13 2025
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:08
+    Info: Peak virtual memory: 5360 megabytes
+    Info: Processing ended: Sun Nov 30 19:40:56 2025
+    Info: Elapsed time: 00:00:38
+    Info: Total CPU time (on all processors): 00:00:24
 
 
