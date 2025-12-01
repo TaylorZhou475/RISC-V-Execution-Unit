@@ -13,6 +13,7 @@ entity CarrySkip is
         A    : in  std_logic_vector(N-1 downto 0);
         B    : in  std_logic_vector(N-1 downto 0);
         Cin  : in  std_logic;
+        AddnSub : in std_logic := '0';
         S    : out std_logic_vector(N-1 downto 0);
         Cout : out std_logic;
         Ovfl : out std_logic
@@ -45,8 +46,12 @@ architecture rtl of CarrySkip is
 
     -- group: block-level propagate signal
     signal group  : std_logic_vector(N_BLOCKS-1 downto 0);
+    
+    signal B_internal : std_logic_vector(N-1 downto 0);
 
 begin
+
+    B_internal <= B when AddnSub = '0' else NOT B;
 
     block(0) <= Cin;
     ripple <= (0 => Cin, others => '0');
@@ -59,7 +64,7 @@ begin
     begin
 	 
         gen_bits: for j in 0 to BLOCK_SIZE-1 generate
-            bits(j) <= A(i*BLOCK_SIZE + j) xor B(i*BLOCK_SIZE + j);
+            bits(j) <= A(i*BLOCK_SIZE + j) xor B_internal(i*BLOCK_SIZE + j);
         end generate;
 		  
         group(i) <= '&' & bits;
@@ -74,7 +79,7 @@ begin
 				
                 port map(
                     x    => A(index),
-                    y    => B(index),
+                    y    => B_internal(index),
                     cin  => ripple(index),
                     sum  => S(index),
                     cout => ripple(index+1)
