@@ -1,0 +1,134 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.LogPackage.all;
+
+entity ShfCombMux2 is
+    generic(N : integer := 64);
+    port(
+        Input      : in  std_logic_vector(N-1 downto 0);   -- value to shift
+        Arith      : in  std_logic_vector(N-1 downto 0);   -- ALU passthrough value
+        ShiftFN    : in  std_logic_vector(1 downto 0);     -- 00 passthrough, 01 SLL, 10 SRL, 11 SRA
+        ExtWord    : in  std_logic;
+        ShiftCount : in  std_logic_vector(log2(N)-1 downto 0);
+        Output     : out std_logic_vector(N-1 downto 0)
+    );
+end entity ShfCombMux2;
+
+architecture rtl of ShfCombMux2 is
+
+--This function was not written by us, from:
+--https://stackoverflow.com/questions/13584307/reverse-bit-order-on-vhdl
+function reverse_any_vector(a : std_logic_vector) return std_logic_vector is
+  variable r : std_logic_vector(a'range);
+  alias aa : std_logic_vector(a'reverse_range) is a;
+begin
+  for i in aa'range loop
+		r(i) := aa(i);
+  end loop;
+  return r;
+end function;
+
+constant STAGES : integer := log2(N);
+
+type shift_array is array (natural range <>) of std_logic_vector(N-1 downto 0);
+
+signal eff_shamt : std_logic_vector(log2(N)-1 downto 0);
+
+signal src       : std_logic_vector(N-1 downto 0);
+signal stage     : shift_array(0 to STAGES);
+signal stage_in  : std_logic_vector(N-1 downto 0);
+signal stage_out : std_logic_vector(N-1 downto 0);
+
+signal sign_bit  : std_logic;
+signal final_res : std_logic_vector(N-1 downto 0);
+
+begin
+
+    ------------------------------------------------------------------------
+    -- Copy ShiftCount -> eff_shamt safely, and mask for *W instructions
+    ------------------------------------------------------------------------
+    shamt_mask_process : process(ShiftCount, ExtWord)
+    begin
+        -- copy bit by bit so Quartus doesn't merge nets
+        for i in eff_shamt'range loop
+            eff_shamt(i) <= ShiftCount(i);
+        end loop;
+
+        -- mask high bits if this is a *W instruction
+        if ExtWord = '1' then
+            for i in eff_shamt'high downto 5 loop
+                eff_shamt(i) <= '0';
+            end loop;
+        end if;
+    end process;
+
+
+	 --This is a process just to make quartus compile it with one driver
+	 --Puts in the input, then the top half is sign extended or zeroed
+    process(Input, ExtWord, ShiftFN)
+    begin
+        src <= Input; -- default
+
+        if ExtWord = '1' then
+            case ShiftFN is
+                when "10" =>  -- SRLW
+                    src(N-1 downto 32) <= (others => '0');
+
+                when "11" =>  -- SRAW
+                    src(N-1 downto 32) <= (others => Input(31));
+
+                when others =>
+                    null;
+            end case;
+        end if;
+    end process;
+
+	--reverse if sll
+   stage_in <= reverse_any_vector(src) when ShiftFN = "01" else src;
+
+   -- logical shifts => 0 fill; arithmetic => sign fill
+   sign_bit <= '0'      when (ShiftFN = "01" or ShiftFN = "10") else
+                src(N-1) when  ShiftFN = "11" else
+                '0';
+
+
+   stage(0) <= stage_in;
+
+   gen_stages : for i in 0 to STAGES-1 generate
+      constant S : integer := 2**i;
+   begin
+		--When shifting, concurrently fill in bits with the sign bit
+		stage(i+1) <= ((N-1 downto N-S => sign_bit) & stage(i)(N-1 downto S)) when eff_shamt(i) = '1' else stage(i);
+   end generate;
+
+	--Reverse back for left shifts
+   stage_out <= reverse_any_vector(stage(STAGES)) when ShiftFN = "01" else stage(STAGES);
+
+
+   process(Arith, stage_out, ShiftFN, ExtWord)
+   begin
+      if ShiftFN = "00" then
+            -- passthrough from ALU (Arith)
+			if ExtWord = '1' then
+				final_res(31 downto 0)  <= Arith(31 downto 0);
+            final_res(63 downto 32) <= (others => Arith(31));
+         else
+            final_res <= Arith;
+         end if;
+
+      else
+			-- The output from the shift
+			if ExtWord = '1' then
+				 final_res(31 downto 0)  <= stage_out(31 downto 0);
+				 final_res(63 downto 32) <= (others => stage_out(31));
+			else
+				 final_res <= stage_out;
+			end if;
+	  end if;
+   end process;
+
+   Output <= final_res;
+
+end architecture rtl;
+

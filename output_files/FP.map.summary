@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Mon Dec 01 19:09:40 2025
-Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Mon Dec  1 21:20:29 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 Revision Name : FP
 Top-level Entity Name : ExecUnit
 Family : Cyclone IV E
-Total logic elements : 1,591
-    Total combinational functions : 1,591
+Total logic elements : 2,023
+    Total combinational functions : 2,023
     Dedicated logic registers : 0
 Total registers : 0
 Total pins : 203

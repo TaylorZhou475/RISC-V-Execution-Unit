@@ -83,150 +83,846 @@ begin
 
 end SepMux2_KS;
 
-
-
-
-architecture SepMux2_CondS of ExecUnit is			
-signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
-signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
-signal Cout, Ovfl : std_logic;
-signal AltB_sig, AltBu_Sig : std_logic;
-signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
-
-signal B_In : std_logic_vector(N-1 downto 0);
-signal Cin_In : std_logic;
-signal Y_internal : std_logic_vector(N-1 downto 0);
-
-begin
-
-	B_In <= B when AddnSub = '0' else NOT B; --inverted B
-	Cin_IN <= AddnSub;
-	
-	Adder : entity work.ConditionalSum		-- ConditionalSum
-	--Cant pass generic in
-		port map(
-					A => A,
-					B => B_In,
-					Cin => Cin_In,
-					S => AdderOut,
-					Cout => Cout,
-					Ovfl => Ovfl
-					);
-		
-
-	AltB_sig <= (Ovfl XOR AdderOut(N-1));
-					
-	AltBu_sig <= (NOT Cout);
-	
-	AltB <= AltB_sig;
-	AltBu <= AltBu_sig;
-	
-	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
-	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
-	
-	
-	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
-			
-   Shifter : entity work.ShfSepMux2		-- SepMux2
-       port map (
-					Input => A,  
-					Arith => AdderOut,
-					ShiftFN => ShiftFN,
-					ExtWord => ExtWord,
-					ShiftCount => ShiftCount,      
-					Output => ShifterOut
-					);
-					
-	LogicUnit : entity work.LogicUnit
-		port map(
-					A => A,
-					B => B,
-					LogicFN => LogicFN,
-					Y => LogicOut
-					);
-					
-	Y_internal <= ShifterOut when FuncClass = "00" else
-        LogicOut when FuncClass = "01" else 
-		  AltB_ext when FuncClass = "10" else
-		  AltBu_ext; 
-		  
-	Y <= Y_internal;
-	
-	-- Zero Flag: Checks equality (A-B == 0)
-	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
-
-end SepMux2_CondS;
-
-
-
-
-architecture SepMux2_CarryS of ExecUnit is			
-signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
-signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
-signal Cout, Ovfl : std_logic;
-signal AltB_sig, AltBu_Sig : std_logic;
-signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
-
-signal B_In : std_logic_vector(N-1 downto 0);
-signal Cin_In : std_logic;
-signal Y_internal : std_logic_vector(N-1 downto 0);
-
-begin
-
-	B_In <= B when AddnSub = '0' else NOT B; --inverted B
-	Cin_IN <= AddnSub;
-	
-	Adder : entity work.CarrySkip	-- CarrySkip
-	--Cant pass generic in
-		port map(
-					A => A,
-					B => B_In,
-					Cin => Cin_In,
-					S => AdderOut,
-					Cout => Cout,
-					Ovfl => Ovfl
-					);
-		
-
-	AltB_sig <= (Ovfl XOR AdderOut(N-1));
-					
-	AltBu_sig <= (NOT Cout);
-	
-	AltB <= AltB_sig;
-	AltBu <= AltBu_sig;
-	
-	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
-	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
-	
-	
-	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
-			
-   Shifter : entity work.ShfSepMux2		-- SepMux2
-       port map (
-					Input => A,  
-					Arith => AdderOut,
-					ShiftFN => ShiftFN,
-					ExtWord => ExtWord,
-					ShiftCount => ShiftCount,      
-					Output => ShifterOut
-					);
-					
-	LogicUnit : entity work.LogicUnit
-		port map(
-					A => A,
-					B => B,
-					LogicFN => LogicFN,
-					Y => LogicOut
-					);
-					
-	Y_internal <= ShifterOut when FuncClass = "00" else
-        LogicOut when FuncClass = "01" else 
-		  AltB_ext when FuncClass = "10" else
-		  AltBu_ext; 
-		  
-	Y <= Y_internal;
-	
-	-- Zero Flag: Checks equality (A-B == 0)
-	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
-
-end SepMux2_CarryS;
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--
+--architecture SepMux2_CondS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.ConditionalSum		-- ConditionalSum
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfSepMux2		-- SepMux2
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end SepMux2_CondS;
+--
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture SepMux2_CarryS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.CarrySkip	-- CarrySkip
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfSepMux2		-- SepMux2
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end SepMux2_CarryS;
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture SepMux4_KS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.KoggeStone	-- KoggeStone
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfSepMux4		-- SepMux4
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end SepMux4_KS;
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture SepMux4_CondS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.ConditionalSum	-- ConditionalSum
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfSepMux4		-- SepMux4
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end SepMux4_CondS;
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture SepMux4_CarryS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.CarrySkip	-- CarrySkip
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfSepMux4		-- SepMux4
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end SepMux4_CarryS;
+--
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture CombMux2_KS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.KoggeStone	-- KoggeStone
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfCombMux2		-- CombMux2
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end CombMux2_KS;
+--
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture CombMux2_CondS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.ConditionalSum	-- ConditionalSum
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfCombMux2		-- CombMux2
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end CombMux2_CondS;
+--
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture CombMux2_CarryS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.CarrySkip	-- CarrySkip
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfCombMux2		-- CombMux2
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end CombMux2_CarryS;
+--
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture CombMux4_KS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.KoggeStone	-- KoggeStone
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfCombMux4		-- CombMux4
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end CombMux4_KS;
+--
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture CombMux4_CondS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.ConditionalSum	-- ConditionalSum
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfCombMux4		-- CombMux4
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end CombMux4_CondS;
+--
+--
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--
+--architecture CombMux4_CarryS of ExecUnit is			
+--signal ShiftCount : std_logic_vector(log2(N)-1 downto 0);
+--signal LogicOut, ShifterOut, AdderOut : std_logic_vector(N-1 downto 0);
+--signal Cout, Ovfl : std_logic;
+--signal AltB_sig, AltBu_Sig : std_logic;
+--signal AltB_ext, AltBu_ext : std_logic_vector(N-1 downto 0);
+--
+--signal B_In : std_logic_vector(N-1 downto 0);
+--signal Cin_In : std_logic;
+--signal Y_internal : std_logic_vector(N-1 downto 0);
+--
+--begin
+--
+--	B_In <= B when AddnSub = '0' else NOT B; --inverted B
+--	Cin_IN <= AddnSub;
+--	
+--	Adder : entity work.CarrySkip	-- ConditionalSum
+--	--Cant pass generic in
+--		port map(
+--					A => A,
+--					B => B_In,
+--					Cin => Cin_In,
+--					S => AdderOut,
+--					Cout => Cout,
+--					Ovfl => Ovfl
+--					);
+--		
+--
+--	AltB_sig <= (Ovfl XOR AdderOut(N-1));
+--					
+--	AltBu_sig <= (NOT Cout);
+--	
+--	AltB <= AltB_sig;
+--	AltBu <= AltBu_sig;
+--	
+--	AltB_ext <= (N-1 downto 1 => '0') & AltB_sig;
+--	AltBu_ext <= (N-1 downto 1 => '0') & AltBu_sig;
+--	
+--	
+--	ShiftCount <= B(log2(N)-1 downto 0) when ExtWord = '0' else ("0" & B(log2(N)-2 downto 0));	
+--			
+--   Shifter : entity work.ShfCombMux4		-- CombMux4
+--       port map (
+--					Input => A,  
+--					Arith => AdderOut,
+--					ShiftFN => ShiftFN,
+--					ExtWord => ExtWord,
+--					ShiftCount => ShiftCount,      
+--					Output => ShifterOut
+--					);
+--					
+--	LogicUnit : entity work.LogicUnit
+--		port map(
+--					A => A,
+--					B => B,
+--					LogicFN => LogicFN,
+--					Y => LogicOut
+--					);
+--					
+--	Y_internal <= ShifterOut when FuncClass = "00" else
+--        LogicOut when FuncClass = "01" else 
+--		  AltB_ext when FuncClass = "10" else
+--		  AltBu_ext; 
+--		  
+--	Y <= Y_internal;
+--	
+--	-- Zero Flag: Checks equality (A-B == 0)
+--	Zero <= '1' when (unsigned(AdderOut) = 0) else '0';
+--
+--end CombMux4_CarryS;
