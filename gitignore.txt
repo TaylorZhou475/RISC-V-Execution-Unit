@@ -1,0 +1,22 @@
+#Quartus Compiled Files and Databases 
+/db/
+/incremental_db/
+/output_files/
+
+#Sim Files 
+/Simulation/work/
+/Simulation/transcript
+*.wlf
+*.vcd
+
+# Quartus/ModelSim Temp Backup Files
+*.qws
+*.bak
+*.sdo
+*.vho
+
+# Folder 
+/db/
+/incremental_db/
+
+
