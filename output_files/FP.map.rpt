@@ -1,6 +1,6 @@
 Analysis & Synthesis report for FP
-Mon Dec  1 18:18:14 2025
-Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Mon Dec 01 19:09:41 2025
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -10,14 +10,25 @@ Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: Top-level Entity: |ExecUnit
+ 11. Parameter Settings for User Entity Instance: CarrySkip:Adder
+ 12. Parameter Settings for User Entity Instance: ShfSepMux2:Shifter
+ 13. Parameter Settings for User Entity Instance: LogicUnit:LogicUnit
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2024  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -34,24 +45,24 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+-------------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                        ;
-+------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Mon Dec  1 18:18:14 2025              ;
-; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
-; Revision Name                      ; FP                                             ;
-; Top-level Entity Name              ; ExecUnit                                       ;
-; Family                             ; Cyclone IV E                                   ;
-; Total logic elements               ; N/A until Partition Merge                      ;
-;     Total combinational functions  ; N/A until Partition Merge                      ;
-;     Dedicated logic registers      ; N/A until Partition Merge                      ;
-; Total registers                    ; N/A until Partition Merge                      ;
-; Total pins                         ; N/A until Partition Merge                      ;
-; Total virtual pins                 ; N/A until Partition Merge                      ;
-; Total memory bits                  ; N/A until Partition Merge                      ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                      ;
-; Total PLLs                         ; N/A until Partition Merge                      ;
-+------------------------------------+------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Dec 01 19:09:40 2025       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; FP                                          ;
+; Top-level Entity Name              ; ExecUnit                                    ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 1,591                                       ;
+;     Total combinational functions  ; 1,591                                       ;
+;     Dedicated logic registers      ; 0                                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 203                                         ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------+
@@ -145,15 +156,245 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
 +----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                 ;
++-----------------------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                    ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                       ; Library ;
++-----------------------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
+; SourceCode/Adder Implementations/ConditionalSum.vhd ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/ConditionalSum.vhd ;         ;
+; SourceCode/Adder Implementations/CarrySkip.vhd      ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/CarrySkip.vhd      ;         ;
+; SourceCode/Adder Implementations/FullAdder.vhd      ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/FullAdder.vhd      ;         ;
+; SourceCode/Logic Implementation/LogicUnit.vhd       ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Logic Implementation/LogicUnit.vhd       ;         ;
+; SourceCode/ExecUnit.vhd                             ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd                             ;         ;
+; SourceCode/Shifter Implementations/ShfSepMux2.vhd   ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Shifter Implementations/ShfSepMux2.vhd   ;         ;
+; SourceCode/Adder Implementations/KoggeStone.vhd     ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/KoggeStone.vhd     ;         ;
+; SourceCode/LogPackage.vhd                           ; yes             ; User VHDL File  ; C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/LogPackage.vhd                           ;         ;
++-----------------------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
+
+
++----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary              ;
++---------------------------------------------+------------+
+; Resource                                    ; Usage      ;
++---------------------------------------------+------------+
+; Estimated Total logic elements              ; 1,591      ;
+;                                             ;            ;
+; Total combinational functions               ; 1591       ;
+; Logic element usage by number of LUT inputs ;            ;
+;     -- 4 input functions                    ; 1041       ;
+;     -- 3 input functions                    ; 496        ;
+;     -- <=2 input functions                  ; 54         ;
+;                                             ;            ;
+; Logic elements by mode                      ;            ;
+;     -- normal mode                          ; 1591       ;
+;     -- arithmetic mode                      ; 0          ;
+;                                             ;            ;
+; Total registers                             ; 0          ;
+;     -- Dedicated logic registers            ; 0          ;
+;     -- I/O registers                        ; 0          ;
+;                                             ;            ;
+; I/O pins                                    ; 203        ;
+;                                             ;            ;
+; Embedded Multiplier 9-bit elements          ; 0          ;
+;                                             ;            ;
+; Maximum fan-out node                        ; B[2]~input ;
+; Maximum fan-out                             ; 210        ;
+; Total fan-out                               ; 6030       ;
+; Average fan-out                             ; 3.02       ;
++---------------------------------------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                             ;
++-----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node                                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                         ; Entity Name ; Library Name ;
++-----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+-------------+--------------+
+; |ExecUnit                                                 ; 1591 (632)          ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 203  ; 0            ; |ExecUnit                                                                   ; ExecUnit    ; work         ;
+;    |CarrySkip:Adder|                                      ; 181 (63)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder                                                   ; CarrySkip   ; work         ;
+;       |FullAdder:\gen_blk_cs:0:gen_rippleadder:0:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:0:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:0:gen_rippleadder:1:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:1:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:0:gen_rippleadder:2:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:2:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:0:gen_rippleadder:3:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:3:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:0:gen_rippleadder:4:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:4:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:0:gen_rippleadder:5:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:5:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:0:gen_rippleadder:6:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:6:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:0:gen_rippleadder:7:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:7:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:1:gen_rippleadder:0:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:1:gen_rippleadder:0:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:1:gen_rippleadder:1:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:1:gen_rippleadder:1:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:1:gen_rippleadder:2:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:1:gen_rippleadder:2:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:1:gen_rippleadder:3:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:1:gen_rippleadder:3:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:1:gen_rippleadder:4:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:1:gen_rippleadder:4:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:1:gen_rippleadder:5:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:1:gen_rippleadder:5:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:1:gen_rippleadder:6:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:1:gen_rippleadder:6:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:1:gen_rippleadder:7:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:1:gen_rippleadder:7:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:2:gen_rippleadder:0:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:2:gen_rippleadder:0:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:2:gen_rippleadder:1:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:2:gen_rippleadder:1:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:2:gen_rippleadder:2:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:2:gen_rippleadder:2:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:2:gen_rippleadder:3:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:2:gen_rippleadder:3:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:2:gen_rippleadder:4:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:2:gen_rippleadder:4:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:2:gen_rippleadder:5:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:2:gen_rippleadder:5:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:2:gen_rippleadder:6:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:2:gen_rippleadder:6:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:2:gen_rippleadder:7:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:2:gen_rippleadder:7:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:3:gen_rippleadder:0:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:3:gen_rippleadder:0:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:3:gen_rippleadder:1:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:3:gen_rippleadder:1:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:3:gen_rippleadder:2:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:3:gen_rippleadder:2:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:3:gen_rippleadder:3:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:3:gen_rippleadder:3:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:3:gen_rippleadder:4:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:3:gen_rippleadder:4:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:3:gen_rippleadder:5:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:3:gen_rippleadder:5:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:3:gen_rippleadder:6:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:3:gen_rippleadder:6:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:3:gen_rippleadder:7:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:3:gen_rippleadder:7:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:4:gen_rippleadder:0:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:4:gen_rippleadder:0:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:4:gen_rippleadder:1:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:4:gen_rippleadder:1:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:4:gen_rippleadder:2:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:4:gen_rippleadder:2:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:4:gen_rippleadder:3:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:4:gen_rippleadder:3:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:4:gen_rippleadder:4:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:4:gen_rippleadder:4:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:4:gen_rippleadder:5:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:4:gen_rippleadder:5:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:4:gen_rippleadder:6:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:4:gen_rippleadder:6:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:4:gen_rippleadder:7:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:4:gen_rippleadder:7:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:5:gen_rippleadder:0:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:5:gen_rippleadder:0:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:5:gen_rippleadder:1:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:5:gen_rippleadder:1:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:5:gen_rippleadder:2:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:5:gen_rippleadder:2:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:5:gen_rippleadder:3:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:5:gen_rippleadder:3:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:5:gen_rippleadder:4:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:5:gen_rippleadder:4:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:5:gen_rippleadder:5:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:5:gen_rippleadder:5:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:5:gen_rippleadder:6:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:5:gen_rippleadder:6:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:5:gen_rippleadder:7:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:5:gen_rippleadder:7:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:6:gen_rippleadder:0:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:6:gen_rippleadder:0:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:6:gen_rippleadder:1:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:6:gen_rippleadder:1:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:6:gen_rippleadder:2:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:6:gen_rippleadder:2:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:6:gen_rippleadder:3:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:6:gen_rippleadder:3:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:6:gen_rippleadder:4:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:6:gen_rippleadder:4:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:6:gen_rippleadder:5:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:6:gen_rippleadder:5:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:6:gen_rippleadder:6:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:6:gen_rippleadder:6:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:6:gen_rippleadder:7:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:6:gen_rippleadder:7:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:7:gen_rippleadder:0:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:7:gen_rippleadder:0:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:7:gen_rippleadder:1:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:7:gen_rippleadder:1:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:7:gen_rippleadder:2:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:7:gen_rippleadder:2:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:7:gen_rippleadder:3:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:7:gen_rippleadder:3:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:7:gen_rippleadder:4:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:7:gen_rippleadder:4:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:7:gen_rippleadder:5:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:7:gen_rippleadder:5:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:7:gen_rippleadder:6:FA_inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:7:gen_rippleadder:6:FA_inst ; FullAdder   ; work         ;
+;       |FullAdder:\gen_blk_cs:7:gen_rippleadder:7:FA_inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|CarrySkip:Adder|FullAdder:\gen_blk_cs:7:gen_rippleadder:7:FA_inst ; FullAdder   ; work         ;
+;    |LogicUnit:LogicUnit|                                  ; 35 (35)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|LogicUnit:LogicUnit                                               ; LogicUnit   ; work         ;
+;    |ShfSepMux2:Shifter|                                   ; 743 (743)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ExecUnit|ShfSepMux2:Shifter                                                ; ShfSepMux2  ; work         ;
++-----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |ExecUnit|ShfSepMux2:Shifter|sravals[6][31] ;
+; 14:1               ; 14 bits   ; 126 LEs       ; 112 LEs              ; 14 LEs                 ; No         ; |ExecUnit|Y_internal                        ;
+; 14:1               ; 4 bits    ; 36 LEs        ; 28 LEs               ; 8 LEs                  ; No         ; |ExecUnit|Y_internal                        ;
+; 14:1               ; 4 bits    ; 36 LEs        ; 32 LEs               ; 4 LEs                  ; No         ; |ExecUnit|Y_internal                        ;
+; 15:1               ; 4 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |ExecUnit|Y_internal                        ;
+; 16:1               ; 2 bits    ; 20 LEs        ; 16 LEs               ; 4 LEs                  ; No         ; |ExecUnit|Y_internal                        ;
+; 17:1               ; 16 bits   ; 176 LEs       ; 176 LEs              ; 0 LEs                  ; No         ; |ExecUnit|Y_internal                        ;
+; 18:1               ; 8 bits    ; 96 LEs        ; 88 LEs               ; 8 LEs                  ; No         ; |ExecUnit|Y_internal                        ;
+; 19:1               ; 4 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |ExecUnit|Y_internal                        ;
+; 20:1               ; 2 bits    ; 26 LEs        ; 26 LEs               ; 0 LEs                  ; No         ; |ExecUnit|Y_internal                        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |ExecUnit ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; N              ; 64    ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: CarrySkip:Adder ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; n              ; 64    ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ShfSepMux2:Shifter ;
++----------------+-------+----------------------------------------+
+; Parameter Name ; Value ; Type                                   ;
++----------------+-------+----------------------------------------+
+; n              ; 64    ; Signed Integer                         ;
++----------------+-------+----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LogicUnit:LogicUnit ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; n              ; 64    ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 203                         ;
+; cycloneiii_lcell_comb ; 1592                        ;
+;     normal            ; 1592                        ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 54                          ;
+;         3 data inputs ; 496                         ;
+;         4 data inputs ; 1041                        ;
+;                       ;                             ;
+; Max LUT depth         ; 74.00                       ;
+; Average LUT depth     ; 21.18                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:04     ;
++----------------+--------------+
 
 
 +-------------------------------+
@@ -161,51 +402,56 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
-    Info: Processing started: Mon Dec  1 18:18:01 2025
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Mon Dec 01 19:09:24 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FP -c FP
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/adder implementations/conditionalsum.vhd
-    Info (12022): Found design unit 1: ConditionalSum-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/ConditionalSum.vhd Line: 19
-    Info (12023): Found entity 1: ConditionalSum File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/ConditionalSum.vhd Line: 4
-Error (10500): VHDL syntax error at CarrySkip.vhd(43) near text "block";  expecting an identifier File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 43
-Error (10500): VHDL syntax error at CarrySkip.vhd(47) near text "group";  expecting an identifier File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 47
-Error (10500): VHDL syntax error at CarrySkip.vhd(51) near text "block";  expecting "end", or "(", or an identifier ("block" is a reserved keyword), or a concurrent statement File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 51
-Error (10500): VHDL syntax error at CarrySkip.vhd(65) near text "group" File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 65
-Error (10500): VHDL syntax error at CarrySkip.vhd(87) near text "block" File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 87
-Error (10500): VHDL syntax error at CarrySkip.vhd(87) near text "block";  expecting "(", or an identifier ("block" is a reserved keyword), or  unary operator File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 87
-Error (10500): VHDL syntax error at CarrySkip.vhd(91) near text "block";  expecting "(", or an identifier ("block" is a reserved keyword), or  unary operator File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 91
-Error (10500): VHDL syntax error at CarrySkip.vhd(97) near text "block";  expecting "(", or an identifier ("block" is a reserved keyword), or  unary operator File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 97
-Error (10500): VHDL syntax error at CarrySkip.vhd(98) near text "block";  expecting "(", or an identifier ("block" is a reserved keyword), or  unary operator File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/CarrySkip.vhd Line: 98
-Info (12021): Found 0 design units, including 0 entities, in source file sourcecode/adder implementations/carryskip.vhd
+    Info (12022): Found design unit 1: ConditionalSum-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/ConditionalSum.vhd Line: 19
+    Info (12023): Found entity 1: ConditionalSum File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/ConditionalSum.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/adder implementations/carryskip.vhd
+    Info (12022): Found design unit 1: CarrySkip-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/CarrySkip.vhd Line: 23
+    Info (12023): Found entity 1: CarrySkip File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/CarrySkip.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/adder implementations/fulladder.vhd
-    Info (12022): Found design unit 1: FullAdder-structural File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/FullAdder.vhd Line: 15
-    Info (12023): Found entity 1: FullAdder File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/FullAdder.vhd Line: 5
+    Info (12022): Found design unit 1: FullAdder-structural File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/FullAdder.vhd Line: 15
+    Info (12023): Found entity 1: FullAdder File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/FullAdder.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/adder implementations/ripplecarry.vhd
-    Info (12022): Found design unit 1: RippleCarry-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/RippleCarry.vhd Line: 21
-    Info (12023): Found entity 1: RippleCarry File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/RippleCarry.vhd Line: 5
+    Info (12022): Found design unit 1: RippleCarry-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/RippleCarry.vhd Line: 21
+    Info (12023): Found entity 1: RippleCarry File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/RippleCarry.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/logic implementation/logicunit.vhd
-    Info (12022): Found design unit 1: LogicUnit-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Logic Implementation/LogicUnit.vhd Line: 17
-    Info (12023): Found entity 1: LogicUnit File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Logic Implementation/LogicUnit.vhd Line: 7
+    Info (12022): Found design unit 1: LogicUnit-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Logic Implementation/LogicUnit.vhd Line: 17
+    Info (12023): Found entity 1: LogicUnit File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Logic Implementation/LogicUnit.vhd Line: 7
 Info (12021): Found 4 design units, including 1 entities, in source file sourcecode/execunit.vhd
-    Info (12022): Found design unit 1: ExecUnit-SepMux2_KS File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 15
-    Info (12022): Found design unit 2: ExecUnit-SepMux2_CondS File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 89
-    Info (12022): Found design unit 3: ExecUnit-SepMux2_CarryS File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 163
-    Info (12023): Found entity 1: ExecUnit File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/ExecUnit.vhd Line: 6
+    Info (12022): Found design unit 1: ExecUnit-SepMux2_KS File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 15
+    Info (12022): Found design unit 2: ExecUnit-SepMux2_CondS File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 89
+    Info (12022): Found design unit 3: ExecUnit-SepMux2_CarryS File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 163
+    Info (12023): Found entity 1: ExecUnit File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/shifter implementations/shfsepmux2.vhd
-    Info (12022): Found design unit 1: ShfSepMux2-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 19
-    Info (12023): Found entity 1: ShfSepMux2 File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 7
+    Info (12022): Found design unit 1: ShfSepMux2-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 19
+    Info (12023): Found entity 1: ShfSepMux2 File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Shifter Implementations/ShfSepMux2.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file sourcecode/adder implementations/koggestone.vhd
-    Info (12022): Found design unit 1: KoggeStone-rtl File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/KoggeStone.vhd Line: 23
-    Info (12023): Found entity 1: KoggeStone File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/Adder Implementations/KoggeStone.vhd Line: 10
+    Info (12022): Found design unit 1: KoggeStone-rtl File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/KoggeStone.vhd Line: 23
+    Info (12023): Found entity 1: KoggeStone File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/KoggeStone.vhd Line: 10
 Info (12021): Found 2 design units, including 0 entities, in source file sourcecode/logpackage.vhd
-    Info (12022): Found design unit 1: LogPackage File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/LogPackage.vhd Line: 4
-    Info (12022): Found design unit 2: LogPackage-body File: C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/SourceCode/LogPackage.vhd Line: 11
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 9 errors, 1 warning
-    Error: Peak virtual memory: 4795 megabytes
-    Error: Processing ended: Mon Dec  1 18:18:14 2025
-    Error: Elapsed time: 00:00:13
-    Error: Total CPU time (on all processors): 00:00:32
+    Info (12022): Found design unit 1: LogPackage File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/LogPackage.vhd Line: 4
+    Info (12022): Found design unit 2: LogPackage-body File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/LogPackage.vhd Line: 11
+Info (12127): Elaborating entity "ExecUnit" for the top level hierarchy
+Info (12128): Elaborating entity "CarrySkip" for hierarchy "CarrySkip:Adder" File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 179
+Info (12128): Elaborating entity "FullAdder" for hierarchy "CarrySkip:Adder|FullAdder:\gen_blk_cs:0:gen_rippleadder:0:FA_inst" File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/Adder Implementations/CarrySkip.vhd Line: 88
+Info (12128): Elaborating entity "ShfSepMux2" for hierarchy "ShfSepMux2:Shifter" File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 204
+Info (12128): Elaborating entity "LogicUnit" for hierarchy "LogicUnit:LogicUnit" File: C:/Users/micha/OneDrive/Documents/GitHub/RISC-V-Execution-Unit/SourceCode/ExecUnit.vhd Line: 214
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 1794 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 136 input pins
+    Info (21059): Implemented 67 output pins
+    Info (21061): Implemented 1591 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4801 megabytes
+    Info: Processing ended: Mon Dec 01 19:09:41 2025
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:34
 
 
