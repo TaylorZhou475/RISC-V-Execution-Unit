@@ -57,11 +57,8 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name VHDL_FILE "SourceCode/Adder Implementations/ConditionalSum.vhd"
 set_global_assignment -name VHDL_FILE "SourceCode/Adder Implementations/CarrySkip.vhd"
-set_global_assignment -name VHDL_FILE "SourceCode/Shifter Implementations/ShfCombMux2_V2.vhd"
-set_global_assignment -name VHDL_FILE "SourceCode/Shifter Implementations/ShfCombMux2.vhd"
 set_global_assignment -name VHDL_FILE "SourceCode/Adder Implementations/FullAdder.vhd"
 set_global_assignment -name VHDL_FILE "SourceCode/Adder Implementations/RippleCarry.vhd"
 set_global_assignment -name VHDL_FILE "SourceCode/Logic Implementation/LogicUnit.vhd"
@@ -69,7 +66,4 @@ set_global_assignment -name VHDL_FILE SourceCode/ExecUnit.vhd
 set_global_assignment -name VHDL_FILE "SourceCode/Shifter Implementations/ShfSepMux2.vhd"
 set_global_assignment -name VHDL_FILE "SourceCode/Adder Implementations/KoggeStone.vhd"
 set_global_assignment -name VHDL_FILE SourceCode/LogPackage.vhd
-set_global_assignment -name VHDL_FILE SourceCode/ShfCombMux2_KS.vhd
-set_global_assignment -name VHDL_FILE SourceCode/ShfSepMux2_KS.vhd
-set_global_assignment -name VHDL_FILE SourceCode/ShfSepMux2_CSm.vhd
-set_global_assignment -name VHDL_FILE SourceCode/ShfCombMux2_CSp.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

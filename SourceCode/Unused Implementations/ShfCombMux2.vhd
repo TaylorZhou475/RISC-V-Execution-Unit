@@ -6,7 +6,7 @@ use ieee.numeric_std.all;
 use work.LogPackage.all;
 
 --Shifter using combined barrel shifters, 64 bits, 6 stages of mux
-ENTITY ShfCombMux2_V2 IS
+ENTITY ShfCombMux2 IS
 generic(N : integer := 64);
 PORT(
 		Input : IN STD_LOGIC_VECTOR(N-1 downto 0);
@@ -16,9 +16,9 @@ PORT(
 		ShiftCount : IN STD_LOGIC_VECTOR(log2(N)-1 downto 0);
 		Output : OUT STD_LOGIC_VECTOR(N-1 downto 0)
 		);
-END ENTITY ShfCombMux2_V2;
+END ENTITY ShfCombMux2;
 
-ARCHITECTURE rtl OF ShfCombMux2_V2 IS
+ARCHITECTURE rtl OF ShfCombMux2 IS
 
 --This function was not written by us, from https://stackoverflow.com/questions/13584307/reverse-bit-order-on-vhdl
 function reverse_any_vector (a: in std_logic_vector)
@@ -37,67 +37,19 @@ constant M : INTEGER := log2(N);
 type unsigned_array is array (natural range <>) of unsigned(N-1 downto 0);
 type signed_array is array (natural range <>) of signed(N-1 downto 0);
 
-<<<<<<< HEAD
---Used for srlw and sllw 
-signal InputMasked : std_logic_vector(N-1 downto 0);
-signal InputToShift : std_logic_vector(N-1 downto 0);
-
---Signal that goes into srl and sll barrel
-=======
 --signals for logical path (combined)
 signal input_logical : std_logic_vector(N-1 downto 0);
->>>>>>> 88ac0d8940419b546c4ef37cd2406bf5efa39727
 signal preShift : std_logic_vector(N-1 downto 0);
-
---Array that holds the shifted values after each shifting stage
 signal shiftvals : unsigned_array(0 to M);
-<<<<<<< HEAD
-
---
-signal castedShift : std_logic_vector(N-1 downto 0);
-signal sllout : std_logic_vector(N-1 downto 0);
-
-signal reversedBack : std_logic_vector(N-1 downto 0);
-signal srlout : std_logic_vector(N-1 downto 0);
-=======
 signal logical_result : std_logic_vector(N-1 downto 0);
 signal logical_result_rev : std_logic_vector(N-1 downto 0);
->>>>>>> 88ac0d8940419b546c4ef37cd2406bf5efa39727
 
 --signals for arithmetic path (seperated part aka why hybrid)
 signal input_arithmetic : signed(N-1 downto 0);
 signal sravals : signed_array(0 to M);
-<<<<<<< HEAD
-signal sraout : signed(N-1 downto 0);
-=======
 signal arithmetic_result : std_logic_vector(N-1 downto 0);
->>>>>>> 88ac0d8940419b546c4ef37cd2406bf5efa39727
 
-signal ArithExt : std_logic_vector(N-1 downto 0);
 BEGIN
-<<<<<<< HEAD
-
-	InputMasked <= (N-1 downto N/2 => '0') & Input(N/2-1 downto 0);
-	InputToShift <= InputMasked when ExtWord = '1' else Input;
-	
-  
-	InputSwapped <= signed(Input(N/2-1 downto 0) & Input(N-1 downto N/2));
-	InputSigned <= signed(Input);
-	
-	
-	preShift <= reverse_any_vector(InputToShift) when ShiftFN(1) = '1' else InputToShift;
-
-	shiftvals(0) <= unsigned(preShift);
-
-	Shift : for i in 0 to M-1 generate
-		constant S : natural := 2**i;
-		begin
-			shiftvals(i+1) <= shift_left(shiftvals(i), S) when ShiftCount(i)='1'else shiftvals(i);
-		end generate;
-		
-	sravals(0) <= InputSigned when ExtWord = '0' else InputSwapped;
-	Gen_SRA : for i in 0 to M-1 generate
-=======
   --for sll, srl
   input_logical <= Input when ExtWord = '0' else
 						 (N-1 downto 32 => '0') & Input(31 downto 0); --removes sign extend and keeps lower 32 bit
@@ -112,7 +64,6 @@ BEGIN
 	
 	--left shift only barrel shifter
 	GenShift : for i in 0 to M-1 generate
->>>>>>> 88ac0d8940419b546c4ef37cd2406bf5efa39727
 		constant S : natural := 2**i;
 	begin
 		shiftvals(i+1) <= shift_left(shiftvals(i), S) when ShiftCount(i) = '1' else shiftvals(i);
@@ -130,27 +81,6 @@ BEGIN
 	begin 
 		sravals(i+1) <= shift_right(sravals(i), S) when ShiftCount(i) = '1' else sravals(i);
 	end generate;
-<<<<<<< HEAD
-
-	castedShift <= std_logic_vector(shiftvals(M));
-
-	--Either sign ext or dont
-	sllout <= castedShift when ExtWord = '0' else (N-1 downto N/2 => castedShift(N/2-1)) & castedShift(N/2-1 downto 0);
-	
-	reversedBack <= reverse_any_vector(std_logic_vector(shiftvals(M)));
-	srlout <= reverse_any_vector(std_logic_vector(shiftvals(M))) when ExtWord = '0' else
-				 (N-1 downto N/2 => reversedBack(N/2-1)) & reversedBack(N/2-1 downto 0); 
-	
-	ArithExt <= (N-1 downto N/2 => Arith(N/2-1)) & Arith(N/2-1 downto 0) when ExtWord = '1' else Arith;
-	
-	sraout <= sravals(M) when ExtWord = '0' else resize(sravals(M)(N-1 downto N/2), N);
-	
-	Output <= ArithExt when ShiftFN = "00" else
-				 sllout when ShiftFN = "01" else
-				 srlout when ShiftFN = "10" else
-				 std_logic_vector(sraout);
-				 
-=======
 	
 	arithmetic_result <= std_logic_vector(sravals(M));
 	
@@ -180,6 +110,5 @@ BEGIN
 		end if;
 	end process;
 					
->>>>>>> 88ac0d8940419b546c4ef37cd2406bf5efa39727
 	 
 END rtl;
