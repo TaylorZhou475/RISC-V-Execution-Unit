@@ -12,10 +12,17 @@ END ENTITY;
 
 ARCHITECTURE Testing OF ExecUnitTB IS
 
+    type ExecOutRec is record
+        Y     : std_logic_vector(63 downto 0);
+        Zero  : std_logic;
+        AltB  : std_logic;
+        AltBu : std_logic;
+    end record;
+
     CONSTANT TestVectorFile : string := "TestVectors/ExecUnit00.tvs";
     CONSTANT TB_N : NATURAL := 64; 
     CONSTANT PREPTIME : TIME := 40 ns;
-    CONSTANT MEASTIME : TIME := 150 ns;
+    CONSTANT MEASTIME : TIME := 300 ns;
     CONSTANT STABLETIME : TIME := 5 ns;
 
     SIGNAL TB_A, TB_B : std_logic_vector(TB_N-1 downto 0);
@@ -40,6 +47,8 @@ ARCHITECTURE Testing OF ExecUnitTB IS
             Zero, AltB, AltBu : out std_logic 
         );
     END COMPONENT;
+
+    signal ExecOut : ExecOutRec;
 
     -- Helper for hex string conversion
     function to_hstring(slv : std_logic_vector) return string is
@@ -66,6 +75,11 @@ BEGIN
             AltBu => TB_AltBu
         );
 
+    ExecOut.Y     <= TB_Y;
+    ExecOut.Zero  <= TB_Zero;
+    ExecOut.AltB  <= TB_AltB;
+    ExecOut.AltBu <= TB_AltBu;
+
     Testing : PROCESS
         FILE VectorFile : TEXT;
         VARIABLE LineBuffer : LINE;
@@ -75,6 +89,8 @@ BEGIN
         VARIABLE Zero_expt, AltB_expt, AltBu_expt : STD_LOGIC;
         VARIABLE Flags_expt : STD_LOGIC_VECTOR(2 downto 0);
         VARIABLE MeasurementIndex : INTEGER := 1;
+	VARIABLE StartTime, EndTime, PropDelayY, PropDelayZero, PropDelayAltB, PropDelayAltBu : TIME := 0 ns;
+	VARIABLE EventTimeY, EventTimeZero, EventTimeAltB, EventTimeAltBu : TIME := 0 ns;
         VARIABLE SuccessCount, FailureCount: INTEGER := 0;
     BEGIN
 
@@ -131,7 +147,60 @@ BEGIN
             AltB_Expected <= AltB_expt;
             AltBu_Expected <= AltBu_expt;
 
-            WAIT UNTIL TB_Y'STABLE(STABLETIME) FOR MEASTIME;
+	    StartTime := NOW;
+            WAIT UNTIL ExecOut'STABLE(STABLETIME) FOR MEASTIME;
+	    EndTime := NOW;
+	    EventTimeY := EndTime - TB_Y'LAST_EVENT;
+	    EventTimeZero := EndTime - TB_Zero'LAST_EVENT;
+	    EventTimeAltB := EndTime - TB_AltB'LAST_EVENT;
+	    EventTimeAltBu := EndTime - TB_AltBu'LAST_EVENT;
+
+------------------Finding the propagation delays-------------------
+	    IF EventTimeY > StartTime THEN
+	    	PropDelayY := EventTimeY - StartTime;
+	    ELSE
+		PropDelayY := 0 ns;
+	    END IF;
+	
+	    IF EventTimeZero > StartTime THEN
+	    	PropDelayZero := EventTimeZero - StartTime;
+	    ELSE
+	 	PropDelayZero := 0 ns;
+	    END IF;
+
+	    IF EventTimeAltB > StartTime THEN
+	    	PropDelayAltB := EventTimeAltB - StartTime;
+	    ELSE
+	 	PropDelayAltB := 0 ns;
+	    END IF;
+
+	    IF EventTimeAltBu > StartTime THEN
+	    	PropDelayAltBu := EventTimeAltBu - StartTime;
+	    ELSE
+	 	PropDelayAltBu := 0 ns;
+	    END IF;
+
+ 	    --Finding worst case
+	    IF PropDelayY > WorstCaseDelay THEN
+		WorstCaseDelay <= PropDelayY;
+		WorstCaseIteration <= MeasurementIndex;
+	    END IF;
+
+	    IF PropDelayZero > WorstCaseDelay THEN
+		WorstCaseDelay <= PropDelayZero;
+		WorstCaseIteration <= MeasurementIndex;
+	    END IF;
+
+	    IF PropDelayAltB > WorstCaseDelay THEN
+		WorstCaseDelay <= PropDelayAltB;
+		WorstCaseIteration <= MeasurementIndex;
+	    END IF;
+
+	    IF PropDelayAltBu > WorstCaseDelay THEN
+		WorstCaseDelay <= PropDelayAltBu;
+		WorstCaseIteration <= MeasurementIndex;
+	    END IF;
+
 
 	    IF (TB_Y = Y_expt) THEN
     -- Only check flags in 64-bit mode
@@ -139,6 +208,12 @@ BEGIN
         		IF (TB_Zero = Zero_expt) AND (TB_AltB = AltB_expt) AND (TB_AltBu = AltBu_expt) THEN
             			report "PASS: Test Case " & INTEGER'IMAGE(MeasurementIndex);
 				SuccessCount := SuccessCount + 1;
+				IF TIMING_MEASUREMENT THEN
+					REPORT LF & "      Y Propagation Delay: " & to_string(PropDelayY) & LF &
+		       	       			    "      Zero Propagation Delay: " & to_string(PropDelayZero) & LF &
+						    "      AltB Propagation Delay: " & to_string(PropDelayAltB) & LF &
+						    "      AltBu Propagation Delay: " & to_string(PropDelayAltBu) & LF;
+				END IF;
         		ELSE
             			REPORT "FAIL: Test Case " & integer'image(MeasurementIndex) & LF &
                        		"      Inputs: A=" & to_hstring(A_test) & ", B=" & to_hstring(B_test) & LF &
@@ -153,6 +228,12 @@ BEGIN
         -- Word mode: DO NOT check flags
         		report "PASS: Test Case " & INTEGER'IMAGE(MeasurementIndex);
 				SuccessCount := SuccessCount + 1;
+			IF TIMING_MEASUREMENT THEN
+					REPORT LF & "      Y Propagation Delay: " & to_string(PropDelayY) & LF &
+		       	       			    "      Zero Propagation Delay: " & to_string(PropDelayZero) & LF &
+						    "      AltB Propagation Delay: " & to_string(PropDelayAltB) & LF &
+						    "      AltBu Propagation Delay: " & to_string(PropDelayAltBu) & LF;
+			END IF;
     		END IF;
 	    ELSE
     		REPORT "FAIL: Test Case " & integer'image(MeasurementIndex) & LF &
@@ -175,6 +256,10 @@ BEGIN
                "=====================================================" & LF &
                "Test cases passed: " & INTEGER'IMAGE(SuccessCount) & LF &
                "Test cases failed : " & INTEGER'IMAGE(FailureCount) & LF;
+
+	IF TIMING_MEASUREMENT THEN
+	    REPORT "The worst case propagation delay was " & to_string(WorstCaseDelay) & " in test case " & INTEGER'IMAGE(WorstCaseIteration) & LF;
+	END IF;
 
         file_close(VectorFile);
         WAIT;

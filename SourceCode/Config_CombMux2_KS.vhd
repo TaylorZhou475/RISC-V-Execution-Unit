@@ -5,3 +5,11 @@ CONFIGURATION Config_CombMux2_KS OF ExecUnitTB IS
     END FOR;
   END FOR;
 END CONFIGURATION Config_CombMux2_KS;
+
+CONFIGURATION Config_CombMux2_KS_Timing OF ExecUnitTB IS
+  FOR Testing
+    FOR DUT : TestUnit
+      USE ENTITY work.ExecUnit(structure);
+    END FOR;
+  END FOR;
+END CONFIGURATION Config_CombMux2_KS_Timing;
