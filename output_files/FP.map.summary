@@ -1,14 +1,20 @@
-Analysis & Synthesis Status : Successful - Tue Dec  2 07:25:44 2025
+Analysis & Synthesis Status : Successful - Tue Dec  2 16:22:19 2025
 Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 Revision Name : FP
 Top-level Entity Name : ExecUnit
-Family : Cyclone IV E
-Total logic elements : 1,015
-    Total combinational functions : 1,015
+Family : Arria II GX
+Logic utilization : N/A
+    Combinational ALUTs : 651
+    Memory ALUTs : 0
     Dedicated logic registers : 0
 Total registers : 0
 Total pins : 203
 Total virtual pins : 0
-Total memory bits : 0
-Embedded Multiplier 9-bit elements : 0
+Total block memory bits : 0
+DSP block 18-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
 Total PLLs : 0
+Total DLLs : 0

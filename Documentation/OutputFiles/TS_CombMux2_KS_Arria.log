@@ -1,0 +1,22 @@
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/Simulation/FP.mpf
+# vsim -quiet -t 100ps -gui -sdftyp "/ExecUnitTB/DUT=../Simulation/ModelSim/CombMux2_KS_Arria.sdo" work.Config_CombMux2_KS -GTIMING_MEASUREMENT=true 
+# Start time: 10:39:36 on Dec 02,2025
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# ** Error: (vsim-3170) Could not find 'execunit(combmux2_ks)'.
+#         Searched libraries:
+#             C:/Users/taylo/OneDrive/Desktop/ENSC350/FP/Simulation/work
+# ** Error (suppressible): (vsim-SDF-3250) ../Simulation/ModelSim/CombMux2_KS_Arria.sdo(0): Failed to find INSTANCE '/ExecUnitTB/DUT'.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Error (suppressible): (vsim-SDF-3250) ../Simulation/ModelSim/CombMux2_KS_Arria.sdo(0): Failed to find INSTANCE '/ExecUnitTB/DUT'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./TS_CombMux2_KS_Arria.do PAUSED at line 22
+TS_SepMux2_KS_Arria.do
+# couldn't execute ".\TS_SepMux2_KS_Arria.do": no such file or directory
+TS_SepMux2_KS_Arria.do
+# couldn't execute ".\TS_SepMux2_KS_Arria.do": no such file or directory
+do TS_SepMux2_KS_Cyclone.do
