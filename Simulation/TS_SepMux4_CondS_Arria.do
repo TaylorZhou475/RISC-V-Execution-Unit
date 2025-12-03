@@ -19,7 +19,7 @@ vcom -work work -2008 -quiet -stats=none "../Simulation/ExecUnitTB.vhd"
 vcom -work work -2008 -quiet -stats=none "../SourceCode/Config_SepMux4_CondS.vhd"
 
 #Starts the simulation
-vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /ExecUnitTB/DUT=../Simulation/ModelSim/SepMux4_CondS_Arria.sdo work.Config_SepMux4_CondS
+vsim -quiet -t 100ps -gui -GTIMING_MEASUREMENT=true -sdftyp /ExecUnitTB/DUT=../Simulation/ModelSim/SepMux4_CondS_Arria.sdo work.Config_SepMux4_CondS_Timing
 
 
 #Setup the wave window
