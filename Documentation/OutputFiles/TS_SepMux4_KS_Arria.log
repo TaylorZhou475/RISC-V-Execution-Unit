@@ -1,0 +1,1770 @@
+# End time: 15:08:44 on Dec 02,2025, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/ENSC350/FP/RISC-V-Execution-Unit/Simulation/FP.mpf
+# vsim -quiet -t 100ps -gui -sdftyp "/ExecUnitTB/DUT=../Simulation/ModelSim/SepMux4_KS_Arria.sdo" work.Config_SepMux4_KS_Timing -GTIMING_MEASUREMENT=true 
+# Start time: 15:08:46 on Dec 02,2025
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# ** Warning: Design size of 310940 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /execunittb File: ../Simulation/ExecUnitTB.vhd
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: pius  Hostname: DESKTOP-1Q2BHL9  ProcessID: 1992
+#           Attempting to use alternate WLF file "./wlftxix89v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxix89v
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: Design size of 156350 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /execunittb File: ../Simulation/ExecUnitTB.vhd
+# run -all
+# ** Note: =====================================================
+# >>>>>>>>>>>>>>>> Starting Simulation <<<<<<<<<<<<<<<<
+# =====================================================
+# 
+#    Time: 0 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 1
+#    Time: 80100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20100 ps
+#       Zero Propagation Delay: 13700 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 80100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 2
+#    Time: 119800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 119800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 3
+#    Time: 160 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 160 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 4
+#    Time: 200200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14100 ps
+#       AltBu Propagation Delay: 12800 ps
+# 
+#    Time: 200200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 5
+#    Time: 239800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13300 ps
+#       AltBu Propagation Delay: 12000 ps
+# 
+#    Time: 239800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 6
+#    Time: 280200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12600 ps
+#       AltBu Propagation Delay: 11300 ps
+# 
+#    Time: 280200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 7
+#    Time: 319900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14300 ps
+#       AltBu Propagation Delay: 13000 ps
+# 
+#    Time: 319900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 8
+#    Time: 358900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 358900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 9
+#    Time: 398900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 398900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 10
+#    Time: 437600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12700 ps
+#       AltBu Propagation Delay: 11400 ps
+# 
+#    Time: 437600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 11
+#    Time: 476400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 476400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 12
+#    Time: 516800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 516800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 13
+#    Time: 556500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 556500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 14
+#    Time: 596900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 596900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 15
+#    Time: 636400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 636400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 16
+#    Time: 675300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 675300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 17
+#    Time: 715700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12600 ps
+#       AltBu Propagation Delay: 11300 ps
+# 
+#    Time: 715700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 18
+#    Time: 756100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 756100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 19
+#    Time: 795400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13300 ps
+#       AltBu Propagation Delay: 12000 ps
+# 
+#    Time: 795400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 20
+#    Time: 834400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14500 ps
+#       AltBu Propagation Delay: 13200 ps
+# 
+#    Time: 834400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 21
+#    Time: 874400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12600 ps
+#       AltBu Propagation Delay: 11300 ps
+# 
+#    Time: 874400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 22
+#    Time: 914 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 914 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 23
+#    Time: 954 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 954 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 24
+#    Time: 994100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 994100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 25
+#    Time: 1032400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 10900 ps
+# 
+#    Time: 1032400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 26
+#    Time: 1074700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 22300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12700 ps
+#       AltBu Propagation Delay: 11400 ps
+# 
+#    Time: 1074700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 27
+#    Time: 1114 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 1114 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 28
+#    Time: 1153200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 10800 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 1153200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 29
+#    Time: 1193600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 1193600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 30
+#    Time: 1232700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 1232700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 31
+#    Time: 1272 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12700 ps
+#       AltBu Propagation Delay: 11400 ps
+# 
+#    Time: 1272 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 32
+#    Time: 1311400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14400 ps
+#       AltBu Propagation Delay: 13100 ps
+# 
+#    Time: 1311400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 33
+#    Time: 1350300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 1350300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 34
+#    Time: 1390300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14300 ps
+#       AltBu Propagation Delay: 13000 ps
+# 
+#    Time: 1390300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 35
+#    Time: 1431 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13100 ps
+#       AltBu Propagation Delay: 11800 ps
+# 
+#    Time: 1431 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 36
+#    Time: 1471500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 1471500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 37
+#    Time: 1510600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 1510600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 38
+#    Time: 1550 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 1550 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 39
+#    Time: 1588500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 1588500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 40
+#    Time: 1626900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 1626900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 41
+#    Time: 1666300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 1666300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 42
+#    Time: 1704 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 1704 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 43
+#    Time: 1742400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12400 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 1742400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 44
+#    Time: 1781 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 10800 ps
+# 
+#    Time: 1781 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 45
+#    Time: 1819100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 1819100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 46
+#    Time: 1857300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 1857300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 47
+#    Time: 1897100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14700 ps
+#       AltBu Propagation Delay: 13400 ps
+# 
+#    Time: 1897100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 48
+#    Time: 1938 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12400 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 1938 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 49
+#    Time: 1975600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 1975600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 50
+#    Time: 2014 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 2014 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 51
+#    Time: 2052800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2052800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 52
+#    Time: 2091900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 2091900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 53
+#    Time: 2131500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 10800 ps
+# 
+#    Time: 2131500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 54
+#    Time: 2169200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14400 ps
+#       AltBu Propagation Delay: 13100 ps
+# 
+#    Time: 2169200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 55
+#    Time: 2208700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 2208700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 56
+#    Time: 2247800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14300 ps
+#       AltBu Propagation Delay: 13000 ps
+# 
+#    Time: 2247800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 57
+#    Time: 2287700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11400 ps
+#       AltBu Propagation Delay: 10100 ps
+# 
+#    Time: 2287700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 58
+#    Time: 2324700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2324700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 59
+#    Time: 2362500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12800 ps
+#       AltBu Propagation Delay: 11500 ps
+# 
+#    Time: 2362500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 60
+#    Time: 2400100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2400100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 61
+#    Time: 2438 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 2438 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 62
+#    Time: 2474100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13700 ps
+#       AltBu Propagation Delay: 12400 ps
+# 
+#    Time: 2474100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 63
+#    Time: 2514400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11400 ps
+#       AltBu Propagation Delay: 10100 ps
+# 
+#    Time: 2514400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 64
+#    Time: 2552300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2552300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 65
+#    Time: 2590600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2590600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 66
+#    Time: 2629800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2629800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 67
+#    Time: 2667800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2667800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 68
+#    Time: 2707300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 2707300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 69
+#    Time: 2746 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 10800 ps
+# 
+#    Time: 2746 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 70
+#    Time: 2786300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 20300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 2786300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 71
+#    Time: 2825 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13300 ps
+#       AltBu Propagation Delay: 12000 ps
+# 
+#    Time: 2825 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 72
+#    Time: 2862900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12800 ps
+#       AltBu Propagation Delay: 11500 ps
+# 
+#    Time: 2862900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 73
+#    Time: 2902 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2902 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 74
+#    Time: 2940800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 2940800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 75
+#    Time: 2979600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 2979600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 76
+#    Time: 3016700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12400 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 3016700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 77
+#    Time: 3056400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19700 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 10800 ps
+# 
+#    Time: 3056400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 78
+#    Time: 3095900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 19500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 3095900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 79
+#    Time: 3133200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 3133200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 80
+#    Time: 3172 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 3172 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 81
+#    Time: 3208400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12400 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 3208400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 82
+#    Time: 3244 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 3244 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 83
+#    Time: 3279500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 10800 ps
+# 
+#    Time: 3279500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 84
+#    Time: 3315100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 3315100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 85
+#    Time: 3351500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 3351500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 86
+#    Time: 3387500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 3387500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 87
+#    Time: 3423 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 3423 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 88
+#    Time: 3459400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 3459400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 89
+#    Time: 3495800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 3495800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 90
+#    Time: 3532200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12400 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 3532200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 91
+#    Time: 3568200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13100 ps
+#       AltBu Propagation Delay: 11800 ps
+# 
+#    Time: 3568200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 92
+#    Time: 3604400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 3604400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 93
+#    Time: 3639700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 15000 ps
+#       AltBu Propagation Delay: 13700 ps
+# 
+#    Time: 3639700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 94
+#    Time: 3675700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12400 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 3675700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 95
+#    Time: 3712100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 3712100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 96
+#    Time: 3747700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 3747700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 97
+#    Time: 3783700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 3783700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 98
+#    Time: 3819700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 15100 ps
+#       AltBu Propagation Delay: 13800 ps
+# 
+#    Time: 3819700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 99
+#    Time: 3856100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 3856100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 100
+#    Time: 3890400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 3890400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 101
+#    Time: 3926800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 3926800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 102
+#    Time: 3963 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 3963 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 103
+#    Time: 3999400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 3999400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 104
+#    Time: 4035500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 4035500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 105
+#    Time: 4070900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 4070900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 106
+#    Time: 4107300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 4107300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 107
+#    Time: 4143300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14300 ps
+#       AltBu Propagation Delay: 13000 ps
+# 
+#    Time: 4143300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 108
+#    Time: 4178700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 4178700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 109
+#    Time: 4213900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12400 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 4213900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 110
+#    Time: 4250300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 4250300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 111
+#    Time: 4285200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 4285200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 112
+#    Time: 4321600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12700 ps
+#       AltBu Propagation Delay: 11400 ps
+# 
+#    Time: 4321600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 113
+#    Time: 4356500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14500 ps
+#       AltBu Propagation Delay: 13200 ps
+# 
+#    Time: 4356500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 114
+#    Time: 4392 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 15000 ps
+#       AltBu Propagation Delay: 13700 ps
+# 
+#    Time: 4392 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 115
+#    Time: 4428400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 4428400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 116
+#    Time: 4464800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 4464800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 117
+#    Time: 4501 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 4501 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 118
+#    Time: 4536400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 4536400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 119
+#    Time: 4572400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 4572400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 120
+#    Time: 4606800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 4606800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 121
+#    Time: 4642800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 16000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14500 ps
+#       AltBu Propagation Delay: 13200 ps
+# 
+#    Time: 4642800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 122
+#    Time: 4678400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 4678400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 123
+#    Time: 4712600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 4712600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 124
+#    Time: 4747 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 4747 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 125
+#    Time: 4782100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 4782100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 126
+#    Time: 4817700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 14300 ps
+#       AltBu Propagation Delay: 13000 ps
+# 
+#    Time: 4817700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 127
+#    Time: 4852800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 4852800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 128
+#    Time: 4887200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13200 ps
+#       AltBu Propagation Delay: 11900 ps
+# 
+#    Time: 4887200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 129
+#    Time: 4921400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 4921400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 130
+#    Time: 4957 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 15100 ps
+#       AltBu Propagation Delay: 13800 ps
+# 
+#    Time: 4957 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 131
+#    Time: 4992100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12700 ps
+#       AltBu Propagation Delay: 11400 ps
+# 
+#    Time: 4992100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 132
+#    Time: 5026300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 5026300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 133
+#    Time: 5060600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 5060600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 134
+#    Time: 5094100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 13500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 5094100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 135
+#    Time: 5128500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 5128500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 136
+#    Time: 5164100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 10800 ps
+# 
+#    Time: 5164100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 137
+#    Time: 5199200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 5199200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 138
+#    Time: 5233500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 14300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 5233500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 139
+#    Time: 5269100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 5269100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 140
+#    Time: 5304200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 5304200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 141
+#    Time: 5339200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 15000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 5339200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 142
+#    Time: 5371100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 11900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 5371100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 143
+#    Time: 5402900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 11800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 5402900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 144
+#    Time: 5435400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 5435400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 145
+#    Time: 5466600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 11200 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 10800 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 5466600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 146
+#    Time: 5766600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 5766600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 147
+#    Time: 6066600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 6066600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 148
+#    Time: 6098100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 10800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 6098100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 149
+#    Time: 6398100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 6398100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 150
+#    Time: 6429500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 11300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11400 ps
+#       AltBu Propagation Delay: 10100 ps
+# 
+#    Time: 6429500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 151
+#    Time: 6462600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 13100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 13100 ps
+#       AltBu Propagation Delay: 11800 ps
+# 
+#    Time: 6462600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 152
+#    Time: 6495200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 6495200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 153
+#    Time: 6527200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 11100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 6527200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 154
+#    Time: 6558100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 10900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 6558100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 155
+#    Time: 6590600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 6590600 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 156
+#    Time: 6623400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12800 ps
+#       AltBu Propagation Delay: 11500 ps
+# 
+#    Time: 6623400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 157
+#    Time: 6654900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 6654900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 158
+#    Time: 6687 ns  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12100 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 6687 ns  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 159
+#    Time: 6719900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12900 ps
+#       AltBu Propagation Delay: 11600 ps
+# 
+#    Time: 6719900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 160
+#    Time: 6751900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 6751900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 161
+#    Time: 6784400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 6784400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 162
+#    Time: 6816800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12400 ps
+#       AltBu Propagation Delay: 11100 ps
+# 
+#    Time: 6816800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 163
+#    Time: 6849300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 6849300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 164
+#    Time: 6881300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 6881300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 165
+#    Time: 6913300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12000 ps
+#       AltBu Propagation Delay: 10700 ps
+# 
+#    Time: 6913300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 166
+#    Time: 6944800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 6944800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 167
+#    Time: 6976300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 6976300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 168
+#    Time: 7009100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12800 ps
+#       AltBu Propagation Delay: 11500 ps
+# 
+#    Time: 7009100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 169
+#    Time: 7041700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12600 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 7041700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 170
+#    Time: 7073200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 10800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 7073200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 171
+#    Time: 7105700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 7105700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 172
+#    Time: 7137800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12000 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12100 ps
+#       AltBu Propagation Delay: 10800 ps
+# 
+#    Time: 7137800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 173
+#    Time: 7437800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 7437800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 174
+#    Time: 7470300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 7470300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 175
+#    Time: 7502100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 11800 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 7502100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 176
+#    Time: 7533500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 11300 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11400 ps
+#       AltBu Propagation Delay: 10100 ps
+# 
+#    Time: 7533500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 177
+#    Time: 7833500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 0 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 7833500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 178
+#    Time: 7864900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 11400 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11400 ps
+#       AltBu Propagation Delay: 10100 ps
+# 
+#    Time: 7864900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 179
+#    Time: 7897400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 12500 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12500 ps
+#       AltBu Propagation Delay: 11200 ps
+# 
+#    Time: 7897400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 180
+#    Time: 7928900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 0 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 11500 ps
+#       AltBu Propagation Delay: 0 ps
+# 
+#    Time: 7928900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 181
+#    Time: 7967800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18900 ps
+#       Zero Propagation Delay: 0 ps
+#       AltB Propagation Delay: 12600 ps
+#       AltBu Propagation Delay: 11300 ps
+# 
+#    Time: 7967800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 182
+#    Time: 8009400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21600 ps
+#       Zero Propagation Delay: 19800 ps
+#       AltB Propagation Delay: 18500 ps
+#       AltBu Propagation Delay: 17200 ps
+# 
+#    Time: 8009400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 183
+#    Time: 8047100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 17700 ps
+#       Zero Propagation Delay: 11100 ps
+#       AltB Propagation Delay: 14000 ps
+#       AltBu Propagation Delay: 12700 ps
+# 
+#    Time: 8047100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 184
+#    Time: 8088700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21600 ps
+#       Zero Propagation Delay: 19800 ps
+#       AltB Propagation Delay: 18500 ps
+#       AltBu Propagation Delay: 17200 ps
+# 
+#    Time: 8088700 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 185
+#    Time: 8130400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21700 ps
+#       Zero Propagation Delay: 19800 ps
+#       AltB Propagation Delay: 18900 ps
+#       AltBu Propagation Delay: 17600 ps
+# 
+#    Time: 8130400 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 186
+#    Time: 8172300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21900 ps
+#       Zero Propagation Delay: 20100 ps
+#       AltB Propagation Delay: 18800 ps
+#       AltBu Propagation Delay: 17500 ps
+# 
+#    Time: 8172300 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 187
+#    Time: 8213900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21600 ps
+#       Zero Propagation Delay: 11700 ps
+#       AltB Propagation Delay: 13900 ps
+#       AltBu Propagation Delay: 12600 ps
+# 
+#    Time: 8213900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 188
+#    Time: 8255800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21900 ps
+#       Zero Propagation Delay: 20100 ps
+#       AltB Propagation Delay: 18800 ps
+#       AltBu Propagation Delay: 17500 ps
+# 
+#    Time: 8255800 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 189
+#    Time: 8293900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 18100 ps
+#       Zero Propagation Delay: 11100 ps
+#       AltB Propagation Delay: 14000 ps
+#       AltBu Propagation Delay: 12700 ps
+# 
+#    Time: 8293900 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 190
+#    Time: 8335500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21600 ps
+#       Zero Propagation Delay: 19800 ps
+#       AltB Propagation Delay: 18500 ps
+#       AltBu Propagation Delay: 17200 ps
+# 
+#    Time: 8335500 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 191
+#    Time: 8377200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21700 ps
+#       Zero Propagation Delay: 11700 ps
+#       AltB Propagation Delay: 13800 ps
+#       AltBu Propagation Delay: 12500 ps
+# 
+#    Time: 8377200 ps  Iteration: 0  Instance: /execunittb
+# ** Note: PASS: Test Case 192
+#    Time: 8419100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: 
+#       Y Propagation Delay: 21900 ps
+#       Zero Propagation Delay: 20100 ps
+#       AltB Propagation Delay: 18800 ps
+#       AltBu Propagation Delay: 17500 ps
+# 
+#    Time: 8419100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: =====================================================
+# >>>>>>>>>>>>>>>> Simulation Complete <<<<<<<<<<<<<<<<
+# =====================================================
+# Test cases passed: 192
+# Test cases failed : 0
+# 
+#    Time: 8419100 ps  Iteration: 0  Instance: /execunittb
+# ** Note: The worst case propagation delay was 22300 ps in test case 26
+# 
+#    Time: 8419100 ps  Iteration: 0  Instance: /execunittb
+# transcript off
+# 0 ps
+# 8840100 ps

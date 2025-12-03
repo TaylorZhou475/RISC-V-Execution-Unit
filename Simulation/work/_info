@@ -8,41 +8,41 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/taylo/OneDrive/Desktop/ENSC350/FP/Simulation
-Cconfig_sepmux2_ks
+Z0 dC:/ENSC350/FP/RISC-V-Execution-Unit/Simulation
+Cconfig_combmux2_ks
 Z1 eExecUnitTB
 Z2 aTesting
 Z3 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z4 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx7 arriaii 17 arriaii_atom_pack 0 22 BkNkn^PYYG5b8:cI=<<>a1
 Z5 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
-Z6 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
-Z7 DEx4 work 8 execunit 0 22 nm39lbR]TWmM;I9MfSkOM3
-Z8 DAx4 work 10 execunittb 7 testing 22 AiA]m7TiVJ@Dz>BKiWk8M1
+Z6 DPx7 arriaii 18 arriaii_components 0 22 doPjh8LaRbJo??CgGHiBG1
+Z7 DEx4 work 8 execunit 0 22 WY]ahjUZQC3Mcg8Ym7mA[0
+Z8 DAx4 work 10 execunittb 7 testing 22 ;lWg9ie7>FKo=HRmN:hEg0
 Z9 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 Z10 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z12 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z13 DEx4 work 10 execunittb 0 22 8<F<C`F6KX[l5<G[Z^6DF3
 !i122 2
-Z14 w1764683560
+Z14 w1764699991
 R0
-Z15 8../SourceCode/Config_SepMux2_KS.vhd
-Z16 F../SourceCode/Config_SepMux2_KS.vhd
+Z15 8../SourceCode/Config_CombMux2_KS.vhd
+Z16 F../SourceCode/Config_CombMux2_KS.vhd
 l0
 L1 1
-VYBeQQ>TBj]420KhYCWlZI1
-!s100 SH99?miKN>KDDXa=JT7V?0
+Vc7dPQ9beDWH`VhV^am=o41
+!s100 DDe3_8^Jf4CgkD<c>9cL12
 Z17 OV;C;2020.1;71
 33
-Z18 !s110 1764700825
+Z18 !s110 1764723081
 !i10b 1
-Z19 !s108 1764700825.000000
-Z20 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/Config_SepMux2_KS.vhd|
-!s107 ../SourceCode/Config_SepMux2_KS.vhd|
+Z19 !s108 1764723081.000000
+Z20 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../SourceCode/Config_CombMux2_KS.vhd|
+!s107 ../SourceCode/Config_CombMux2_KS.vhd|
 !i113 1
 Z21 o-quiet -work work -2008
 Z22 tExplicit 1 CvgOpt 0
-Cconfig_sepmux2_ks_timing
+Cconfig_combmux2_ks_timing
 R1
 R2
 R3
@@ -63,20 +63,20 @@ R15
 R16
 l0
 L9 1
-VP6>[i=<SVR27:K^YX@QFZ2
-!s100 ]gV6YK6?A54T8Y2GLAZDd0
+VE?cS=@19_G0SUDG3I@[>j3
+!s100 ZkGU1KClHMXXB^9P3[APn3
 R17
 33
 R18
 !i10b 1
 R19
 R20
-Z23 !s107 ../SourceCode/Config_SepMux2_KS.vhd|
+Z23 !s107 ../SourceCode/Config_CombMux2_KS.vhd|
 !i113 1
 R21
 R22
 Eexecunit
-Z24 w1764683062
+R14
 R3
 R4
 R5
@@ -85,19 +85,19 @@ R12
 R6
 !i122 0
 R0
-Z25 8../Simulation/ModelSim/SepMux2_KS_Cyclone.vho
-Z26 F../Simulation/ModelSim/SepMux2_KS_Cyclone.vho
+Z24 8../Simulation/ModelSim/CombMux2_KS_Arria.vho
+Z25 F../Simulation/ModelSim/CombMux2_KS_Arria.vho
 l0
-L78 1
-Vnm39lbR]TWmM;I9MfSkOM3
-!s100 Ab4a<oM6BAjmP;V3K3MNC2
+L35 1
+VWY]ahjUZQC3Mcg8Ym7mA[0
+!s100 <Ifn6Th:aU77JlScVXGLb2
 R17
 33
-Z27 !s110 1764700824
+Z26 !s110 1764723080
 !i10b 1
-Z28 !s108 1764700824.000000
-Z29 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../Simulation/ModelSim/SepMux2_KS_Cyclone.vho|
-Z30 !s107 ../Simulation/ModelSim/SepMux2_KS_Cyclone.vho|
+Z27 !s108 1764723080.000000
+Z28 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../Simulation/ModelSim/CombMux2_KS_Arria.vho|
+Z29 !s107 ../Simulation/ModelSim/CombMux2_KS_Arria.vho|
 !i113 1
 R21
 R22
@@ -110,30 +110,30 @@ R12
 R6
 R7
 !i122 0
-l2377
-L300 38281
-VSVOEiO;2DO0cfLMQG[PS71
-!s100 EQLg6lhcE0VOH:fSoeP_91
+l2468
+L257 26904
+Vl[1]J24IeSzCRz?acfB]c3
+!s100 8G[2NFDo2FcEPg3bPMe:S2
 R17
 33
-R18
+R26
 !i10b 1
+R27
 R28
 R29
-R30
 !i113 1
 R21
 R22
 Eexecunittb
-Z31 w1764684880
+Z30 w1764705990
 R9
 R10
 R11
 R12
 !i122 1
 R0
-Z32 8../Simulation/ExecUnitTB.vhd
-Z33 F../Simulation/ExecUnitTB.vhd
+Z31 8../Simulation/ExecUnitTB.vhd
+Z32 F../Simulation/ExecUnitTB.vhd
 l0
 L7 1
 V8<F<C`F6KX[l5<G[Z^6DF3
@@ -143,8 +143,8 @@ R17
 R18
 !i10b 1
 R19
-Z34 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../Simulation/ExecUnitTB.vhd|
-Z35 !s107 ../Simulation/ExecUnitTB.vhd|
+Z33 !s90 -reportprogress|300|-work|work|-2008|-quiet|-stats=none|../Simulation/ExecUnitTB.vhd|
+Z34 !s107 ../Simulation/ExecUnitTB.vhd|
 !i113 1
 R21
 R22
@@ -156,65 +156,16 @@ R12
 R13
 !i122 1
 l61
-L13 257
-VAiA]m7TiVJ@Dz>BKiWk8M1
-!s100 S=_S6Hfi8MfEJQELDmV641
+L13 266
+V;lWg9ie7>FKo=HRmN:hEg0
+!s100 WJkLNk<MOe06bZoLnQglb2
 R17
 33
 R18
 !i10b 1
 R19
+R33
 R34
-R35
-!i113 1
-R21
-R22
-Ehard_block
-R24
-R3
-R4
-R5
-R11
-R12
-R6
-!i122 0
-R0
-R25
-R26
-l0
-L35 1
-ViaHzihVjLZ7JaFo4ZIKG=2
-!s100 >mXi5[`cD`bFC`UBKA<om3
-R17
-33
-R27
-!i10b 1
-R28
-R29
-R30
-!i113 1
-R21
-R22
-Astructure
-R3
-R4
-R5
-R11
-R12
-R6
-DEx4 work 10 hard_block 0 22 iaHzihVjLZ7JaFo4ZIKG=2
-!i122 0
-l65
-L51 20
-VBGXLkE6hg;klEa9dNOPfl3
-!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
-R17
-33
-R27
-!i10b 1
-R28
-R29
-R30
 !i113 1
 R21
 R22

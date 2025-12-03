@@ -23,7 +23,7 @@ ARCHITECTURE Testing OF ExecUnitTB IS
     CONSTANT TB_N : NATURAL := 64; 
     CONSTANT PREPTIME : TIME := 40 ns;
     CONSTANT MEASTIME : TIME := 300 ns;
-    CONSTANT STABLETIME : TIME := 5 ns;
+    CONSTANT STABLETIME : TIME := 20 ns;
 
     SIGNAL TB_A, TB_B : std_logic_vector(TB_N-1 downto 0);
     SIGNAL TB_FuncClass, TB_LogicFN, TB_ShiftFN : std_logic_vector(1 downto 0);
@@ -148,7 +148,16 @@ BEGIN
             AltBu_Expected <= AltBu_expt;
 
 	    StartTime := NOW;
-            WAIT UNTIL ExecOut'STABLE(STABLETIME) FOR MEASTIME;
+		 
+          -- functional Sim: wait fixed time
+			IF NOT TIMING_MEASUREMENT THEN
+				WAIT FOR 10 ns; 
+        
+			-- timing Sim: wait for  delays.
+			ELSE
+				WAIT UNTIL ExecOut'STABLE(STABLETIME) FOR MEASTIME;
+			END IF;
+	 
 	    EndTime := NOW;
 	    EventTimeY := EndTime - TB_Y'LAST_EVENT;
 	    EventTimeZero := EndTime - TB_Zero'LAST_EVENT;
